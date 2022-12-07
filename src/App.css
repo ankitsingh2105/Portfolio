@@ -1,0 +1,14 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin-top: 300px;
+}
+.loader{
+  /* background-color: black; */
+  /* padding: 50px;
+  color: rgb(255, 106, 0); */
+}
