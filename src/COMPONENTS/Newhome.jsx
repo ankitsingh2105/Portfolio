@@ -747,7 +747,7 @@ git push -u origin main
 
             {/*  floating socaila media baby! */}
 
-            <div className="align2 socialMedia">
+            <div className="align2 socialMedia" >
                 <a href="https://stackoverflow.com/users/19757319/ankit?tab=topactivity" className='hovering' target="_blank" rel="noopener noreferrer">
                     <i style={greetingstyle} class="fa-brands fa-stack-overflow social_icon socialIcon2 socail1"></i>
                 </a>
