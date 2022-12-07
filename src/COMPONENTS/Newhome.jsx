@@ -523,8 +523,6 @@ export default function Newhome() {
                         This project was made entirely using <strong style={greetingstyle} className='string'>Vanilla Javascript</strong>.
                         <br />
                         <br />
-                        This project is CSS styled only for mobile devices. Work Going On, this is the progress so far.
-                        <br />
                     </p>
                     <div className="links">
                         <a className="github" href="https://weatherappfetchapi.netlify.app/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
@@ -599,24 +597,7 @@ export default function Newhome() {
                 </div>
             </div>
             {/* Second page end */}
-            {/* .
-.
-.
-.echo "# awsdvc" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/ankitsingh2105/Portfolio.git
-git push -u origin main
-.
-.
-.
-.
-.
-.
-.
-. */}
+            {/* .}
 
             {/* Third page */}
             <div className="first" ref={contact} style={blacktowhite}>
