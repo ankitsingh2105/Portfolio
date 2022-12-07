@@ -566,7 +566,7 @@ export default function Newhome() {
 
 
             {/*  third  one demo */}
-            <div className='first first1' style={blacktowhite}    >
+            <div className='first first1' style={blacktowhite}>
 
                 <div className="section" style={sectioncolor}>
                     <div>
