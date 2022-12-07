@@ -393,8 +393,9 @@ export default function Newhome() {
                             The Personal Projects I have added here____________
                         </div>
                         <ul className='lost'>
-                            <li style={whitetoblack} className='lik'>Fetch API - fecting API for Competative Coding</li>
-                            <li style={whitetoblack} className='lik'>BackGround Color Changing Functionality</li>
+                            <li style={whitetoblack} className='lik'>Real Time Weather Web App</li>
+                            <li style={whitetoblack} className='lik'>BackGround Color Changer</li>
+                            <li style={whitetoblack} className='lik'>Competative Coding Infomer</li>
                         </ul>
                     </div>
                     <div className="align2">
