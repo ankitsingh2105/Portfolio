@@ -543,7 +543,7 @@ export default function Newhome() {
                         </a>
                         <div style={whitetoblack} className='visit'>Code</div>
                     </div>
-                    <hr />
+                    {/* <hr /> */}
                     <div className="links">
                         <a className="github" href="https://weatherappfetchapi.netlify.app/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
                             WEATHERAPI.NETLIFY.APP
