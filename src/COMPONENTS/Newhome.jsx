@@ -521,10 +521,28 @@ export default function Newhome() {
                         to deploy the project on netlify.
                         <br />
                         <br />
-                        This project was made entirely using <strong style={greetingstyle} className='string'>Vanilla Javascript</strong>.
+                        I used Async Await so that a loader is shown, the API if fetched synchronously and
+                        data is show after the loader element.
                         <br />
                         <br />
+                        This project was made using <strong style={greetingstyle} className='string'>Vanilla Javascript</strong> CSS and HTML
                     </p>
+                    <div className="languages" style={greetingstyle}>
+                        I implemented the following concepts____
+                    </div>
+                    <ul className='lost'>
+                        <li style={whitetoblack} className='lik'>Async Await</li>
+                        <li style={whitetoblack} className='lik'>Event Listeners</li>
+                        <li style={whitetoblack} className='lik'>Selectors</li>
+                        <li style={whitetoblack} className='lik'>Local Storage</li>
+                    </ul>
+                    <div>
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/ankitsingh2105/Weather-App" className='align' style={{ flexDirection: "column" }}>
+                            <i style={greetingstyle} class="fa-brands fa-github stack"></i>
+                        </a>
+                        <div style={whitetoblack} className='visit'>Code</div>
+                    </div>
+                    <hr />
                     <div className="links">
                         <a className="github" href="https://weatherappfetchapi.netlify.app/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
                             WEATHERAPI.NETLIFY.APP
