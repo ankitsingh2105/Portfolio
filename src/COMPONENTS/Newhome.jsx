@@ -13,11 +13,9 @@ import about1 from './about.png'
 import books from './books.png'
 import contacts from './contacts.png'
 import certificates from './certificates.png'
-// import main from './main.png'
 import main1 from './main1.png'
 import Api from './Api.png'
 import back2 from './back2.jpg'
-// import black from './black.jpg'
 import messaging from './messaging.png'
 import { useState } from 'react';
 import { useRef } from 'react';
@@ -70,26 +68,29 @@ export default function Newhome() {
     // let colorOfText = "#8636cc" 
     const ChangeTheme = (colorOfText) => {
         // if (daynight && sunmoon=== ) {
-        document.body.style.backgroundImage = `url(${back2})`;
+        // document.body.style.backgroundImage = `url(${back2})`;
+        document.body.style.background = 'white'
         document.body.style.backgroundPosition = 'center';
         setimage(main1);
         setsunmoon('🌚')
-        document.body.style.fontFamily = "'Courier New', Courier, monospace"
+        // document.body./style.fontFamily = "'Courier New', Courier, monospace"
         setbackblacktowhite({
             border: '.2px solid rgb(0, 0, 0)',
         })
         setgreetings({
             color: `${colorOfText}`,
+            textShadow: ".2px .2px 0px black",
         })
         setgreetings2({
             color: `${colorOfText}`,
+            textShadow: ".5px .5px 0px black"
         })
         setwhitetoblack({
             color: '#0a192f',
             fontWeight: 600
         })
         setblacktowhite({
-            border: `4px solid ${colorOfText}`
+            border: `4px solid ${colorOfText}`,
         })
         setbackorange({
             background: `linear-gradient(135deg, ${colorOfText} 8%, #f5d1d1 50%,
@@ -262,7 +263,7 @@ export default function Newhome() {
                         <div className="surname" style={yelloToblack}>
                             CHAUHAN
                         </div>
-                        <div className="dot" style={greetingstyle2}>
+                        <div className="dot" style={greetingstyle}>
                             ..................................
                             ..................................
                         </div>
@@ -523,7 +524,7 @@ export default function Newhome() {
                         <br />
                         I used Async Await so that a loader is shown, the API if fetched synchronously and
                         data is show after the loader element. I also used <strong style={greetingstyle} className='string'>LOCAL STORAGE</strong>
-                         to save the record of previous searches.
+                        to save the record of previous searches.
                         <br />
                         <br />
                         This project was made using <strong style={greetingstyle} className='string'>Vanilla Javascript</strong> CSS and HTML
@@ -573,6 +574,12 @@ export default function Newhome() {
                         <br />
                         <br />
                     </p>
+                    <div>
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/ankitsingh2105/BackGround_Color_Change" className='align' style={{ flexDirection: "column" }}>
+                            <i style={greetingstyle} class="fa-brands fa-github stack"></i>
+                        </a>
+                        <div style={whitetoblack} className='visit'>Code</div>
+                    </div>
                     <div className="links">
                         <a className="github" href="https://bodycolorchange.netlify.app/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
                             BODYCOLORCHANGE.NETLIFY.APP
@@ -608,6 +615,12 @@ export default function Newhome() {
                         <br />
                         <br />
                     </p>
+                    <div>
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/ankitsingh2105/FreeRestAPi" className='align' style={{ flexDirection: "column" }}>
+                            <i style={greetingstyle} class="fa-brands fa-github stack"></i>
+                        </a>
+                        <div style={whitetoblack} className='visit'>Code</div>
+                    </div>
                     <div className="links">
                         <a className="github" href="https://freeapifetch.netlify.app/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
                             FREEAPIFETCH.NETLIFY.APP
@@ -678,7 +691,7 @@ export default function Newhome() {
                             </a>
                         </div>
                         <div>
-                            <div className='align' style={{ flexDirection: "column" }}>
+                            <div className='align' style={{ flexDirection: "column" , fontWeight:"bolder" }}>
                                 <div className='alternates' style={whitetoblack} >
                                     {/* <div className='alternates' style={{whitetoblack  , lineHeight : "26px" , letterSpacing:"1px"}} > */}
                                     Visit my Stack Overflow account where I try to get answers and <strong style={greetingstyle}>give answers related to WEB DEVELOPMENT</strong>, which helps me to improve my ability to understand codes.
@@ -737,7 +750,7 @@ export default function Newhome() {
             <button className="change_theme firstColor" ref={icon} onClick={() => ChangeTheme('#FF5757')} >
 
             </button>
-            <button className="change_theme thirdColor" ref={icon} onClick={() => ChangeTheme('#8636cc')} >
+            <button className="change_theme thirdColor" ref={icon} onClick={() => ChangeTheme('#fab005')} >
 
             </button>
             {/* <button className="change_theme forthcolor" ref={icon} onClick={()=>ChangeTheme('rgb(198 204 54)')} >

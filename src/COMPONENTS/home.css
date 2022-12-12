@@ -45,7 +45,7 @@
     border: 0px;
     width: 45px;
     height: 45px;
-    background-color: #8636cc;
+    background-color: #fab005;
     opacity: 85%;
 }
 
@@ -145,7 +145,7 @@ body::-webkit-scrollbar-thumb {
 
 .list {
     padding: 0px 0px 0px 30px;
-    margin-left: 8px
+    margin-left: 4px
 }
 
 .navbar {
