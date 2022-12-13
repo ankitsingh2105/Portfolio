@@ -1,0 +1,156 @@
+.loader {
+    border: 4px solid #f3f3f3;
+    border-radius: 50%;
+    margin: 30px 0px;
+    width: 40px;
+    height: 40px;
+    border-top: 3px solid greenyellow;
+    animation: spin 2s linear infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.align1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    line-height: 31px;
+    font-size: 14px;
+}
+
+.gray {
+    background-color: rgb(231, 229, 229);
+}
+
+.gray,
+.gray1 {
+    font-size: 13px;
+}
+
+li {
+    list-style: none;
+}
+
+.register {
+    background-color: #c00;
+    color: #fff !important;
+    font-weight: 700;
+    margin-top: 9px;
+    padding: 0rem 0.2rem;
+    border-radius: 9px;
+    font-size: 17px;
+    font-family: Courier New, Courier, monospace;
+}
+
+.remove {
+    text-decoration: white underline;
+}
+
+.extra {
+    font-weight: 700;
+    font-size: 17px;
+    font-family: Courier New, Courier, monospace;
+    margin: 40px 0px;
+}
+
+.jump {
+    font-weight: 700;
+    font-size: 17px;
+    font-family: Courier New, Courier, monospace;
+    margin-top: -30px;
+    margin-bottom: 44px;
+}
+
+.Codechef,
+.codeforces,
+.Atcoder {
+    background-color: #c00;
+    padding: 3px 10px;
+    color: white;
+    border: 3px solid black;
+    /* border-style: dashed; */
+    background-color: #5a9028;
+}
+
+.Codechef {
+    margin: 0px 10px;
+
+}
+
+.name {
+    font-size: 27px;
+    margin-bottom: 16px;
+    background-color: rgb(174, 181, 181);
+    padding: 2px 24px;
+    border-radius: 12px;
+    border: 0.1px solid black;
+    margin: 0px 90px 16px 90px;
+}
+
+.weak {
+    color: rgb(195, 193, 190);
+}
+
+.CHEF {
+    margin-bottom: 33px;
+}
+
+.bluereg {
+    background-color: #286090;
+}
+
+.footer {
+    flex-direction: column;
+}
+
+.extra {
+    /* background-color: #a5fb98; */
+    width: 100%;
+}
+
+
+.info {
+    font-size: 2px;
+}
+
+@media screen and (min-width: 557px) {
+
+    .gray,
+    .gray1 {
+        font-size: 17px;
+        margin: 14px 100px;
+    }
+}
+
+@media screen and (min-width: 877px) {
+
+    .gray,
+    .gray1 {
+        font-size: 17px;
+        margin: 14px 200px;
+    }
+}
