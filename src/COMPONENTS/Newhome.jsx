@@ -454,7 +454,7 @@ export default function Newhome() {
                     <div>
                     </div>
                     <div className="languages">
-                        <div className="number1" style={whitetoblack}>002.</div><br />
+                        <div className="number1" style={whitetoblack}>002.</div>
                         <div className="bakery" style={greetingstyle} >HASHTAG BAKERY <br /> (hashtagbakery.com  )</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
