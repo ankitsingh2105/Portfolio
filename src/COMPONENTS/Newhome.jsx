@@ -622,8 +622,8 @@ export default function Newhome() {
                         <div style={whitetoblack} className='visit'>Code</div>
                     </div>
                     <div className="links">
-                        <a className="github" href="https://freeapifetch.netlify.app/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
-                            FREEAPIFETCH.NETLIFY.APP
+                        <a className="github" href="https://contestinformer.netlify.app/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
+                            CONTESTINFORMER.NETLIFY.APP
                         </a>
                     </div>
                     <div>.</div>
