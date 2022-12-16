@@ -523,7 +523,7 @@ export default function Newhome() {
                         <br />
                         <br />
                         I used Async Await so that a loader is shown, the API if fetched synchronously and
-                        data is show after the loader element. I also used <strong style={greetingstyle} className='string'>LOCAL STORAGE</strong>
+                        data is show after the loader element. I also used <strong style={greetingstyle} className='string'>LOCAL STORAGE </strong>
                         to save the record of previous searches.
                         <br />
                         <br />
