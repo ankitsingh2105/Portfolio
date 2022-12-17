@@ -330,8 +330,8 @@ export default function Newhome() {
                         <li style={whitetoblack} className='lik'>Web Hosting&nbsp;&nbsp;    <i style={greetingstyle} class="fa-solid fa-globe"></i></li>
                         <li style={whitetoblack} className='lik'>Netlify</li>
                     </ul>
-                    <div className="competative" style={whitetoblack}>
-                        I also do competative programming
+                    <div className="competitive" style={whitetoblack}>
+                        I also do competitive programming
                         I am active on Codechef, Codeforces, Leetcode
                         I have Highest Rating of 1828 (4 <i style={greetingstyle} class="fa-solid fa-star"></i>) on CODECHEF
                     </div>
