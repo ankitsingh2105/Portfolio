@@ -854,31 +854,31 @@ li {
     .socail5 {
         position: fixed;
         bottom: 12%;
-        left: 2.8%;
+        left: .6%;
     }
 
     .socail2 {
         position: fixed;
         bottom: 26%;
-        left: 2%;
+        left: -0.8%;
     }
 
     .socail3 {
         position: fixed;
         bottom: 40%;
-        left: 2%;
+        left: -0.8%;
     }
 
     .socail4 {
         position: fixed;
         bottom: 54%;
-        left: 2%;
+        left: -0.8%;
     }
 
     .socail1 {
         position: fixed;
         bottom: 68%;
-        left: 2%;
+        left: -0.8%;
     }
 
     .socail1:hover, .socail2:hover, .socail3:hover, .socail4:hover, .socail5:hover {
@@ -968,6 +968,35 @@ li {
 
     .intro {
         margin: 2rem -151px 1px -132px;
+    }
+    .socail5 {
+        position: fixed;
+        bottom: 12%;
+        left: 2.8%;
+    }
+
+    .socail2 {
+        position: fixed;
+        bottom: 26%;
+        left: 2%;
+    }
+
+    .socail3 {
+        position: fixed;
+        bottom: 40%;
+        left: 2%;
+    }
+
+    .socail4 {
+        position: fixed;
+        bottom: 54%;
+        left: 2%;
+    }
+
+    .socail1 {
+        position: fixed;
+        bottom: 68%;
+        left: 2%;
     }
 
 
