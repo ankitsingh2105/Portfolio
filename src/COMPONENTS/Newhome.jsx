@@ -508,7 +508,7 @@ export default function Newhome() {
                     </div>
                     <div className="languages">
                         <div className="number1" style={whitetoblack}>003.</div>
-                        <div className="bakery" style={greetingstyle} >Weather Web App<br /> <small style={whitetoblack}>(Vanilla JS)</small><br /> (working prototype   )</div>
+                        <div className="bakery" style={greetingstyle} >Weather Web App<br /> <small style={whitetoblack}>(Vanilla JS)</small><br /> </div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
                         <div className="align2" style={{ "marginBottom": "22px" }}>
@@ -555,6 +555,55 @@ export default function Newhome() {
             </div>
 
 
+            {/* 4th project */}
+            <div className='first first1' style={blacktowhite}>
+
+                <div className="section" style={sectioncolor}>
+                    <div>
+                    </div>
+                    <div className="languages">
+                        <div className="number1" style={whitetoblack}>004.</div>
+                        <div className="bakery" style={greetingstyle} >Spell Quiz<br /> <small style={whitetoblack}>(Vanilla JS)</small><br /> </div>
+                    </div>
+                    <p className="info_para" style={whitetoblack}>
+                        <div className="align2" style={{ "marginBottom": "22px" }}>
+                            <img className='actingthinking2' src={Api} alt="api" />
+                        </div>
+                        I created a project where we can test english spellings, the voice assistant will speak the words and you have to 
+                        write the words and the voice will response accordingly. 
+                        <br />
+                        <br />
+                        I used <strong style={greetingstyle} className='string'>NETLIFY</strong> to host the website and <strong style={greetingstyle} className='string'>GITHUB </strong>
+                        to deploy the project on netlify.
+                        <br />
+                        <br />
+                        This project was made using <strong style={greetingstyle} className='string'>Vanilla Javascript</strong> CSS and HTML
+                    </p>
+                    <div className="languages" style={greetingstyle}>
+                        I implemented the following concepts____
+                    </div>
+                    <ul className='lost'>
+                        <li style={whitetoblack} className='lik'>Speech Synthesis</li>
+                        <li style={whitetoblack} className='lik'>Session Storage</li>
+                        <li style={whitetoblack} className='lik'>Local Storage</li>
+                    </ul>
+                    <div>
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/ankitsingh2105/Spelling_Practice" className='align' style={{ flexDirection: "column" }}>
+                            <i style={greetingstyle} class="fa-brands fa-github stack"></i>
+                        </a>
+                        <div style={whitetoblack} className='visit'>Code</div>
+                    </div>
+                    {/* <hr /> */}
+                    <div className="links">
+                        <a className="github" href="https://spellhornet.netlify.app/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
+                            SPELLHORNET.NETLIFY.APP
+                        </a>
+                    </div>
+                    <div>.</div>
+                </div>
+            </div>
+
+
             {/*  third  one demo */}
             <div className='first first1' style={blacktowhite}   >
 
@@ -562,8 +611,8 @@ export default function Newhome() {
                     <div>
                     </div>
                     <div className="languages">
-                        <div className="number1" style={whitetoblack}>004.</div>
-                        <div className="bakery" style={greetingstyle} >Background Color Change<br />  <small style={whitetoblack}>(Vanilla JS)</small><br /> (working prototype   )</div>
+                        <div className="number1" style={whitetoblack}>005.</div>
+                        <div className="bakery" style={greetingstyle} >Background Color Change<br />  <small style={whitetoblack}>(Vanilla JS)</small><br /> </div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
                         I created a small project where you can change the colour of the background change by clicking on the colour you want.
@@ -597,8 +646,8 @@ export default function Newhome() {
                     <div>
                     </div>
                     <div className="languages">
-                        <div className="number1" style={whitetoblack}>005.</div>
-                        <div className="bakery" style={greetingstyle} >Fetch API<br /> <small style={whitetoblack}>(Vanilla JS)</small><br /> (working prototype   )</div>
+                        <div className="number1" style={whitetoblack}>006.</div>
+                        <div className="bakery" style={greetingstyle} >Contest Informer<br /> <small style={whitetoblack}>(Vanilla JS)</small><br /> </div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
                         <div className="align2" style={{ "marginBottom": "22px" }}>
