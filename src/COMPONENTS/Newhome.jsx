@@ -566,9 +566,6 @@ export default function Newhome() {
                         <div className="bakery" style={greetingstyle} >Spell Quiz<br /> <small style={whitetoblack}>(Vanilla JS)</small><br /> </div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
-                        <div className="align2" style={{ "marginBottom": "22px" }}>
-                            <img className='actingthinking2' src={Api} alt="api" />
-                        </div>
                         I created a project where we can test english spellings, the voice assistant will speak the words and you have to 
                         write the words and the voice will response accordingly. 
                         <br />
