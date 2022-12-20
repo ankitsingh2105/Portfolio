@@ -395,6 +395,7 @@ export default function Newhome() {
                         </div>
                         <ul className='lost'>
                             <li style={whitetoblack} className='lik'>Real Time Weather Web App</li>
+                            <li style={whitetoblack} className='lik'>Spelling Quiz Web App</li>
                             <li style={whitetoblack} className='lik'>BackGround Color Changer</li>
                             <li style={whitetoblack} className='lik'>Competative Coding Infomer</li>
                         </ul>
