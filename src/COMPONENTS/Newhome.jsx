@@ -492,8 +492,8 @@ export default function Newhome() {
                         <img style={borderGoldToOrange} src={img1} alt="nikaljao" className='hash_images1' />
                     </div>
                     <div className="links">
-                        <a className="github" href="https://hashtagbakery.netlify.app/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
-                            HASHTAGBAKERY.COM
+                        <a className="github" href="https://www.hashtagbakery.in/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
+                            HASHTAGBAKERY.IN
                         </a>
                     </div>
                     <div>.</div>
