@@ -64,11 +64,23 @@ export default function Newhome() {
     const [sunmoon, setsunmoon] = useState('🌚');
     const [backblacktowhite, setbackblacktowhite] = useState('');
     const [image12, setimage] = useState();
+    const [coloring, setcoloring] = useState({})
+    const [reverse, setreverse] = useState({})
+    const [borderblue, setborderblue] = useState({})
     let colorOfText = "#FF5757";  //orange one
     // let colorOfText = "#8636cc" 
     const ChangeTheme = (colorOfText) => {
         // if (daynight && sunmoon=== ) {
         // document.body.style.backgroundImage = `url(${back2})`;
+        setcoloring({
+            color: 'black'
+        })
+        setreverse({
+            color: 'white'
+        })
+        setborderblue({
+            borderColor: 'black'
+        })
         document.body.style.background = 'white'
         document.body.style.backgroundPosition = 'center';
         setimage(main1);
@@ -93,8 +105,11 @@ export default function Newhome() {
             border: `4px solid ${colorOfText}`,
         })
         setbackorange({
-            background: `linear-gradient(135deg, ${colorOfText} 8%, #f5d1d1 50%,
-                    ${colorOfText} 100%, #f2cccc 100%)`,
+            // background: `linear-gradient(135deg, ${colorOfText} 8%, #f5d1d1 50%,
+            //         ${colorOfText} 100%, #f2cccc 100%)`,
+            background : colorOfText,
+            borderColor :'black',
+            opacity: '85%'
             // background: `linear-gradient(65deg, #fc6969 8%, #f49494 39%, #ff7474 68%, #fb9494 80%, #ff5555 100%)`,
         })
         setborderGoldToOrange({
@@ -132,6 +147,15 @@ export default function Newhome() {
     }
     const DarkMode = () => {
         // else {
+        setborderblue({
+            borderColor: '#64ffda'
+        })
+        setcoloring({
+            color: 'white'
+        })
+        setreverse({
+            color: '#64ffda'
+        })
         setsunmoon('🌞');
         document.body.style.background = 'rgb(43 51 64 / 98%)'
         setborderGoldToOrange({
@@ -154,7 +178,11 @@ export default function Newhome() {
         })
         setbackorange({
             // background: '#64ffda',
-            background: "linear-gradient(65deg, #a0f2df 8%, #64ffda 39%, #bfe6dd 68%, #64ffda 80%, #d3e0dd 100%)"
+            // background: "linear-gradient(65deg, #a0f2df 8%, #64ffda 39%, #bfe6dd 68%, #64ffda 80%, #d3e0dd 100%)"
+            background: 'rgba(22, 35, 57, 0.94)',
+            borderColor :'#64ffda',
+            opacity: '95%'
+            // color:'white'
         })
         setborderblack({
             'borderColor': 'white',
@@ -198,11 +226,10 @@ export default function Newhome() {
 
             <div className='first' style={blacktowhite} >
                 {/* Navbar */}
-                <nav className="navbar " ref={top}
-                    style={backorange}
+                <nav className="navbar" style={backorange}
                 >
-                    <div className="logo">
-                        <div className="letter">
+                    <div className="logo letter" style={borderblue} >
+                        <div className="" style={coloring} >
                             A
                         </div>
                         <audio src={sound} id='playing' ></audio>
@@ -210,24 +237,24 @@ export default function Newhome() {
                     <div className="about_section">
                         <ul className="list">
                             <div className="info about">
-                                <div className="number">01.
+                                <div className="number" style={reverse} >01.
                                 </div>
-                                <div style={{ color: '#0a192f' }} id='one1' className="infoindex align2 " onClick={(() => scrollSection(about))} >
+                                <div style={coloring} id='one1' className="infoindex align2 " onClick={(() => scrollSection(about))} >
                                     {/* <i class="fa-solid fa-address-card"></i> */}
                                     {/* About */}
                                 </div>
                             </div>
                             <div className="info">
-                                <div className="number">02.
+                                <div className="number" style={reverse} >02.
                                 </div>
-                                <div style={{ color: '#0a192f' }} id='one2' className="infoindex " onClick={(() => scrollSection(work))}>
+                                <div style={coloring} id='one2' className="infoindex " onClick={(() => scrollSection(work))}>
                                     {/* Projects */}
                                 </div>
                             </div>
                             <div className="info">
-                                <div className="number">03.
+                                <div className="number" style={reverse} >03.
                                 </div>
-                                <div style={{ color: '#0a192f' }} id='one3' className="infoindex" onClick={(() => scrollSection(contact))}>
+                                <div style={coloring} id='one3' className="infoindex" onClick={(() => scrollSection(contact))}>
                                     {/* Contact */}
                                 </div>
                             </div>
@@ -243,7 +270,7 @@ export default function Newhome() {
                 {/* Nav bar end */}
 
                 {/* first page */}
-                <div className="section align check" style={sectioncolor}>
+                <div className="section align check" style={sectioncolor}  ref={top}>
 
                     <div className="intro" >
 
@@ -567,8 +594,8 @@ export default function Newhome() {
                         <div className="bakery" style={greetingstyle} >Spell Quiz<br /> <small style={whitetoblack}>(Vanilla JS)</small><br /> </div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
-                        I created a project where we can test english spellings, the voice assistant will speak the words and you have to 
-                        write the words and the voice will response accordingly. 
+                        I created a project where we can test english spellings, the voice assistant will speak the words and you have to
+                        write the words and the voice will response accordingly.
                         <br />
                         <br />
                         I used <strong style={greetingstyle} className='string'>NETLIFY</strong> to host the website and <strong style={greetingstyle} className='string'>GITHUB </strong>
@@ -738,7 +765,7 @@ export default function Newhome() {
                             </a>
                         </div>
                         <div>
-                            <div className='align' style={{ flexDirection: "column" , fontWeight:"bolder" }}>
+                            <div className='align' style={{ flexDirection: "column", fontWeight: "bolder" }}>
                                 <div className='alternates' style={whitetoblack} >
                                     {/* <div className='alternates' style={{whitetoblack  , lineHeight : "26px" , letterSpacing:"1px"}} > */}
                                     Visit my Stack Overflow account where I try to get answers and <strong style={greetingstyle}>give answers related to WEB DEVELOPMENT</strong>, which helps me to improve my ability to understand codes.

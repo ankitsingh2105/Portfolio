@@ -154,7 +154,7 @@ body::-webkit-scrollbar-thumb {
     justify-content: flex-start;
     margin: 1px;
     padding: 2px;
-    border-radius: 12px;
+    border-radius: 7px;
     border: 1px solid black;
 }
 
@@ -447,16 +447,15 @@ a {
 
 .newGif,
 .actingthinking {
-    margin-top: 23px;
     height: 239px;
     width: 253px;
 
 }
 
 .actingthinking2 {
-    margin-top: 23px;
+    margin: -30px 0px;
     width: 300px;
-    height: 200px;
+    height: 300px;
 }
 
 .align2 {
@@ -635,22 +634,22 @@ li {
 
 @keyframes fall {
     0% {
-        opacity: 0;
-        /* margin-top: -101px; */
+        /* opacity: 0; */
+        margin-top: -101px;
         display: none;
     }
 
     100% {
-        opacity: 1;
+        /* opacity: 1; */
         display: block;
-        /* margin-top: 1px; */
+        margin-top: 1px;
     }
 }
 
 .letter {
     font-size: 43px;
-    padding: 0px 13px 0px 13px;
-    margin: 0px 6px 0px 6px;
+    padding: 0px 13px;
+    margin: 0px 6px 0px 18px;
     color: black;
     border-radius: 100px;
     border: 2px solid black;
@@ -683,10 +682,6 @@ li {
         display: none;
         font-size: 0px;
     }
-
-    /* .display1{
-        display: none;
-    } */
 }
 
 .display2 {
@@ -709,14 +704,14 @@ li {
 @keyframes fall2 {
     0% {
         opacity: 0;
-        display: none;
-        /* margin-top: 400px; */
+        /* display: none; */
+        margin-top: 400px;
     }
 
     100% {
         opacity: 1;
-        display: block;
-        /* margin-top: 96px; */
+        /* display: block; */
+        margin-top: 96px;
     }
 }
 
@@ -833,15 +828,15 @@ li {
 
     @keyframes fall2 {
         0% {
-            opacity: 0;
-            /* margin-top: 300px; */
+            /* opacity: 0; */
+            margin-top: 300px;
             display: none;
         }
 
         100% {
-            opacity: 1;
+            /* opacity: 1; */
             display: block;
-            /* margin-top: 33px; */
+            margin-top: 33px;
         }
     }
 
@@ -942,15 +937,15 @@ li {
 
     @keyframes fall2 {
         0% {
-            opacity: 0;
+            /* opacity: 0; */
             display: none;
-            /* margin-top: 400px; */
+            margin-top: 400px;
         }
 
         100% {
-            opacity: 1;
+            /* opacity: 1; */
             display: block;
-            /* margin-top: 33px; */
+            margin-top: 33px;
         }
     }
 
@@ -1163,11 +1158,6 @@ li {
 }
 
 
-
-
-
-
-
 .ending {
     width: 330px;
     height: 100px;
@@ -1180,10 +1170,9 @@ li {
     height: 414px;
     animation-name: updown;
     animation-duration: 6s;
-    /* animation-delay: 1.5s; */
+    animation-delay: 1.5s;
     animation-iteration-count: infinite;
     transition-timing-function: ease-in-out;
-    /* animation-timing-function: linear; */
 }
 
 @keyframes updown {
