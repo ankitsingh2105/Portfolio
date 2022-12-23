@@ -373,7 +373,7 @@ export default function Newhome() {
                     <ul className='lost'>
                         <li className='hack' style={greetingstyle}> <a href="https://www.hackerrank.com/certificates/d7f5c7a96e11" className='certificate' target="_blank" rel="noopener noreferrer" style={greetingstyle}>Rest Api -- Intermediate</a> </li>
                         <li className='hack' style={greetingstyle}> <a href="https://www.hackerrank.com/certificates/4c12a2eeb3aa" className='certificate' target="_blank" rel="noopener noreferrer" style={greetingstyle}>Problem Solving -- Intermediate</a></li>
-                        <li className='hack' style={greetingstyle}> <a href="https://www.hackerrank.com/certificates/5760e5e7b185" className='certificate' target="_blank" rel="noopener noreferrer" style={greetingstyle}>Javascript -- Basic</a></li>
+                        <li className='hack' style={greetingstyle}> <a href="https://www.hackerrank.com/certificates/d361cc12a646" className='certificate' target="_blank" rel="noopener noreferrer" style={greetingstyle}>Javascript -- Intermediate</a></li>
                     </ul>
                     <br></br>
                     <br></br>
