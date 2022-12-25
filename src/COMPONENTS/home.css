@@ -155,7 +155,7 @@ body::-webkit-scrollbar-thumb {
     margin: 1px;
     padding: 2px;
     border-radius: 7px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 
