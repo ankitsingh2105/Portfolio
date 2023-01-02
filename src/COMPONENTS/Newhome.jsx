@@ -1,4 +1,5 @@
 import React from 'react'
+import { useEffect } from 'react';
 import './home.css'
 import sound from './sound.mp3'
 import img1 from './home1.jpeg';
@@ -20,6 +21,7 @@ import messaging from './messaging.png'
 import { useState } from 'react';
 import { useRef } from 'react';
 export default function Newhome() {
+    const [image12, setimage] = useState();
     const icon = useRef(null);
     const about = useRef(null);
     const work = useRef(null);
@@ -36,6 +38,18 @@ export default function Newhome() {
     const alerting = () => {
         window.alert('Adding soon');
     }
+    const imageRef = useRef(null);
+    const [imageLoaded, setImageLoaded] = useState(false);
+
+    useEffect(() => {
+        const image0 = new Image();
+        image0.src = image12;
+        imageRef.current = image0;
+
+        image0.onload = () => {
+            setImageLoaded(true);
+        };
+    });
 
     const SendtoWhatspp = () => {
         let naam = document.getElementById("newid1").value;
@@ -44,7 +58,6 @@ export default function Newhome() {
         let Message = `https://wa.me/918954057108?text=" + "Name :: " + ${naam} + " %0a " + "Email :: " + ${email} + " %0a " + " Message :: " + ${text}`
         window.open(Message, '_blank').focus();
     }
-
     const [greetingstyle, setgreetings] = useState({ color: '#FF5757' });
     const [greetingstyle2, setgreetings2] = useState({})
     const [whitetoblack, setwhitetoblack] = useState({})
@@ -63,7 +76,6 @@ export default function Newhome() {
     const [daynight, setdaynight] = useState(true)
     const [sunmoon, setsunmoon] = useState('🌚');
     const [backblacktowhite, setbackblacktowhite] = useState('');
-    const [image12, setimage] = useState();
     const [coloring, setcoloring] = useState({})
     const [reverse, setreverse] = useState({})
     const [borderblue, setborderblue] = useState({})
@@ -107,8 +119,8 @@ export default function Newhome() {
         setbackorange({
             // background: `linear-gradient(135deg, ${colorOfText} 8%, #f5d1d1 50%,
             //         ${colorOfText} 100%, #f2cccc 100%)`,
-            background : colorOfText,
-            borderColor :'black',
+            background: colorOfText,
+            borderColor: 'black',
             opacity: '85%'
             // background: `linear-gradient(65deg, #fc6969 8%, #f49494 39%, #ff7474 68%, #fb9494 80%, #ff5555 100%)`,
         })
@@ -180,7 +192,7 @@ export default function Newhome() {
             // background: '#64ffda',
             // background: "linear-gradient(65deg, #a0f2df 8%, #64ffda 39%, #bfe6dd 68%, #64ffda 80%, #d3e0dd 100%)"
             background: 'rgba(22, 35, 57, 0.94)',
-            borderColor :'#64ffda',
+            borderColor: '#64ffda',
             opacity: '95%'
             // color:'white'
         })
@@ -270,7 +282,7 @@ export default function Newhome() {
                 {/* Nav bar end */}
 
                 {/* first page */}
-                <div className="section align check" style={sectioncolor}  ref={top}>
+                <div className="section align check" style={sectioncolor} ref={top}>
 
                     <div className="intro" >
 
@@ -305,7 +317,9 @@ export default function Newhome() {
                     </div>
                     <div>
                         <div>
-                            <img className='newImg' src={image12} alt="" />
+                            {
+                            imageLoaded && <img className='newImg' src={imageRef.current.src} alt="" />
+                            }
                         </div>
                     </div>
 
