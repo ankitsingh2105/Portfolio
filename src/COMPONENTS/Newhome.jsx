@@ -1,5 +1,4 @@
 import React from 'react'
-import { useEffect } from 'react';
 import './home.css'
 import sound from './sound.mp3'
 import img1 from './home1.jpeg';
@@ -21,7 +20,6 @@ import messaging from './messaging.png'
 import { useState } from 'react';
 import { useRef } from 'react';
 export default function Newhome() {
-    const [image12, setimage] = useState();
     const icon = useRef(null);
     const about = useRef(null);
     const work = useRef(null);
@@ -38,18 +36,6 @@ export default function Newhome() {
     const alerting = () => {
         window.alert('Adding soon');
     }
-    const imageRef = useRef(null);
-    const [imageLoaded, setImageLoaded] = useState(false);
-
-    useEffect(() => {
-        const image0 = new Image();
-        image0.src = image12;
-        imageRef.current = image0;
-
-        image0.onload = () => {
-            setImageLoaded(true);
-        };
-    });
 
     const SendtoWhatspp = () => {
         let naam = document.getElementById("newid1").value;
@@ -79,7 +65,8 @@ export default function Newhome() {
     const [coloring, setcoloring] = useState({})
     const [reverse, setreverse] = useState({})
     const [borderblue, setborderblue] = useState({})
-    let colorOfText = "#FF5757";  //orange one
+    // let colorOfText = "#FF5757";  //orange one
+    let colorOfText = "#fe6235";  //orange one
     // let colorOfText = "#8636cc" 
     const ChangeTheme = (colorOfText) => {
         // if (daynight && sunmoon=== ) {
@@ -95,7 +82,6 @@ export default function Newhome() {
         })
         document.body.style.background = 'white'
         document.body.style.backgroundPosition = 'center';
-        setimage(main1);
         setsunmoon('🌚')
         // document.body./style.fontFamily = "'Courier New', Courier, monospace"
         setbackblacktowhite({
@@ -117,12 +103,9 @@ export default function Newhome() {
             border: `4px solid ${colorOfText}`,
         })
         setbackorange({
-            // background: `linear-gradient(135deg, ${colorOfText} 8%, #f5d1d1 50%,
-            //         ${colorOfText} 100%, #f2cccc 100%)`,
             background: colorOfText,
             borderColor: 'black',
             opacity: '85%'
-            // background: `linear-gradient(65deg, #fc6969 8%, #f49494 39%, #ff7474 68%, #fb9494 80%, #ff5555 100%)`,
         })
         setborderGoldToOrange({
             'borderColor': colorOfText,
@@ -160,24 +143,24 @@ export default function Newhome() {
     const DarkMode = () => {
         // else {
         setborderblue({
-            borderColor: '#64ffda'
+            borderColor: '#fe6235'
         })
         setcoloring({
             color: 'white'
         })
         setreverse({
-            color: '#64ffda'
+            color: '#fe6235'
         })
         setsunmoon('🌞');
         document.body.style.background = 'rgb(43 51 64 / 98%)'
         setborderGoldToOrange({
-            'borderColor': '#64ffda',
+            'borderColor': '#fe6235',
         })
         setbackblacktowhite({
             border: '.2px solid white',
         })
         setgreetings({
-            color: '#64ffda',
+            color: '#fe6235',
         })
         setgreetings2({
             color: 'white',
@@ -186,15 +169,12 @@ export default function Newhome() {
             color: 'white',
         })
         setblacktowhite({
-            border: "4px solid #64ffda"
+            // border: "4px solid #fe6235"
         })
         setbackorange({
-            // background: '#64ffda',
-            // background: "linear-gradient(65deg, #a0f2df 8%, #64ffda 39%, #bfe6dd 68%, #64ffda 80%, #d3e0dd 100%)"
-            background: 'rgba(22, 35, 57, 0.94)',
-            borderColor: '#64ffda',
-            opacity: '95%'
-            // color:'white'
+            backdropFilter: "blur(4px)",
+            webkitBackdropFilter: "blur(4px)",
+            background: "rgba(22, 35, 57, 0.94)"
         })
         setborderblack({
             'borderColor': 'white',
@@ -204,10 +184,10 @@ export default function Newhome() {
             webkitBackdropFilter: "blur(5px) saturate(200%)",
         })
         setyelloToblack({
-            color: '#64ffda',
+            color: '#fe6235',
         })
         setbackgroundToWhite({
-            background: '#64ffda'
+            background: '#fe6235'
         })
         setbackgroundYellotoorange({
             // background: 'rgb(43 51 64 / 98%)',
@@ -220,15 +200,17 @@ export default function Newhome() {
     }
     const DayNight = () => {
         if (daynight) {
+            console.log("one")
             ChangeTheme(colorOfText);
         }
         else {
             DarkMode();
+            console.log("two")
         }
     }
     const [check, setcheck] = useState(true);
     if (check) {
-        ChangeTheme(colorOfText);
+        DarkMode();
         setcheck(false)
     }
 
@@ -238,8 +220,7 @@ export default function Newhome() {
 
             <div className='first' style={blacktowhite} >
                 {/* Navbar */}
-                <nav className="navbar" style={backorange}
-                >
+                <nav className="navbar" style={backorange}>
                     <div className="logo letter" style={borderblue} >
                         <div className="" style={coloring} >
                             A
@@ -285,14 +266,7 @@ export default function Newhome() {
                 <div className="section align check" style={sectioncolor} ref={top}>
 
                     <div className="intro" >
-
-
                         <div className="donts"></div>
-
-
-                        {/* <div className="greetings align2 display1" style={greetingstyle2}>
-                            Hello there I am,
-                        </div> */}
                         <div className="greetings  display2" style={greetingstyle2}>
                             Hello there I am,
                         </div>
@@ -317,9 +291,7 @@ export default function Newhome() {
                     </div>
                     <div>
                         <div>
-                            {
-                            imageLoaded && <img className='newImg' src={imageRef.current.src} alt="" />
-                            }
+                            <img className='newImg' src={main1} alt="" />
                         </div>
                     </div>
 
@@ -813,12 +785,6 @@ export default function Newhome() {
                             ............................
                         </div>
                     </div>
-                    {/* <div className='align'>
-                    <div></div>
-                    <div>
-                     Inspiration from <strong style={{"color" : "white"}} >BRITTANY CHIANG</strong> 
-                    </div>
-                </div> */}
                     <div className='dot'>.</div>
                 </div>
             </div>
