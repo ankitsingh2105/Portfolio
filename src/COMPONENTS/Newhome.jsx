@@ -169,7 +169,7 @@ export default function Newhome() {
             color: 'white',
         })
         setblacktowhite({
-            // border: "4px solid #fe6235"
+            border: "4px solid rgb(43 51 64 / 98%)"
         })
         setbackorange({
             backdropFilter: "blur(4px)",
@@ -400,8 +400,8 @@ export default function Newhome() {
                             The Work Projects I have Completed so far____________
                         </div>
                         <ul className='lost'>
-                            <li style={whitetoblack} className='lik'>KK Food Haldwani - Family Restaurant</li>
                             <li style={whitetoblack} className='lik'>HashTag Bakery - Bakery and Flower shop</li>
+                            <li style={whitetoblack} className='lik'>KK Food Haldwani - Family Restaurant</li>
                         </ul>
                         <div className="languages" style={greetingstyle}>
                             The Personal Projects I have added here____________
@@ -419,6 +419,64 @@ export default function Newhome() {
                     </div>
                     <div className="languages">
                         <div className="number1" style={whitetoblack}>001.</div>
+                        <div className="bakery" style={greetingstyle} >HASHTAG BAKERY <br /> (hashtagbakery.in  )</div>
+                    </div>
+                    <p className="info_para" style={whitetoblack}>
+                        I created a website for bakery which is based in Delhi-NCR.
+                        <br />
+                        <br />
+                        I used <strong className='string' style={greetingstyle}>REACT</strong> as library and used concepts like props, hooks
+                        (useState, useEffect, useRef, useContext) and <strong className='string' style={greetingstyle}>React-Router-Dom </strong>
+                        to switch between pages faster. Created a customized layout for the website and a cart so that users can easily place the order.
+                        <br></br>
+                        <br></br>
+                        Used <strong className='string' style={greetingstyle}>Context Api </strong>to manage global data, which was consumed using
+                        <strong className='string' style={greetingstyle}> useContext Hook. </strong>
+                        <br /><br />  Saved the cart data in
+                         <strong className='string' style={greetingstyle}> Local Storage </strong>so the items won't disappear after refresh.
+
+                        <br /><br />
+                        <div className="design" style={greetingstyle}>
+                            I hosted the website on netlify and used godaddy for domain name.
+                            Overall I used,
+                        </div>
+                        <ul className='text1'>
+                            <li style={whitetoblack} className='lik'>Reactjs    <i style={greetingstyle} class="fa-brands fa-react"></i></li>
+                            <li style={whitetoblack} className='lik'>Javascript <i style={greetingstyle} class="fa-brands fa-square-js"></i></li>
+                            <li style={whitetoblack} className='lik'>CSS3       <i style={greetingstyle} class="fa-brands fa-css3-alt"></i></li>
+                        </ul>
+                        <br />
+                        I also got a lot of help from the <strong className='string' style={greetingstyle}>StackOver Flow community (558 reputations as I am wrting this)</strong><br />
+                        <i style={greetingstyle} class="fa-brands fa-stack-overflow"></i>
+                        <br /><br />
+
+                    </p>
+                    <div className="sample" style={whitetoblack}>
+                        Here is a sample of the same website
+                    </div>
+                    <div className="img-display">
+                        <img style={borderGoldToOrange} src={img2} alt="nikaljao" className='hash_images' />
+                        <img style={borderGoldToOrange} src={img3} alt="nikaljao" className='hash_images' />
+                    </div>
+                    <div className="img-display">
+                        <img style={borderGoldToOrange} src={img1} alt="nikaljao" className='hash_images1' />
+                    </div>
+                    <div className="links">
+                        <a className="github" href="https://www.hashtagbakery.in/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
+                            HASHTAGBAKERY.IN
+                        </a>
+                    </div>
+                    <div>.</div>
+
+                </div>
+
+
+
+                <div className="section" style={sectioncolor}>
+                    <div>
+                    </div>
+                    <div className="languages">
+                        <div className="number1" style={whitetoblack}>002.</div>
                         <div className="bakery" style={greetingstyle} >KK FOOD <br /> (kkfoodshaldwani.in  )</div>
                     </div> <br />
                     <p className="info_para" style={whitetoblack}>
@@ -461,56 +519,6 @@ export default function Newhome() {
                     </div>
                     <div>.</div>
                 </div>
-
-
-
-                <div className="section" style={sectioncolor}>
-                    <div>
-                    </div>
-                    <div className="languages">
-                        <div className="number1" style={whitetoblack}>002.</div>
-                        <div className="bakery" style={greetingstyle} >HASHTAG BAKERY <br /> (hashtagbakery.com  )</div>
-                    </div>
-                    <p className="info_para" style={whitetoblack}>
-                        I created a website for bakery which is based in Delhi-NCR.
-                        <br />
-                        <br />
-                        I used <strong className='string' style={greetingstyle}>REACT</strong> as liabrary  and used the concept of react-router, props, hooks
-                        and other to make the website faster.
-                        <br></br>
-                        <br></br>
-                        <div className="design" style={greetingstyle}>
-                            I hosted the website on netlify and used godaddy for domain name.
-                            Overall I used,
-                        </div>
-                        <ul className='text1'>
-                            <li style={whitetoblack} className='lik'>Reactjs    <i style={greetingstyle} class="fa-brands fa-react"></i></li>
-                            <li style={whitetoblack} className='lik'>Javascript <i style={greetingstyle} class="fa-brands fa-square-js"></i></li>
-                            <li style={whitetoblack} className='lik'>CSS3       <i style={greetingstyle} class="fa-brands fa-css3-alt"></i></li>
-                        </ul>
-                        <br />
-                        I also got a lot of help from the <strong className='string' style={greetingstyle}>StackOver Flow community (558 reputations as I am wrting this)</strong><br />
-                        <i style={greetingstyle} class="fa-brands fa-stack-overflow"></i>
-                        <br /><br />
-
-                    </p>
-                    <div className="sample" style={whitetoblack}>
-                        Here is a sample of the same website
-                    </div>
-                    <div className="img-display">
-                        <img style={borderGoldToOrange} src={img2} alt="nikaljao" className='hash_images' />
-                        <img style={borderGoldToOrange} src={img3} alt="nikaljao" className='hash_images' />
-                    </div>
-                    <div className="img-display">
-                        <img style={borderGoldToOrange} src={img1} alt="nikaljao" className='hash_images1' />
-                    </div>
-                    <div className="links">
-                        <a className="github" href="https://www.hashtagbakery.in/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
-                            HASHTAGBAKERY.IN
-                        </a>
-                    </div>
-                    <div>.</div>
-                </div>
             </div>
 
 
@@ -548,6 +556,7 @@ export default function Newhome() {
                     </div>
                     <ul className='lost'>
                         <li style={whitetoblack} className='lik'>Async Await</li>
+                        <li style={whitetoblack} className='lik'>Fetch Api</li>
                         <li style={whitetoblack} className='lik'>Event Listeners</li>
                         <li style={whitetoblack} className='lik'>Selectors</li>
                         <li style={whitetoblack} className='lik'>Local Storage</li>
@@ -594,7 +603,7 @@ export default function Newhome() {
                         I implemented the following concepts____
                     </div>
                     <ul className='lost'>
-                        <li style={whitetoblack} className='lik'>Speech Synthesis</li>
+                        <li style={whitetoblack} className='lik'>Speech Synthesis Api</li>
                         <li style={whitetoblack} className='lik'>Session Storage</li>
                         <li style={whitetoblack} className='lik'>Local Storage</li>
                     </ul>
