@@ -431,9 +431,10 @@ export default function Newhome() {
                         <br></br>
                         <br></br>
                         Used <strong className='string' style={greetingstyle}>Context Api </strong>to manage global data, which was consumed using
-                        <strong className='string' style={greetingstyle}> useContext Hook. </strong>
-                        <br /><br />  Saved the cart data in
-                         <strong className='string' style={greetingstyle}> Local Storage </strong>so the items won't disappear after refresh.
+                        <strong className='string' style={greetingstyle}> useContext Hook. </strong> Had to manage few states so prefered Context Api over
+                        <strong className='string' style={greetingstyle}>React Redux</strong>
+                        <br /><br />  
+                        Saved the cart data in <strong className='string' style={greetingstyle}> Local Storage </strong>so the items won't disappear after refresh.
 
                         <br /><br />
                         <div className="design" style={greetingstyle}>
@@ -446,10 +447,6 @@ export default function Newhome() {
                             <li style={whitetoblack} className='lik'>CSS3       <i style={greetingstyle} class="fa-brands fa-css3-alt"></i></li>
                         </ul>
                         <br />
-                        I also got a lot of help from the <strong className='string' style={greetingstyle}>StackOver Flow community (558 reputations as I am wrting this)</strong><br />
-                        <i style={greetingstyle} class="fa-brands fa-stack-overflow"></i>
-                        <br /><br />
-
                     </p>
                     <div className="sample" style={whitetoblack}>
                         Here is a sample of the same website
