@@ -432,7 +432,7 @@ export default function Newhome() {
                         <br></br>
                         Used <strong className='string' style={greetingstyle}>Context Api </strong>to manage global data, which was consumed using
                         <strong className='string' style={greetingstyle}> useContext Hook. </strong> Had to manage few states so prefered Context Api over
-                        <strong className='string' style={greetingstyle}>React Redux</strong>
+                        <strong className='string' style={greetingstyle}> React Redux.</strong>
                         <br /><br />  
                         Saved the cart data in <strong className='string' style={greetingstyle}> Local Storage </strong>so the items won't disappear after refresh.
 
