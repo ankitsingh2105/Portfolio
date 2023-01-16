@@ -65,12 +65,8 @@ export default function Newhome() {
     const [coloring, setcoloring] = useState({})
     const [reverse, setreverse] = useState({})
     const [borderblue, setborderblue] = useState({})
-    // let colorOfText = "#FF5757";  //orange one
     let colorOfText = "#fe6235";  //orange one
-    // let colorOfText = "#8636cc" 
     const ChangeTheme = (colorOfText) => {
-        // if (daynight && sunmoon=== ) {
-        // document.body.style.backgroundImage = `url(${back2})`;
         setcoloring({
             color: 'black'
         })
@@ -83,13 +79,13 @@ export default function Newhome() {
         document.body.style.background = 'white'
         document.body.style.backgroundPosition = 'center';
         setsunmoon('🌚')
-        // document.body./style.fontFamily = "'Courier New', Courier, monospace"
         setbackblacktowhite({
             border: '.2px solid rgb(0, 0, 0)',
         })
         setgreetings({
             color: `${colorOfText}`,
             textShadow: ".2px .2px 0px black",
+            // fontSize : "23px"
         })
         setgreetings2({
             color: `${colorOfText}`,
@@ -135,13 +131,8 @@ export default function Newhome() {
             background: colorOfText,
         })
         setdaynight(false);
-        // }
-        // else {
-        //     document.body.style.background = 'red';
-
     }
     const DarkMode = () => {
-        // else {
         setborderblue({
             borderColor: '#fe6235'
         })
@@ -332,7 +323,31 @@ export default function Newhome() {
                         <li style={whitetoblack} className='lik'>HTML5 &nbsp;        <i style={greetingstyle} class="fa-brands fa-html5"></i></li>
                         <li style={whitetoblack} className='lik'>CSS3&nbsp;&nbsp;    <i style={greetingstyle} class="fa-brands fa-css3-alt"></i></li>
                         <li style={whitetoblack} className='lik'>Javascript &nbsp;   <i style={greetingstyle} class="fa-brands fa-square-js"></i></li>
-                        <li style={whitetoblack} className='lik'>React Js&nbsp;&nbsp;<i style={greetingstyle} class="fa-brands fa-react"></i></li>
+                        <li style={whitetoblack} className='lik'>React Js&nbsp;&nbsp;<i style={greetingstyle} class="fa-brands fa-react"></i>
+                            <br />
+                            &nbsp;&nbsp;Concepts I know in <strong className='Mca' style={greetingstyle}>React JS</strong></li>
+                        <ul className='lost'>
+                            <li style={greetingstyle} className='lik'>Conditional Rendering</li>
+                            <li style={greetingstyle} className='lik'>Props</li>
+                            <li style={greetingstyle} className='lik'>Hooks
+                                <ul className='lost'>
+                                    <li style={whitetoblack} className='lik'>useState Hook</li>
+                                    <li style={whitetoblack} className='lik'>useRef Hook</li>
+                                    <li style={whitetoblack} className='lik'>useEffect Hook</li>
+                                    <li style={whitetoblack} className='lik'>useContext Hook</li>
+                                    <li style={whitetoblack} className='lik'>useReducer Hook</li>
+                                </ul>
+                            </li>
+                            <li style={greetingstyle} className='lik'>React-Router-Dom</li>
+                            <li style={greetingstyle} className='lik'>State Management </li>
+                            <ul className='lost'>
+                                <li style={whitetoblack} className='lik'>Context Api</li>
+                                <li style={whitetoblack} className='lik'>React Redux</li>
+                            </ul>
+                            <li style={greetingstyle} className='lik'>Axios</li>
+                            <li style={greetingstyle} className='lik'>Jest for Unit testing</li>
+                            <li style={greetingstyle} className='lik'>Lazy loading</li>
+                        </ul>
                     </ul>
                     <div className="languages" style={greetingstyle}>
                         I also know the following  ____________
@@ -371,15 +386,6 @@ export default function Newhome() {
             {/* First page end */}
 
 
-
-
-
-
-
-
-
-
-
             {/* Second page */}
             <div className="first" style={blacktowhite} ref={work} >
                 <div className="section" style={sectioncolor}>
@@ -402,6 +408,7 @@ export default function Newhome() {
                         <ul className='lost'>
                             <li style={whitetoblack} className='lik'>HashTag Bakery - Bakery and Flower shop</li>
                             <li style={whitetoblack} className='lik'>KK Food Haldwani - Family Restaurant</li>
+                            <li style={whitetoblack} className='lik'>AnkitSinghChauhan.tech - Portfolio Website</li>
                         </ul>
                         <div className="languages" style={greetingstyle}>
                             The Personal Projects I have added here____________
@@ -417,6 +424,11 @@ export default function Newhome() {
                         <div style={whitetoblack} className='lik'>link to all below</div>
                         <img className='actingthinking align2 ' src={actingthinking} alt="" />
                     </div>
+                </div>
+
+
+                {/*  first one */}
+                <div className="section" style={sectioncolor}>
                     <div className="languages">
                         <div className="number1" style={whitetoblack}>001.</div>
                         <div className="bakery" style={greetingstyle} >HASHTAG BAKERY <br /> (hashtagbakery.in  )</div>
@@ -427,13 +439,14 @@ export default function Newhome() {
                         <br />
                         I used <strong className='string' style={greetingstyle}>REACT</strong> as library and used concepts like props, hooks
                         (useState, useEffect, useRef, useContext) and <strong className='string' style={greetingstyle}>React-Router-Dom </strong>
-                        to switch between pages faster. Created a customized layout for the website and a cart so that users can easily place the order.
+                        to switch between pages faster. Created a customized layout for the website and a
+                        <strong className='string' style={greetingstyle}> Cart </strong> so that users can easily place the order.
                         <br></br>
                         <br></br>
-                        Used <strong className='string' style={greetingstyle}>Context Api </strong>to manage global data, which was consumed using
+                        Used <strong className='string' style={greetingstyle}>Context Api </strong> as state manager to manage global data, which was consumed using
                         <strong className='string' style={greetingstyle}> useContext Hook. </strong> Had to manage few states so prefered Context Api over
                         <strong className='string' style={greetingstyle}> React Redux.</strong>
-                        <br /><br />  
+                        <br /><br />
                         Saved the cart data in <strong className='string' style={greetingstyle}> Local Storage </strong>so the items won't disappear after refresh.
 
                         <br /><br />
@@ -464,11 +477,10 @@ export default function Newhome() {
                         </a>
                     </div>
                     <div>.</div>
-
                 </div>
 
 
-
+                {/*  second project */}
                 <div className="section" style={sectioncolor}>
                     <div>
                     </div>
@@ -519,7 +531,8 @@ export default function Newhome() {
             </div>
 
 
-            {/*  third  one demo */}
+            {/* third project */}
+
             <div className='first first1' style={blacktowhite}>
 
                 <div className="section" style={sectioncolor}>
@@ -527,6 +540,41 @@ export default function Newhome() {
                     </div>
                     <div className="languages">
                         <div className="number1" style={whitetoblack}>003.</div>
+                        <div className="bakery" style={greetingstyle} >Portfolio Website<br /> <small style={whitetoblack}>(React JS)</small><br /> </div>
+                    </div>
+                    <p className="info_para" style={whitetoblack}>
+                        I created my <strong style={greetingstyle} className='string'>Portfolio Website </strong> using React JS to showcase my work I have completed so far
+                        <br />
+                        <br />
+                        I used <strong style={greetingstyle} className='string'>NETLIFY</strong> to host the website and <strong style={greetingstyle} className='string'>GITHUB </strong>
+                        to deploy the project on netlify. I used hostinger for <strong style={greetingstyle} className='string'>domain</strong> name.
+                        <br />
+                    </p>
+                    <div>
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/ankitsingh2105/Portfolio" className='align' style={{ flexDirection: "column" }}>
+                            <i style={greetingstyle} class="fa-brands fa-github stack"></i>
+                        </a>
+                        <div style={whitetoblack} className='visit'>Code</div>
+                    </div>
+                    {/* <hr /> */}
+                    <div className="links">
+                        <a className="github" href="https://ankitsinghchauhan.tech/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
+                            ANKITSINGHCHAUHNA.TECH
+                        </a>
+                    </div>
+                    <div>.</div>
+                </div>
+            </div>
+
+
+            {/*  third  one demo */}
+            <div className='first first1' style={blacktowhite}>
+
+                <div className="section" style={sectioncolor}>
+                    <div>
+                    </div>
+                    <div className="languages">
+                        <div className="number1" style={whitetoblack}>004.</div>
                         <div className="bakery" style={greetingstyle} >Weather Web App<br /> <small style={whitetoblack}>(Vanilla JS)</small><br /> </div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
@@ -582,7 +630,7 @@ export default function Newhome() {
                     <div>
                     </div>
                     <div className="languages">
-                        <div className="number1" style={whitetoblack}>004.</div>
+                        <div className="number1" style={whitetoblack}>005.</div>
                         <div className="bakery" style={greetingstyle} >Spell Quiz<br /> <small style={whitetoblack}>(Vanilla JS)</small><br /> </div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
@@ -628,7 +676,7 @@ export default function Newhome() {
                     <div>
                     </div>
                     <div className="languages">
-                        <div className="number1" style={whitetoblack}>005.</div>
+                        <div className="number1" style={whitetoblack}>006.</div>
                         <div className="bakery" style={greetingstyle} >Background Color Change<br />  <small style={whitetoblack}>(Vanilla JS)</small><br /> </div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
@@ -663,7 +711,7 @@ export default function Newhome() {
                     <div>
                     </div>
                     <div className="languages">
-                        <div className="number1" style={whitetoblack}>006.</div>
+                        <div className="number1" style={whitetoblack}>007.</div>
                         <div className="bakery" style={greetingstyle} >Contest Informer<br /> <small style={whitetoblack}>(Vanilla JS)</small><br /> </div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
@@ -799,8 +847,6 @@ export default function Newhome() {
             {/* Third page end */}
 
 
-
-            {/*  todo : floating buttons end */}
             <div className="movetotop" onClick={(() => scrollSection(top))} style={backgroundYellotoorange}>
                 <i class="fa-solid fa-arrow-up"></i>
             </div>
@@ -813,13 +859,6 @@ export default function Newhome() {
             <button className="change_theme thirdColor" ref={icon} onClick={() => ChangeTheme('#fab005')} >
 
             </button>
-            {/* <button className="change_theme forthcolor" ref={icon} onClick={()=>ChangeTheme('rgb(198 204 54)')} >
-                
-            </button> */}
-            {/* floating buttons end */}
-
-
-            {/*  floating socaila media baby! */}
 
             <div className="align2 socialMedia" >
                 <a href="https://stackoverflow.com/users/19757319/ankit?tab=topactivity" className='hovering' target="_blank" rel="noopener noreferrer">
@@ -842,12 +881,12 @@ export default function Newhome() {
 
         </>
         // Project end 
-
         // Last updated on 7 october 2022
         // Last updated on 9 october 2022
         // Last updated on 10 october 2022  => (added dark mode) 1:39am , 10:46am
         // Last updated on 8 Novermber 2022 => (added stackOverflow link and removed errors) : 2:45PM
         // Last updated on 11 Novermber 2022 => (added new project [rest API]) : 4:15PM
+        // Last Updated on 15 January 2023
     )
 }
 

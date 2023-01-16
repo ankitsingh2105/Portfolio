@@ -120,7 +120,7 @@ body::-webkit-scrollbar-thumb {
 .design {
     font-family: "Cormorant Upright", serif;
     font-size: 21px;
-    letter-spacing: 0px;
+    letter-spacing: 0.6px;
     color: #f1f1f1;
 }
 
@@ -313,6 +313,7 @@ h1 {
 
 .lik {
     color: white;
+    font-size: 17px;
 }
 
 
@@ -1048,7 +1049,7 @@ li {
     }
 
     .section {
-        margin: 20px 126px 50px 126px;
+        margin: 70px 126px 50px 126px;
     }
 
     .resume {
