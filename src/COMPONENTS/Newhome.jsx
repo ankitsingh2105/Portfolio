@@ -543,7 +543,7 @@ export default function Newhome() {
                         <div className="bakery" style={greetingstyle} >Portfolio Website<br /> <small style={whitetoblack}>(React JS)</small><br /> </div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
-                        I created my <strong style={greetingstyle} className='string'>Portfolio Website </strong> using React JS to showcase my work I have completed so far
+                        I created my <strong style={greetingstyle} className='string'>Portfolio Website </strong> using React JS to showcase my work I have completed so far.
                         <br />
                         <br />
                         I used <strong style={greetingstyle} className='string'>NETLIFY</strong> to host the website and <strong style={greetingstyle} className='string'>GITHUB </strong>
