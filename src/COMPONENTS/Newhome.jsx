@@ -34,7 +34,7 @@ export default function Newhome() {
         document.getElementById('playing').play();
     };
     const alerting = () => {
-        window.alert('Adding soon');
+        window.alert('⚡⚡Adding Soon⚡⚡');
     }
 
     const SendtoWhatspp = () => {
@@ -416,8 +416,8 @@ export default function Newhome() {
                         <ul className='lost'>
                             <li style={whitetoblack} className='lik'>Real Time Weather Web App</li>
                             <li style={whitetoblack} className='lik'>Spelling Quiz Web App</li>
-                            <li style={whitetoblack} className='lik'>BackGround Color Changer</li>
                             <li style={whitetoblack} className='lik'>Competative Coding Infomer</li>
+                            <li style={whitetoblack} className='lik'>BackGround Color Changer</li>
                         </ul>
                     </div>
                     <div className="align2">
@@ -668,50 +668,12 @@ export default function Newhome() {
                 </div>
             </div>
 
-
-            {/*  third  one demo */}
-            <div className='first first1' style={blacktowhite}   >
-
+            <div className='first first1' style={blacktowhite}>
                 <div className="section" style={sectioncolor} >
                     <div>
                     </div>
                     <div className="languages">
                         <div className="number1" style={whitetoblack}>006.</div>
-                        <div className="bakery" style={greetingstyle} >Background Color Change<br />  <small style={whitetoblack}>(Vanilla JS)</small><br /> </div>
-                    </div>
-                    <p className="info_para" style={whitetoblack}>
-                        I created a small project where you can change the colour of the background change by clicking on the colour you want.
-                        <br />
-                        <br /><br />
-                        I also used <strong style={greetingstyle} className='string'>LOCAL STORAGE</strong> to save the current colour, so that the colour won't change
-                        when you refresh the page after selecting some.
-                        <br />
-                        <br />
-                    </p>
-                    <div>
-                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/ankitsingh2105/BackGround_Color_Change" className='align' style={{ flexDirection: "column" }}>
-                            <i style={greetingstyle} class="fa-brands fa-github stack"></i>
-                        </a>
-                        <div style={whitetoblack} className='visit'>Code</div>
-                    </div>
-                    <div className="links">
-                        <a className="github" href="https://bodycolorchange.netlify.app/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
-                            BODYCOLORCHANGE.NETLIFY.APP
-                        </a>
-                    </div>
-                </div>
-                <div>.</div>
-            </div>
-
-
-            {/*  third  one demo */}
-            <div className='first first1' style={blacktowhite}>
-
-                <div className="section" style={sectioncolor} >
-                    <div>
-                    </div>
-                    <div className="languages">
-                        <div className="number1" style={whitetoblack}>007.</div>
                         <div className="bakery" style={greetingstyle} >Contest Informer<br /> <small style={whitetoblack}>(Vanilla JS)</small><br /> </div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
@@ -743,6 +705,43 @@ export default function Newhome() {
                     <div>.</div>
                 </div>
             </div>
+            {/*  third  one demo */}
+            <div className='first first1' style={blacktowhite}   >
+
+                <div className="section" style={sectioncolor} >
+                    <div>
+                    </div>
+                    <div className="languages">
+                        <div className="number1" style={whitetoblack}>007.</div>
+                        <div className="bakery" style={greetingstyle} >Background Color Change<br />  <small style={whitetoblack}>(Vanilla JS)</small><br /> </div>
+                    </div>
+                    <p className="info_para" style={whitetoblack}>
+                        I created a small project where you can change the colour of the background change by clicking on the colour you want.
+                        <br />
+                        <br /><br />
+                        I also used <strong style={greetingstyle} className='string'>LOCAL STORAGE</strong> to save the current colour, so that the colour won't change
+                        when you refresh the page after selecting some.
+                        <br />
+                        <br />
+                    </p>
+                    <div>
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/ankitsingh2105/BackGround_Color_Change" className='align' style={{ flexDirection: "column" }}>
+                            <i style={greetingstyle} class="fa-brands fa-github stack"></i>
+                        </a>
+                        <div style={whitetoblack} className='visit'>Code</div>
+                    </div>
+                    <div className="links">
+                        <a className="github" href="https://bodycolorchange.netlify.app/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
+                            BODYCOLORCHANGE.NETLIFY.APP
+                        </a>
+                    </div>
+                </div>
+                <div>.</div>
+            </div>
+
+
+            {/*  third  one demo */}
+
             {/* Second page end */}
             {/* .}
 
