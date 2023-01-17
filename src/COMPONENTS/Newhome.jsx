@@ -15,7 +15,6 @@ import contacts from './contacts.png'
 import certificates from './certificates.png'
 import main1 from './main1.png'
 import Api from './Api.png'
-import back2 from './back2.jpg'
 import messaging from './messaging.png'
 import { useState } from 'react';
 import { useRef } from 'react';
@@ -47,10 +46,7 @@ export default function Newhome() {
     const [greetingstyle, setgreetings] = useState({ color: '#FF5757' });
     const [greetingstyle2, setgreetings2] = useState({})
     const [whitetoblack, setwhitetoblack] = useState({})
-    const [blacktowhite, setblacktowhite] = useState({
-        backgroundImage: `url(${back2})`,
-        backgroundPosition: 'center'
-    })
+    const [blacktowhite, setblacktowhite] = useState({})
     const [backorange, setbackorange] = useState({})
     const [borderGoldToOrange, setborderGoldToOrange] = useState({})
     const [borderblack, setborderblack] = useState({})
@@ -143,7 +139,7 @@ export default function Newhome() {
             color: '#fe6235'
         })
         setsunmoon('🌞');
-        document.body.style.background = 'rgb(43 51 64 / 98%)'
+        // document.body.style.background = 'rgb(43 51 64 / 98%)'
         setborderGoldToOrange({
             'borderColor': '#fe6235',
         })
@@ -282,7 +278,7 @@ export default function Newhome() {
                     </div>
                     <div>
                         <div>
-                            <img className='newImg' src={main1} alt="" />
+                            <img loading="lazy" className='newImg' src={main1} alt="" />
                         </div>
                     </div>
 
@@ -298,7 +294,7 @@ export default function Newhome() {
                             About Me
                         </h1>
                         <hr style={backblacktowhite} className='line1' />
-                        <img style={{ "height": "70px" }} src={about1} alt="" />
+                        <img loading="lazy" style={{ "height": "70px" }} src={about1} alt="" />
                         <p className="info_para" style={whitetoblack}>
                             Hi, I am Ankit Singh Chauhan, a 21 years old self-taught Web developer in
                             love with developing websites and learning new ways to improve myself.
@@ -314,7 +310,7 @@ export default function Newhome() {
                     <div className="languages" style={greetingstyle}>
                         I know the following languages and liabrary____________
                         <div className="align2">
-                            <img className='books' src={books} alt="" />
+                            <img loading="lazy" className='books' src={books} alt="" />
                         </div>
                     </div>
                     <ul className='lost'>
@@ -369,7 +365,7 @@ export default function Newhome() {
                         I also have Hackerank Certifications (<i style={greetingstyle} class="fa-brands fa-hackerrank"></i>) you can click and see them
                     </div>
                     <div className="align2">
-                        <img src={certificates} className='actingthinking' alt="certificates" />
+                        <img loading="lazy" src={certificates} className='actingthinking' alt="certificates" />
                     </div>
                     <ul className='lost'>
                         <li className='hack' style={greetingstyle}> <a href="https://www.hackerrank.com/certificates/d7f5c7a96e11" className='certificate' target="_blank" rel="noopener noreferrer" style={greetingstyle}>Rest Api -- Intermediate</a> </li>
@@ -395,7 +391,7 @@ export default function Newhome() {
                             Projects
                         </div>
                         <hr style={backblacktowhite} className='line1' />
-                        <img style={{ "height": "70px" }} src={bulb} alt="" />
+                        <img loading="lazy" style={{ "height": "70px" }} src={bulb} alt="" />
                     </div>
                     <div className='' style={{ "flexDirection": "column" }}>
                         <p className="info_para" style={whitetoblack}>
@@ -422,7 +418,7 @@ export default function Newhome() {
                     </div>
                     <div className="align2">
                         <div style={whitetoblack} className='lik'>link to all below</div>
-                        <img className='actingthinking align2 ' src={actingthinking} alt="" />
+                        <img loading="lazy" className='actingthinking align2 ' src={actingthinking} alt="" />
                     </div>
                 </div>
 
@@ -465,11 +461,11 @@ export default function Newhome() {
                         Here is a sample of the same website
                     </div>
                     <div className="img-display">
-                        <img style={borderGoldToOrange} src={img2} alt="nikaljao" className='hash_images' />
-                        <img style={borderGoldToOrange} src={img3} alt="nikaljao" className='hash_images' />
+                        <img loading="lazy" style={borderGoldToOrange} src={img2} alt="nikaljao" className='hash_images' />
+                        <img loading="lazy" style={borderGoldToOrange} src={img3} alt="nikaljao" className='hash_images' />
                     </div>
                     <div className="img-display">
-                        <img style={borderGoldToOrange} src={img1} alt="nikaljao" className='hash_images1' />
+                        <img loading="lazy" style={borderGoldToOrange} src={img1} alt="nikaljao" className='hash_images1' />
                     </div>
                     <div className="links">
                         <a className="github" href="https://www.hashtagbakery.in/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
@@ -515,11 +511,11 @@ export default function Newhome() {
                         Here is a sample of the same website which is RESPONSIVE in all devices
                     </div>
                     <div className="img-display">
-                        <img style={borderGoldToOrange} src={kk3} alt="nikaljao" className='hash_images' />
-                        <img style={borderGoldToOrange} src={kk1} alt="nikaljao" className='hash_images' />
+                        <img loading="lazy" style={borderGoldToOrange} src={kk3} alt="nikaljao" className='hash_images' />
+                        <img loading="lazy" style={borderGoldToOrange} src={kk1} alt="nikaljao" className='hash_images' />
                     </div>
                     <div className="img-display">
-                        <img style={borderGoldToOrange} src={kk2} alt="nikaljao" className='hash_images1' />
+                        <img loading="lazy" style={borderGoldToOrange} src={kk2} alt="nikaljao" className='hash_images1' />
                     </div>
                     <div className="links">
                         <a className="github" href="https://www.kkfoodshaldwani.in/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
@@ -579,7 +575,7 @@ export default function Newhome() {
                     </div>
                     <p className="info_para" style={whitetoblack}>
                         <div className="align2" style={{ "marginBottom": "22px" }}>
-                            <img className='actingthinking2' src={Api} alt="api" />
+                            <img loading="lazy" className='actingthinking2' src={Api} alt="api" />
                         </div>
                         I created a project where we can see the real time weather report of different city all over the world.
                         The data is fetched from a free weather API.
@@ -678,7 +674,7 @@ export default function Newhome() {
                     </div>
                     <p className="info_para" style={whitetoblack}>
                         <div className="align2" style={{ "marginBottom": "22px" }}>
-                            <img className='actingthinking2' src={Api} alt="api" />
+                            <img loading="lazy" className='actingthinking2' src={Api} alt="api" />
                         </div>
                         I created a small project where I fetched an API and displayed the upcoming contests of Codechef, Codeforces, and Atcoder.
                         <br />
@@ -755,7 +751,7 @@ export default function Newhome() {
                             Contact
                         </div>
                         <hr style={backblacktowhite} className='line1' />
-                        <img style={{ "height": "70px" }} src={contacts} alt="" />
+                        <img loading="lazy" style={{ "height": "70px" }} src={contacts} alt="" />
                     </div>
 
                     <div className="contact-info">
@@ -767,7 +763,7 @@ export default function Newhome() {
                             so contact me <strong className='string' style={greetingstyle}>ASAP!! 👀</strong>
                         </div>
                         {/* <video autoPlay loop muted src={messaging} type="video/gif" id='video1' /> */}
-                        <img className='newGif' src={messaging} alt="loading..." />
+                        <img loading="lazy" className='newGif' src={messaging} alt="loading..." />
                     </div>
 
                     {/*  form to contact */}
@@ -888,4 +884,3 @@ export default function Newhome() {
         // Last Updated on 15 January 2023
     )
 }
-

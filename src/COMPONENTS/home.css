@@ -92,6 +92,10 @@
     font-family: "Open Sans", sans-serif;
 }
 
+body {
+    background: rgb(43 51 64 / 98%);
+}
+
 body::-webkit-scrollbar {
     width: 6px;
     margin-right: 2px;
@@ -710,7 +714,7 @@ li {
         animation-iteration-count: 1;
         backdrop-filter: blur(4px);
         -webkit-backdrop-filter: blur(4px);
-        background:rgba(22, 35%, 57%, 0.24);
+        background: rgba(22, 35%, 57%, 0.24);
         /* backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     background: hsla(0,3%,6%,.25); */
