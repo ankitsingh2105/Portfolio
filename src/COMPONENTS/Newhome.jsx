@@ -443,7 +443,8 @@ export default function Newhome() {
                         <strong className='string' style={greetingstyle}> useContext Hook. </strong> Had to manage few states so prefered Context Api over
                         <strong className='string' style={greetingstyle}> React Redux.</strong>
                         <br /><br />
-                        Saved the cart data in <strong className='string' style={greetingstyle}> Local Storage </strong>so the items won't disappear after refresh.
+                        Also implemented <strong className='string' style={greetingstyle}> Lazy Loading </strong> to improve the performance and reduce the memory footprint of the application. 
+                         Saved the cart data in <strong className='string' style={greetingstyle}> Local Storage </strong>so the items won't disappear after refresh.
 
                         <br /><br />
                         <div className="design" style={greetingstyle}>
@@ -578,7 +579,7 @@ export default function Newhome() {
                             <img loading="lazy" className='actingthinking2' src={Api} alt="api" />
                         </div>
                         I created a project where we can see the real time weather report of different city all over the world.
-                        The data is fetched from a free weather API.
+                        The data is <strong className='string' style={greetingstyle}> fetched </strong> from a free weather API website.
                         <br />
                         <br />
                         I used <strong style={greetingstyle} className='string'>NETLIFY</strong> to host the website and <strong style={greetingstyle} className='string'>GITHUB </strong>
