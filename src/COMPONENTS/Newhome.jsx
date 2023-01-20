@@ -490,7 +490,8 @@ export default function Newhome() {
                         <br />
                         <br />
                         I used <strong className='string' style={greetingstyle}>REACT</strong> as liabrary  and used the concept of react-router, props
-                        to make the website fast. I also created a customised layout for this website, I used useEffect to make a animated logo before showing the real content.
+                        to make the website fast. Created a customised layout for this website, I used useEffect to make a animated logo before showing the real content.
+                        Also implemented <strong className='string' style={greetingstyle}> Lazy Loading </strong> to improve the performance and reduce the memory footprint of the application. 
                         <br></br>
                         <br></br>
                         <div className="design" style={greetingstyle}>
