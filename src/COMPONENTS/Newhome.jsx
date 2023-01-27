@@ -308,7 +308,7 @@ export default function Newhome() {
                     <div>
                     </div>
                     <div className="languages" style={greetingstyle}>
-                        I know the following languages and liabrary____________
+                        I know the following languages and library____________
                         <div className="align2">
                             <img loading="lazy" className='books' src={books} alt="" />
                         </div>
@@ -489,7 +489,7 @@ export default function Newhome() {
                         I created a website for a Haldwani based family restaurant.
                         <br />
                         <br />
-                        I used <strong className='string' style={greetingstyle}>REACT</strong> as liabrary  and used the concept of react-router, props
+                        I used <strong className='string' style={greetingstyle}>REACT</strong> as library  and used the concept of react-router, props
                         to make the website fast. Created a customised layout for this website, I used useEffect to make a animated logo before showing the real content.
                         Also implemented <strong className='string' style={greetingstyle}> Lazy Loading </strong> to improve the performance and reduce the memory footprint of the application. 
                         <br></br>
