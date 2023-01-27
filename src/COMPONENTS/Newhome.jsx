@@ -139,7 +139,7 @@ export default function Newhome() {
             color: '#fe6235'
         })
         setsunmoon('🌞');
-        // document.body.style.background = 'rgb(43 51 64 / 98%)'
+        document.body.style.background = 'rgb(43 51 64 / 98%)'
         setborderGoldToOrange({
             'borderColor': '#fe6235',
         })
