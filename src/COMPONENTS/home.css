@@ -1224,6 +1224,8 @@ li {
     box-shadow: 1px 1px 10px white;
     border-radius: 1212px;
     z-index: 1;
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
 }
 
 @keyframes updown {
