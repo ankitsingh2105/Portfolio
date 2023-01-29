@@ -587,7 +587,7 @@ export default function Newhome() {
                         to deploy the project on netlify.
                         <br />
                         <br />
-                        I used Async Await so that a loader is shown, the API if fetched synchronously and
+                        I used <strong style={greetingstyle} className='string'> Async Await </strong> so that a loader is shown, the API if fetched synchronously and
                         data is show after the loader element. I also used <strong style={greetingstyle} className='string'>LOCAL STORAGE </strong>
                         to save the record of previous searches.
                         <br />
