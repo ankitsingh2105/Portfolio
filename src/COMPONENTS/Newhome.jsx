@@ -818,6 +818,7 @@ export default function Newhome() {
                         <div className='MyName' style={whitetoblack}>
                             Designed By <strong style={greetingstyle}>Ankit Singh Chauhan</strong>
                         </div>
+                        <br />
                         {/* <div className='year' style={greetingstyle} >
                             2022
                         </div> */}
