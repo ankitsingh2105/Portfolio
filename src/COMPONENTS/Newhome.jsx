@@ -19,7 +19,7 @@ import messaging from './messaging.png'
 import { useState } from 'react';
 import { useRef } from 'react';
 export default function Newhome() {
-    const icon = useRef(null);
+    // const icon = useRef(null);
     const about = useRef(null);
     const work = useRef(null);
     const contact = useRef(null);
