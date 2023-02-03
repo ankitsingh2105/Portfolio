@@ -847,16 +847,9 @@ export default function Newhome() {
             <div className="movetotop" onClick={(() => scrollSection(top))} style={backgroundYellotoorange}>
                 <i class="fa-solid fa-arrow-up"></i>
             </div>
-            <button className="change_theme secondColor" ref={icon} onClick={() => ChangeTheme('green')} >
-
-            </button>
-            <button className="change_theme firstColor" ref={icon} onClick={() => ChangeTheme('#FF5757')} >
-
-            </button>
-            <button className="change_theme thirdColor" ref={icon} onClick={() => ChangeTheme('#fab005')} >
-
-            </button>
-
+            {/* <button className="change_theme secondColor" ref={icon} onClick={() => ChangeTheme('green')} ></button>
+            <button className="change_theme firstColor" ref={icon} onClick={() => ChangeTheme('#FF5757')} ></button>
+            <button className="change_theme thirdColor" ref={icon} onClick={() => ChangeTheme('#fab005')} ></button> */}
             <div className="align2 socialMedia" >
                 <a href="https://stackoverflow.com/users/19757319/ankit?tab=topactivity" className='hovering' target="_blank" rel="noopener noreferrer">
                     <i style={greetingstyle} class="fa-brands fa-stack-overflow social_icon socialIcon2 socail1"></i>
