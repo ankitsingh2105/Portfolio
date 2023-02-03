@@ -443,8 +443,8 @@ export default function Newhome() {
                         <strong className='string' style={greetingstyle}> useContext Hook. </strong> Had to manage few states so prefered Context Api over
                         <strong className='string' style={greetingstyle}> React Redux.</strong>
                         <br /><br />
-                        Also implemented <strong className='string' style={greetingstyle}> Lazy Loading </strong> to improve the performance and reduce the memory footprint of the application. 
-                         Saved the cart data in <strong className='string' style={greetingstyle}> Local Storage </strong>so the items won't disappear after refresh.
+                        Also implemented <strong className='string' style={greetingstyle}> Lazy Loading </strong> to improve the performance and reduce the memory footprint of the application.
+                        Saved the cart data in <strong className='string' style={greetingstyle}> Local Storage </strong>so the items won't disappear after refresh.
 
                         <br /><br />
                         <div className="design" style={greetingstyle}>
@@ -491,7 +491,7 @@ export default function Newhome() {
                         <br />
                         I used <strong className='string' style={greetingstyle}>REACT</strong> as library  and used the concept of react-router, props
                         to make the website fast. Created a customised layout for this website, I used useEffect to make a animated logo before showing the real content.
-                        Also implemented <strong className='string' style={greetingstyle}> Lazy Loading </strong> to improve the performance and reduce the memory footprint of the application. 
+                        Also implemented <strong className='string' style={greetingstyle}> Lazy Loading </strong> to improve the performance and reduce the memory footprint of the application.
                         <br></br>
                         <br></br>
                         <div className="design" style={greetingstyle}>
@@ -816,11 +816,11 @@ export default function Newhome() {
                     </div>
                     <div className="acknoledgement" style={borderGoldToOrange}>
                         <div className='MyName' style={whitetoblack}>
-                            Designed By Ankit Singh Chauhan
+                            Designed By <strong style={greetingstyle}>Ankit Singh Chauhan</strong>
                         </div>
-                        <div className='year' style={greetingstyle} >
+                        {/* <div className='year' style={greetingstyle} >
                             2022
-                        </div>
+                        </div> */}
                         <div className='MyName' style={whitetoblack}>
                             Deployed on <strong style={greetingstyle}>Github</strong>
                         </div>
