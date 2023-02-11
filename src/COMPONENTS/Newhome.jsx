@@ -208,8 +208,8 @@ export default function Newhome() {
             <div className='first' style={blacktowhite} >
                 {/* Navbar */}
                 <nav className="navbar" style={backorange}>
-                    <div className="logo letter" style={borderblue} >
-                        <div className="" style={coloring} >
+                    <div className="letter" style={borderblue} >
+                        <div className='logotext'>
                             A
                         </div>
                         <audio src={sound} id='playing' ></audio>
@@ -815,6 +815,7 @@ export default function Newhome() {
                         </div>
                     </div>
                     <div className="acknoledgement" style={borderGoldToOrange}>
+                        <br />
                         <div className='MyName' style={whitetoblack}>
                             Designed By <strong style={greetingstyle}>Ankit Singh Chauhan</strong>
                         </div>
