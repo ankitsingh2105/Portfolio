@@ -94,6 +94,7 @@
 
 body {
     background: rgb(43 51 64 / 98%);
+    transition: all .4s ease-out;
 }
 
 body::-webkit-scrollbar {
@@ -190,12 +191,26 @@ body::-webkit-scrollbar-thumb {
     font-size: 50px;
     letter-spacing: 7px;
     margin-top: 30px;
+    transition: all .4s ease-out;
+    position: relative;
 }
 
 .surname {
     font-size: 73px;
     margin-top: 48px;
-    font-weight: 900;
+    transition: all .4s ease-out;
+    position: relative;
+}
+.name:hover,  .surname:hover{
+    text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white, 0 0 40px white, 0 0 50px white, 0 0 60px white, 0 0 70px white;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.name:hover{
+    font-size: 105px;
+}
+.surname:hover{
+    font-size: 126px;
 }
 
 .greetings {
@@ -437,7 +452,9 @@ a {
     margin-top: 13px;
     color: white;
 }
-
+.spacing{
+    margin-right: 16px;
+}
 .contact-info {
     display: flex;
     align-items: center;

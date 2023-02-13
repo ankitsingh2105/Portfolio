@@ -19,7 +19,6 @@ import messaging from './messaging.png'
 import { useState } from 'react';
 import { useRef } from 'react';
 export default function Newhome() {
-    // const icon = useRef(null);
     const about = useRef(null);
     const work = useRef(null);
     const contact = useRef(null);
@@ -257,11 +256,65 @@ export default function Newhome() {
                         <div className="greetings  display2" style={greetingstyle2}>
                             Hello there I am,
                         </div>
-                        <div className="name" style={yelloToblack}>
-                            Ankit Singh
+                        <div className="align">
+
+                            <div className="align spacing">
+                                <div className="name" style={yelloToblack}>
+                                    A
+                                </div>
+                                <div className="name" style={yelloToblack}>
+                                    n
+                                </div>
+                                <div className="name" style={yelloToblack}>
+                                    k
+                                </div>
+                                <div className="name" style={yelloToblack}>
+                                    i
+                                </div>
+                                <div className="name" style={yelloToblack}>
+                                    t
+                                </div>
+                            </div>
+                            <div className="align">
+                                <div className="name" style={yelloToblack}>
+                                    S
+                                </div>
+                                <div className="name" style={yelloToblack}>
+                                    i
+                                </div>
+                                <div className="name" style={yelloToblack}>
+                                    n
+                                </div>
+                                <div className="name" style={yelloToblack}>
+                                    g
+                                </div>
+                                <div className="name" style={yelloToblack}>
+                                    h
+                                </div>
+                            </div>
+                        </div>
+                        <div className="align">
+                        <div className="surname" style={yelloToblack}>
+                            C
                         </div>
                         <div className="surname" style={yelloToblack}>
-                            CHAUHAN
+                            H
+                        </div>
+                        <div className="surname" style={yelloToblack}>
+                            A
+                        </div>
+                        <div className="surname" style={yelloToblack}>
+                            U
+                        </div>
+                        <div className="surname" style={yelloToblack}>
+                            H
+                        </div>
+                        <div className="surname" style={yelloToblack}>
+                            A
+                        </div>
+                        <div className="surname" style={yelloToblack}>
+                            N
+                        </div>
                         </div>
                         <div className="dot" style={greetingstyle}>
                             ..................................
