@@ -61,7 +61,6 @@
     border: 0px;
     width: 45px;
     height: 45px;
-    background-color: #8636cc;
     opacity: 85%;
     z-index: 90909090
 }
@@ -94,7 +93,7 @@
 
 body {
     background: rgb(43 51 64 / 98%);
-    transition: all .4s ease-out;
+    transition: all .7s ease-out;
 }
 
 body::-webkit-scrollbar {
@@ -207,10 +206,10 @@ body::-webkit-scrollbar-thumb {
     cursor: pointer;
 }
 .name:hover{
-    font-size: 105px;
+    font-size: 95px;
 }
 .surname:hover{
-    font-size: 126px;
+    font-size: 116px;
 }
 
 .greetings {
@@ -534,7 +533,6 @@ a {
     content: 'Jump';
     color: black;
     border-radius: 9px;
-    padding: 5px;
 }
 
 @keyframes jump {

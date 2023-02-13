@@ -39,7 +39,7 @@ export default function Newhome() {
         let naam = document.getElementById("newid1").value;
         let email = document.getElementById('newid2').value;
         let text = document.getElementById('newid3').value;
-        let Message = `https://wa.me/918954057108?text=" + "Name :: " + ${naam} + " %0a " + "Email :: " + ${email} + " %0a " + " Message :: " + ${text}`
+        let Message = `https://wa.me/917248370156?text=" + "Name :: " + ${naam} + " %0a " + "Email :: " + ${email} + " %0a " + " Message :: " + ${text}`
         window.open(Message, '_blank').focus();
     }
     const [greetingstyle, setgreetings] = useState({ color: '#FF5757' });
@@ -204,7 +204,7 @@ export default function Newhome() {
         <>
             {/* making dots */}
 
-            <div className='first' style={blacktowhite} >
+            <div className='first' style={blacktowhite} ref={top} >
                 {/* Navbar */}
                 <nav className="navbar" style={backorange}>
                     <div className="letter" style={borderblue} >
@@ -249,7 +249,7 @@ export default function Newhome() {
                 {/* Nav bar end */}
 
                 {/* first page */}
-                <div className="section align check" style={sectioncolor} ref={top}>
+                <div className="section align check" style={sectioncolor}>
 
                     <div className="intro" >
                         <div className="donts"></div>
