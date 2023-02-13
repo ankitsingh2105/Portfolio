@@ -842,7 +842,7 @@ export default function Newhome() {
                         <div className='alternates' style={whitetoblack} >
                             Or contact me through
                         </div>
-                        <div className="align">
+                        <div className="align" style={{"font-size" : "22px"}} >
                             <a href="https://github.com/ankitsingh2105"> <i style={greetingstyle} class="fa-brands fa-github social_icon"></i></a>
                             <a href="https://www.linkedin.com/in/ankit-singh-chauhan-30057220a/" target="_blank" rel="noopener noreferrer">
                                 <i style={greetingstyle} class="fa-brands fa-linkedin social_icon"></i>
@@ -857,7 +857,6 @@ export default function Newhome() {
                         <div>
                             <div className='align' style={{ flexDirection: "column", fontWeight: "bolder" }}>
                                 <div className='alternates' style={whitetoblack} >
-                                    {/* <div className='alternates' style={{whitetoblack  , lineHeight : "26px" , letterSpacing:"1px"}} > */}
                                     Visit my Stack Overflow account where I try to get answers and <strong style={greetingstyle}>give answers related to WEB DEVELOPMENT</strong>, which helps me to improve my ability to understand codes.
                                 </div>
                                 <a target="_blank" rel="noopener noreferrer" href="https://stackoverflow.com/users/19757319/ankit" className='align' style={{ flexDirection: "column" }}>
@@ -891,7 +890,7 @@ export default function Newhome() {
                             ............................
                         </div>
                     </div>
-                    <div className='dot'>.</div>
+                    <br />
                 </div>
             </div>
             <div>

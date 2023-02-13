@@ -436,8 +436,11 @@ a {
 .alternates {
     margin-bottom: 23px;
     font-size: 20px;
-    line-height: 27px;
-    letter-spacing: .4px;
+    margin-top: 34px;
+    color: white;
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 37px;
 }
 
 .stack {
@@ -579,15 +582,14 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     margin: 23px 20px 53px 20px;
     color: white;
     font-size: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    border: 2px solid #64ffda;
-    border-style: dotted;
+    border: 1px solid #64ffda;
+    border-style: dashed;
+    border-radius: 22px;
+    box-shadow: 0px 0px 20px #fe6235 ;
 }
 input {
     margin: 0px 0px 10px 0px
@@ -604,8 +606,8 @@ input {
     font-size: 19px;
 }
 
-.competitive {
-    margin: 44px 10px 44px 10px;
+.competitive{
+    margin: 44px 10px;
     color: white;
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
@@ -1129,14 +1131,6 @@ li {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
-
-.alternates {
-    margin-top: 34px;
-    color: white;
-    text-align: justify;
-    letter-spacing: 2px;
-    line-height: 37px;
 }
 
 .info_contact {
