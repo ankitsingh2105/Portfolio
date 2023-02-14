@@ -1,12 +1,11 @@
 import React from 'react'
 import './home.css'
 import sound from './sound.mp3'
-import img1 from './home1.jpeg';
-import img2 from './home4.jpeg';
-import img3 from './home3.jpeg';
-import kk1 from './kk1.jpg'
-import kk2 from './kk2.jpg'
-import kk3 from './kk3.jpg'
+import hash from './hashMockup.png';
+import kk from './kkMockup.png';
+import weather from './weatherMockup.png';
+import spelling from './spellMockup.png'
+import ank from './ankitMockup.png'
 import actingthinking from './actingthinking.png'
 import bulb from './bulb.png'
 import about1 from './about.png'
@@ -294,27 +293,27 @@ export default function Newhome() {
                             </div>
                         </div>
                         <div className="align">
-                        <div className="surname" style={yelloToblack}>
-                            C
-                        </div>
-                        <div className="surname" style={yelloToblack}>
-                            H
-                        </div>
-                        <div className="surname" style={yelloToblack}>
-                            A
-                        </div>
-                        <div className="surname" style={yelloToblack}>
-                            U
-                        </div>
-                        <div className="surname" style={yelloToblack}>
-                            H
-                        </div>
-                        <div className="surname" style={yelloToblack}>
-                            A
-                        </div>
-                        <div className="surname" style={yelloToblack}>
-                            N
-                        </div>
+                            <div className="surname" style={yelloToblack}>
+                                C
+                            </div>
+                            <div className="surname" style={yelloToblack}>
+                                H
+                            </div>
+                            <div className="surname" style={yelloToblack}>
+                                A
+                            </div>
+                            <div className="surname" style={yelloToblack}>
+                                U
+                            </div>
+                            <div className="surname" style={yelloToblack}>
+                                H
+                            </div>
+                            <div className="surname" style={yelloToblack}>
+                                A
+                            </div>
+                            <div className="surname" style={yelloToblack}>
+                                N
+                            </div>
                         </div>
                         <div className="dot" style={greetingstyle}>
                             ..................................
@@ -406,6 +405,7 @@ export default function Newhome() {
                         <li style={whitetoblack} className='lik'>Git&nbsp;&nbsp;    <i style={greetingstyle} class="fa-brands fa-git"></i></li>
                         <li style={whitetoblack} className='lik'>Web Hosting&nbsp;&nbsp;    <i style={greetingstyle} class="fa-solid fa-globe"></i></li>
                         <li style={whitetoblack} className='lik'>Netlify</li>
+                        <li style={whitetoblack} className='lik'>Responsive Web Designs</li>
                     </ul>
                     <div className="competitive" style={whitetoblack}>
                         I also do competitive programming
@@ -470,7 +470,7 @@ export default function Newhome() {
                         </ul>
                     </div>
                     <div className="align2">
-                        <div style={whitetoblack} className='lik'>link to all below</div>
+                        <div style={whitetoblack} className='lik'>working link to all below</div>
                         <img loading="lazy" className='actingthinking align2 ' src={actingthinking} alt="" />
                     </div>
                 </div>
@@ -480,7 +480,7 @@ export default function Newhome() {
                 <div className="section" style={sectioncolor}>
                     <div className="languages">
                         <div className="number1" style={whitetoblack}>001.</div>
-                        <div className="bakery" style={greetingstyle} >HASHTAG BAKERY <br /> (hashtagbakery.in  )</div>
+                        <div className="bakery" style={greetingstyle} >HASHTAG BAKERY</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
                         I created a website for bakery which is based in Delhi-NCR.
@@ -515,11 +515,7 @@ export default function Newhome() {
                         Here is a sample of the same website
                     </div>
                     <div className="img-display">
-                        <img loading="lazy" style={borderGoldToOrange} src={img2} alt="nikaljao" className='hash_images' />
-                        <img loading="lazy" style={borderGoldToOrange} src={img3} alt="nikaljao" className='hash_images' />
-                    </div>
-                    <div className="img-display">
-                        <img loading="lazy" style={borderGoldToOrange} src={img1} alt="nikaljao" className='hash_images1' />
+                        <img loading="lazy" style={borderGoldToOrange} src={hash} alt="nikaljao" className='hash_images' />
                     </div>
                     <div className="links">
                         <a className="github" href="https://www.hashtagbakery.in/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
@@ -536,8 +532,8 @@ export default function Newhome() {
                     </div>
                     <div className="languages">
                         <div className="number1" style={whitetoblack}>002.</div>
-                        <div className="bakery" style={greetingstyle} >KK FOOD <br /> (kkfoodshaldwani.in  )</div>
-                    </div> <br />
+                        <div className="bakery" style={greetingstyle} >KK FOOD</div>
+                    </div>
                     <p className="info_para" style={whitetoblack}>
                         I created a website for a Haldwani based family restaurant.
                         <br />
@@ -566,11 +562,7 @@ export default function Newhome() {
                         Here is a sample of the same website which is RESPONSIVE in all devices
                     </div>
                     <div className="img-display">
-                        <img loading="lazy" style={borderGoldToOrange} src={kk3} alt="nikaljao" className='hash_images' />
-                        <img loading="lazy" style={borderGoldToOrange} src={kk1} alt="nikaljao" className='hash_images' />
-                    </div>
-                    <div className="img-display">
-                        <img loading="lazy" style={borderGoldToOrange} src={kk2} alt="nikaljao" className='hash_images1' />
+                        <img loading="lazy" style={borderGoldToOrange} src={kk} alt="nikaljao" className='hash_images' />
                     </div>
                     <div className="links">
                         <a className="github" href="https://www.kkfoodshaldwani.in/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
@@ -591,7 +583,7 @@ export default function Newhome() {
                     </div>
                     <div className="languages">
                         <div className="number1" style={whitetoblack}>003.</div>
-                        <div className="bakery" style={greetingstyle} >Portfolio Website<br /> <small style={whitetoblack}>(React JS)</small><br /> </div>
+                        <div className="bakery" style={greetingstyle} >Portfolio Website</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
                         I created my <strong style={greetingstyle} className='string'>Portfolio Website </strong> using React JS to showcase my work I have completed so far.
@@ -600,13 +592,16 @@ export default function Newhome() {
                         I used <strong style={greetingstyle} className='string'>NETLIFY</strong> to host the website and <strong style={greetingstyle} className='string'>GITHUB </strong>
                         to deploy the project on netlify. I used hostinger for <strong style={greetingstyle} className='string'>domain</strong> name.
                         <br />
+                        <div className="img-display">
+                            <img loading="lazy" style={borderGoldToOrange} src={ank} alt="nikaljao" className='hash_images' />
+                        </div>
                     </p>
-                    <div>
+                    {/* <div>
                         <a target="_blank" rel="noopener noreferrer" href="https://github.com/ankitsingh2105/Portfolio" className='align' style={{ flexDirection: "column" }}>
                             <i style={greetingstyle} class="fa-brands fa-github stack"></i>
                         </a>
                         <div style={whitetoblack} className='visit'>Code</div>
-                    </div>
+                    </div> */}
                     {/* <hr /> */}
                     <div className="links">
                         <a className="github" href="https://ankitsinghchauhan.tech/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
@@ -626,12 +621,12 @@ export default function Newhome() {
                     </div>
                     <div className="languages">
                         <div className="number1" style={whitetoblack}>004.</div>
-                        <div className="bakery" style={greetingstyle} >Weather Web App<br /> <small style={whitetoblack}>(Vanilla JS)</small><br /> </div>
+                        <div className="bakery" style={greetingstyle} >Weather Web App </div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
-                        <div className="align2" style={{ "marginBottom": "22px" }}>
+                        {/* <div className="align2" style={{ "marginBottom": "22px" }}>
                             <img loading="lazy" className='actingthinking2' src={Api} alt="api" />
-                        </div>
+                        </div> */}
                         I created a project where we can see the real time weather report of different city all over the world.
                         The data is <strong className='string' style={greetingstyle}> fetched </strong> from a free weather API website.
                         <br />
@@ -657,12 +652,15 @@ export default function Newhome() {
                         <li style={whitetoblack} className='lik'>Selectors</li>
                         <li style={whitetoblack} className='lik'>Local Storage</li>
                     </ul>
-                    <div>
+                    <div className="img-display">
+                            <img loading="lazy" style={borderGoldToOrange} src={weather} alt="nikaljao" className='hash_images' />
+                        </div>
+                    {/* <div>
                         <a target="_blank" rel="noopener noreferrer" href="https://github.com/ankitsingh2105/Weather-App" className='align' style={{ flexDirection: "column" }}>
                             <i style={greetingstyle} class="fa-brands fa-github stack"></i>
                         </a>
                         <div style={whitetoblack} className='visit'>Code</div>
-                    </div>
+                    </div> */}
                     {/* <hr /> */}
                     <div className="links">
                         <a className="github" href="https://weatherappfetchapi.netlify.app/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
@@ -682,7 +680,7 @@ export default function Newhome() {
                     </div>
                     <div className="languages">
                         <div className="number1" style={whitetoblack}>005.</div>
-                        <div className="bakery" style={greetingstyle} >Spell Quiz<br /> <small style={whitetoblack}>(Vanilla JS)</small><br /> </div>
+                        <div className="bakery" style={greetingstyle} >Spell Quiz</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
                         I created a project where we can test english spellings, the voice assistant will speak the words and you have to
@@ -703,12 +701,16 @@ export default function Newhome() {
                         <li style={whitetoblack} className='lik'>Session Storage</li>
                         <li style={whitetoblack} className='lik'>Local Storage</li>
                     </ul>
-                    <div>
+                    <div className="img-display">
+                            <img loading="lazy" style={borderGoldToOrange} src={spelling} alt="nikaljao" className='hash_images' />
+                        </div>
+                    <div></div>
+                    {/* <div>
                         <a target="_blank" rel="noopener noreferrer" href="https://github.com/ankitsingh2105/Spelling_Practice" className='align' style={{ flexDirection: "column" }}>
                             <i style={greetingstyle} class="fa-brands fa-github stack"></i>
                         </a>
                         <div style={whitetoblack} className='visit'>Code</div>
-                    </div>
+                    </div> */}
                     {/* <hr /> */}
                     <div className="links">
                         <a className="github" href="https://spellhornet.netlify.app/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
@@ -757,7 +759,7 @@ export default function Newhome() {
                 </div>
             </div>
             {/*  third  one demo */}
-            <div className='first first1' style={blacktowhite}   >
+            {/* <div className='first first1' style={blacktowhite}   >
 
                 <div className="section" style={sectioncolor} >
                     <div>
@@ -788,7 +790,7 @@ export default function Newhome() {
                     </div>
                 </div>
                 <div>.</div>
-            </div>
+            </div> */}
 
 
             {/*  third  one demo */}
@@ -842,7 +844,7 @@ export default function Newhome() {
                         <div className='alternates' style={whitetoblack} >
                             Or contact me through
                         </div>
-                        <div className="align" style={{"font-size" : "22px"}} >
+                        <div className="align" style={{ "font-size": "22px" }} >
                             <a href="https://github.com/ankitsingh2105"> <i style={greetingstyle} class="fa-brands fa-github social_icon"></i></a>
                             <a href="https://www.linkedin.com/in/ankit-singh-chauhan-30057220a/" target="_blank" rel="noopener noreferrer">
                                 <i style={greetingstyle} class="fa-brands fa-linkedin social_icon"></i>

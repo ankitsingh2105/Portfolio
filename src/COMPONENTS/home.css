@@ -356,20 +356,16 @@ h1 {
 }
 
 .hash_images {
-    width: 188px;
-    height: 332px;
+    width: 320px;
+    height: 320px;
     margin: 20px 2px 0px 5px;
-    border: 4px solid #64ffda;
     padding: 4px;
     margin-left: 0px;
+    transition: all .3s ease-out;
 }
-
-.hash_images1 {
-    width: 188px;
-    height: 332px;
-    margin: 20px 5px 20px 5px;
-    border: 4px solid #64ffda;
-    padding: 4px;
+.hash_images:hover{
+    box-shadow: 0px 0px 20px white, 0px 0px 30px white, 0px 0px 40px white;
+    border-radius: 20px;
 }
 
 .sample {
@@ -875,15 +871,11 @@ li {
     }
 
     .hash_images {
-        width: 200px;
+        width: 400px;
         height: 400px;
         margin: 20px 5px 0px 5px;
     }
-
-    .hash_images1 {
-        width: 200px;
-        height: 400px;
-    }
+    
 
     .intro {
         position: relative;
