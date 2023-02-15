@@ -76,6 +76,8 @@
 
 .sun:hover {
     cursor: pointer;
+    text-shadow: 0px 0px 10px yellow;
+    border-radius: 100px;
 }
 
 .section {
@@ -191,24 +193,26 @@ body::-webkit-scrollbar-thumb {
     letter-spacing: 7px;
     margin-top: 30px;
     transition: all .4s ease-out;
-    position: relative;
 }
 
 .surname {
     font-size: 73px;
     margin-top: 48px;
     transition: all .4s ease-out;
-    position: relative;
 }
-.name:hover,  .surname:hover{
+
+.name:hover,
+.surname:hover {
     text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white, 0 0 40px white, 0 0 50px white, 0 0 60px white, 0 0 70px white;
     border-radius: 100px;
     cursor: pointer;
 }
-.name:hover{
+
+.name:hover {
     font-size: 95px;
 }
-.surname:hover{
+
+.surname:hover {
     font-size: 116px;
 }
 
@@ -361,11 +365,13 @@ h1 {
     margin: 20px 2px 0px 5px;
     padding: 4px;
     margin-left: 0px;
-    transition: all .3s ease-out;
+    transition: all .6s ease-out;
 }
-.hash_images:hover{
+
+.hash_images:hover {
+    color: #ff8b6b;
     box-shadow: 0px 0px 20px white, 0px 0px 30px white, 0px 0px 40px white;
-    border-radius: 20px;
+    border-radius: 25px;
 }
 
 .sample {
@@ -450,9 +456,11 @@ a {
     margin-top: 13px;
     color: white;
 }
-.spacing{
+
+.spacing {
     margin-right: 16px;
 }
+
 .contact-info {
     display: flex;
     align-items: center;
@@ -504,35 +512,44 @@ a {
     font-family: "Cormorant Upright", serif;
 }
 
+#one1,
+#one2,
+#one3 {
+    transition: all .6s ease-out;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+#one1:hover::after,
+#one2:hover::after,
+#one3:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
 #one1:after,
 #one2:after,
 #one3:after {
-    font-weight: 900;
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
 }
 
-#one1:after {
-    content: 'About';
-}
 
 
-#one2:after {
-    content: 'Projects';
-}
-
-#one3:after {
-    content: 'Contact';
-}
-
-#one2:hover:after,
-#one1:hover:after,
-#one3:hover:after {
-    animation-name: jump;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    content: 'Jump';
-    color: black;
-    border-radius: 9px;
-}
 
 @keyframes jump {
     0% {
@@ -585,8 +602,9 @@ a {
     border: 1px solid #64ffda;
     border-style: dashed;
     border-radius: 22px;
-    box-shadow: 0px 0px 20px #fe6235 ;
+    box-shadow: 0px 0px 20px #fe6235;
 }
+
 input {
     margin: 0px 0px 10px 0px
 }
@@ -602,7 +620,7 @@ input {
     font-size: 19px;
 }
 
-.competitive{
+.competitive {
     margin: 44px 10px;
     color: white;
     font-size: 16px;
@@ -654,13 +672,16 @@ li {
         transform: translateY(0px);
     }
 }
-.logotext{
-    color:white;
+
+.logotext {
+    color: white;
 }
-.logotext:hover{
+
+.logotext:hover {
     color: #fe6235;
-    rotate:360deg;
+    rotate: 360deg;
 }
+
 .letter {
     font-size: 43px;
     padding: 0px 13px;
@@ -669,9 +690,10 @@ li {
     border: 2px solid black;
     transition: transform .7s
 }
-.letter:hover{
-     transform: rotate(360deg);
-     color: #fe6235;
+
+.letter:hover {
+    transform: rotate(360deg);
+    color: #fe6235;
 }
 
 .infoindex {
@@ -721,6 +743,7 @@ li {
         z-index: 9090;
         border-top: .1px solid #fe6235;
     }
+
     .letter {
         display: none;
         font-size: 0px;
@@ -875,7 +898,7 @@ li {
         height: 400px;
         margin: 20px 5px 0px 5px;
     }
-    
+
 
     .intro {
         position: relative;

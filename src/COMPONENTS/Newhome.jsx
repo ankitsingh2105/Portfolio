@@ -62,7 +62,7 @@ export default function Newhome() {
     let colorOfText = "#fe6235";  //orange one
     const ChangeTheme = (colorOfText) => {
         setcoloring({
-            color: 'black'
+            color: 'black',
         })
         setreverse({
             color: 'white'
@@ -145,7 +145,7 @@ export default function Newhome() {
             border: '.2px solid white',
         })
         setgreetings({
-            color: '#fe6235',
+            color: '#fe6235'
         })
         setgreetings2({
             color: 'white',
@@ -219,21 +219,21 @@ export default function Newhome() {
                                 </div>
                                 <div style={coloring} id='one1' className="infoindex align2 " onClick={(() => scrollSection(about))} >
                                     {/* <i class="fa-solid fa-address-card"></i> */}
-                                    {/* About */}
+                                    About
                                 </div>
                             </div>
                             <div className="info">
                                 <div className="number" style={reverse} >02.
                                 </div>
                                 <div style={coloring} id='one2' className="infoindex " onClick={(() => scrollSection(work))}>
-                                    {/* Projects */}
+                                    Projects
                                 </div>
                             </div>
                             <div className="info">
                                 <div className="number" style={reverse} >03.
                                 </div>
                                 <div style={coloring} id='one3' className="infoindex" onClick={(() => scrollSection(contact))}>
-                                    {/* Contact */}
+                                    Contact
                                 </div>
                             </div>
                             <div className="info">
