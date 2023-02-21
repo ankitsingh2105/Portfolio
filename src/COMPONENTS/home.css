@@ -11,7 +11,30 @@
     height: 35px;
     background-color: rgb(254, 98, 53);
     opacity: 85%;
-    z-index: 90909090
+    z-index: 90909090;
+}
+.fa-arrow-up{
+    animation-name: moving;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+@keyframes moving {
+    0%{
+        top: -6px;
+    }
+    26%{
+        top: 6px;
+    }
+    50%{
+        top: -6px;
+    }
+    75%{
+        top:6px;
+    }
+    100%{
+        top: -6px;
+    }
 }
 
 /* .firstColor {
@@ -74,10 +97,12 @@
     border-bottom: 65px solid #64ffda;
 }
 
+.sun{
+    text-shadow: 0px 0px 10px yellow;
+}
+
 .sun:hover {
     cursor: pointer;
-    text-shadow: 0px 0px 10px yellow;
-    border-radius: 100px;
 }
 
 .section {
@@ -327,16 +352,16 @@ h1 {
     margin-top: 11px;
 }
 
-.languages {
+.languages{
     margin-left: 20px;
     font-size: 20px;
-    margin-top: 53px;
-    letter-spacing: 1.5px;
+    margin-top: 43px;
+    letter-spacing: 1px;
 }
 
 .lik {
     color: white;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 
@@ -471,11 +496,15 @@ a {
     margin: 45px 0px 45px 23px
 }
 
-.newGif,
 .actingthinking {
     height: 239px;
     width: 253px;
-
+    margin-bottom: -60px;
+}
+.newGif{
+    height: 239px;
+    width: 253px;
+    margin-bottom: -30px;
 }
 
 .actingthinking2 {
@@ -498,7 +527,7 @@ a {
 }
 
 .social {
-    padding: 34px;
+    padding: 14px;
     border-radius: 56px;
     margin: 0px 23px 0px 23px;
 }
@@ -602,21 +631,17 @@ a {
     border: 1px solid #64ffda;
     border-style: dashed;
     border-radius: 22px;
-    box-shadow: 0px 0px 20px #fe6235;
+    box-shadow: 0px 0px 15px #fe6235;
 }
 
 input {
     margin: 0px 0px 10px 0px
 }
 
-.certificate {
-    color: #64ffda;
-    text-decoration: none;
-}
 
 .hack {
-    margin-top: 34px;
-    margin-bottom: 17px;
+    margin-top: 10px;
+    text-decoration: none;
     font-size: 19px;
 }
 
@@ -874,10 +899,6 @@ li {
 
     .languages {
         font-size: 23px;
-    }
-
-    .lost {
-        font-size: 20px;
     }
 
     .competitive {

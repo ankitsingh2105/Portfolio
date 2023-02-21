@@ -9,7 +9,6 @@ import ank from './ankitMockup.png'
 import actingthinking from './actingthinking.png'
 import bulb from './bulb.png'
 import about1 from './about.png'
-import books from './books.png'
 import contacts from './contacts.png'
 import certificates from './certificates.png'
 import main1 from './main1.png'
@@ -215,7 +214,6 @@ export default function Newhome() {
                                 <div className="number" style={reverse} >01.
                                 </div>
                                 <div style={coloring} id='one1' className="infoindex align2 " onClick={(() => scrollSection(about))} >
-                                    {/* <i class="fa-solid fa-address-card"></i> */}
                                     About
                                 </div>
                             </div>
@@ -354,13 +352,8 @@ export default function Newhome() {
                             do <strong className='Mca' style={greetingstyle}  >Masters of Computer Applications</strong>.
                         </p>
                     </div>
-                    <div>
-                    </div>
                     <div className="languages" style={greetingstyle}>
                         I know the following languages and library____________
-                        <div className="align2">
-                            <img loading="lazy" className='books' src={books} alt="" />
-                        </div>
                     </div>
                     <ul className='lost'>
                         <li style={whitetoblack} className='lik'>C++</li>
@@ -371,11 +364,11 @@ export default function Newhome() {
                         <li style={whitetoblack} className='lik'>React Js&nbsp;&nbsp;<i style={greetingstyle} class="fa-brands fa-react"></i>
                             <br />
                             &nbsp;&nbsp;Concepts I know in <strong className='Mca' style={greetingstyle}>React JS</strong></li>
-                        <ul className='lost'>
+                        <ul className='lost1'>
                             <li style={greetingstyle} className='lik'>Conditional Rendering</li>
                             <li style={greetingstyle} className='lik'>Props</li>
                             <li style={greetingstyle} className='lik'>Hooks
-                                <ul className='lost'>
+                                <ul className='lost1'>
                                     <li style={whitetoblack} className='lik'>useState Hook</li>
                                     <li style={whitetoblack} className='lik'>useRef Hook</li>
                                     <li style={whitetoblack} className='lik'>useEffect Hook</li>
@@ -385,7 +378,7 @@ export default function Newhome() {
                             </li>
                             <li style={greetingstyle} className='lik'>React-Router-Dom</li>
                             <li style={greetingstyle} className='lik'>State Management </li>
-                            <ul className='lost'>
+                            <ul className='lost1'>
                                 <li style={whitetoblack} className='lik'>Context Api</li>
                                 <li style={whitetoblack} className='lik'>React Redux</li>
                             </ul>
@@ -418,15 +411,11 @@ export default function Newhome() {
                         <img loading="lazy" src={certificates} className='actingthinking' alt="certificates" />
                     </div>
                     <ul className='lost'>
-                        <li className='hack' style={greetingstyle}> <a href="https://www.hackerrank.com/certificates/d7f5c7a96e11" className='certificate' target="_blank" rel="noopener noreferrer" style={greetingstyle}>Rest Api -- Intermediate</a> </li>
-                        <li className='hack' style={greetingstyle}> <a href="https://www.hackerrank.com/certificates/d361cc12a646" className='certificate' target="_blank" rel="noopener noreferrer" style={greetingstyle}>Javascript -- Intermediate</a></li>
-                        <li className='hack' style={greetingstyle}> <a href="https://www.hackerrank.com/certificates/4c12a2eeb3aa" className='certificate' target="_blank" rel="noopener noreferrer" style={greetingstyle}>Problem Solving -- Intermediate</a></li>
+                        <br />
+                        <li className='hack' style={greetingstyle}> <a href="https://www.hackerrank.com/certificates/d7f5c7a96e11" target="_blank" rel="noopener noreferrer" style={greetingstyle}>Rest Api -- Intermediate</a> </li>
+                        <li className='hack' style={greetingstyle}> <a href="https://www.hackerrank.com/certificates/d361cc12a646" target="_blank" rel="noopener noreferrer" style={greetingstyle}>Javascript -- Intermediate</a></li>
+                        <li className='hack' style={greetingstyle}> <a href="https://www.hackerrank.com/certificates/4c12a2eeb3aa" target="_blank" rel="noopener noreferrer" style={greetingstyle}>Problem Solving -- Intermediate</a></li>
                     </ul>
-                    <br></br>
-                    <br></br>
-                    {/* </div> */}
-
-
                 </div>
             </div>
             {/* First page end */}
@@ -467,8 +456,8 @@ export default function Newhome() {
                         </ul>
                     </div>
                     <div className="align2">
-                        <div style={whitetoblack} className='lik'>working link to all below</div>
-                        <img loading="lazy" className='actingthinking align2 ' src={actingthinking} alt="" />
+                        <div style={greetingstyle}>working link to all below</div>
+                        <img style={{marginBottom: "15px"}} loading="lazy" className='actingthinking align2 ' src={actingthinking} alt="" />
                     </div>
                 </div>
 
@@ -484,13 +473,13 @@ export default function Newhome() {
                         <br />
                         <br />
                         I used <strong className='string' style={greetingstyle}>REACT</strong> as library and used concepts like props, hooks
-                        (useState, useEffect, useRef, useContext) and <strong className='string' style={greetingstyle}>React-Router-Dom </strong>
+                        (useState, useEffect, useRef, useContext), and <strong className='string' style={greetingstyle}>React-Router-Dom </strong>
                         to switch between pages faster. Created a customized layout for the website and a
                         <strong className='string' style={greetingstyle}> Cart </strong> so that users can easily place the order.
                         <br></br>
                         <br></br>
                         Used <strong className='string' style={greetingstyle}>Context Api </strong> as state manager to manage global data, which was consumed using
-                        <strong className='string' style={greetingstyle}> useContext Hook. </strong> Had to manage few states so prefered Context Api over
+                        <strong className='string' style={greetingstyle}> useContext Hook. </strong> Had to manage a few states so preferred  Context Api over
                         <strong className='string' style={greetingstyle}> React Redux.</strong>
                         <br /><br />
                         Also implemented <strong className='string' style={greetingstyle}> Lazy Loading </strong> to improve the performance and reduce the memory footprint of the application.
@@ -506,8 +495,8 @@ export default function Newhome() {
                             <li style={whitetoblack} className='lik'>Javascript <i style={greetingstyle} class="fa-brands fa-square-js"></i></li>
                             <li style={whitetoblack} className='lik'>CSS3       <i style={greetingstyle} class="fa-brands fa-css3-alt"></i></li>
                         </ul>
-                        <br />
                     </p>
+                    <br />
                     <div className="sample" style={whitetoblack}>
                         Here is a sample of the same website
                     </div>
@@ -519,7 +508,7 @@ export default function Newhome() {
                             HASHTAGBAKERY.IN
                         </a>
                     </div>
-                    <div>.</div>
+                    <br />
                 </div>
 
 
@@ -532,11 +521,11 @@ export default function Newhome() {
                         <div className="bakery" style={greetingstyle} >KK FOOD</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
-                        I created a website for a Haldwani based family restaurant.
+                        I created a website for a Haldwani-based family restaurant.
                         <br />
                         <br />
                         I used <strong className='string' style={greetingstyle}>REACT</strong> as library  and used the concept of react-router, props
-                        to make the website fast. Created a customised layout for this website, I used useEffect to make a animated logo before showing the real content.
+                        to make the website fast. Created a customized layout for this website, I used useEffect to make an animated logo before showing the real content.
                         Also implemented <strong className='string' style={greetingstyle}> Lazy Loading </strong> to improve the performance and reduce the memory footprint of the application.
                         <br></br>
                         <br></br>
@@ -549,11 +538,6 @@ export default function Newhome() {
                             <li style={whitetoblack} className='lik'>Javascript <i style={greetingstyle} class="fa-brands fa-square-js"></i></li>
                             <li style={whitetoblack} className='lik'>CSS3       <i style={greetingstyle} class="fa-brands fa-css3-alt"></i></li>
                         </ul>
-                        <br />
-                        I also got a lot of help from the <strong className='string' style={greetingstyle}>StackOver Flow community (558 reputations as I am wrting this)</strong><br />
-                        <i style={greetingstyle} class="fa-brands fa-stack-overflow"></i>
-                        <br /><br />
-
                     </p>
                     <div className="sample" style={whitetoblack}>
                         Here is a sample of the same website which is RESPONSIVE in all devices
@@ -566,7 +550,7 @@ export default function Newhome() {
                             KKFOODSHALDWANI.IN
                         </a>
                     </div>
-                    <div>.</div>
+                    <br />
                 </div>
             </div>
 
@@ -605,7 +589,7 @@ export default function Newhome() {
                             ANKITSINGHCHAUHNA.TECH
                         </a>
                     </div>
-                    <div>.</div>
+                    <br />
                 </div>
             </div>
 
@@ -646,7 +630,7 @@ export default function Newhome() {
                         <li style={whitetoblack} className='lik'>Async Await</li>
                         <li style={whitetoblack} className='lik'>Fetch Api</li>
                         <li style={whitetoblack} className='lik'>Event Listeners</li>
-                        <li style={whitetoblack} className='lik'>Selectors</li>
+                        <li style={whitetoblack} className='lik'>Session Storage</li>
                         <li style={whitetoblack} className='lik'>Local Storage</li>
                     </ul>
                     <div className="img-display">
@@ -664,7 +648,7 @@ export default function Newhome() {
                             WEATHERAPI.NETLIFY.APP
                         </a>
                     </div>
-                    <div>.</div>
+                    <br />
                 </div>
             </div>
 
@@ -673,8 +657,6 @@ export default function Newhome() {
             <div className='first first1' style={blacktowhite}>
 
                 <div className="section" style={sectioncolor}>
-                    <div>
-                    </div>
                     <div className="languages">
                         <div className="number1" style={whitetoblack}>005.</div>
                         <div className="bakery" style={greetingstyle} >Spell Quiz</div>
@@ -714,7 +696,7 @@ export default function Newhome() {
                             SPELLHORNET.NETLIFY.APP
                         </a>
                     </div>
-                    <div>.</div>
+                   <br />
                 </div>
             </div>
 
@@ -738,8 +720,6 @@ export default function Newhome() {
                         <br />
                         <br />
                         This project was made entirely using <strong style={greetingstyle} className='string'>Vanilla Javascript</strong>.
-                        <br />
-                        <br />
                     </p>
                     <div>
                         <a target="_blank" rel="noopener noreferrer" href="https://github.com/ankitsingh2105/FreeRestAPi" className='align' style={{ flexDirection: "column" }}>
@@ -752,7 +732,7 @@ export default function Newhome() {
                             CONTESTINFORMER.NETLIFY.APP
                         </a>
                     </div>
-                    <div>.</div>
+                    <br />
                 </div>
             </div>
             {/*  third  one demo */}
@@ -813,6 +793,7 @@ export default function Newhome() {
                         <div className='active' style={whitetoblack}>
                             I am actively looking for internships if degree is not
                             your concern then you can definitely ping me.  <br /> <br />
+
                             If you do so, I will be able to add some more worthy projects here,
                             so contact me <strong className='string' style={greetingstyle}>ASAP!! 👀</strong>
                         </div>
@@ -861,10 +842,11 @@ export default function Newhome() {
                                 <a target="_blank" rel="noopener noreferrer" href="https://stackoverflow.com/users/19757319/ankit" className='align' style={{ flexDirection: "column" }}>
                                     <i style={greetingstyle} class="fa-brands fa-stack-overflow stack"></i>
                                 </a>
-                                <div style={whitetoblack} className='visit'>Visit my profile by clicking above icon</div>
+                                <div style={whitetoblack} className='visit'>Visit my profile by clicking above icon <strong style={greetingstyle}>(1124 reputations)</strong></div>
                             </div>
                         </div>
                     </div>
+                    <br />
                     <div className="acknoledgement" style={borderGoldToOrange}>
                         <br />
                         <div className='MyName' style={whitetoblack}>
