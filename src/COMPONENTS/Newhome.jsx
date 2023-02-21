@@ -30,9 +30,6 @@ export default function Newhome() {
         });
         document.getElementById('playing').play();
     };
-    const alerting = () => {
-        window.alert('⚡⚡Adding Soon⚡⚡');
-    }
 
     const SendtoWhatspp = () => {
         let naam = document.getElementById("newid1").value;
@@ -322,8 +319,8 @@ export default function Newhome() {
                         <div className="greetings2 newpreeting" style={greetingstyle2}>
                             looking for internships
                         </div>
-                        <div className="resume align2" onClick={alerting}>
-                            RESUME
+                        <div className="resume align2">
+                            <a href="https://drive.google.com/file/d/1gUlCks6wTikDEIjFi3ZmI065N6X-0Mji/view"  target="_blank" rel="noopener noreferrer" style={{color : "white"}} >RESUME</a>
                         </div>
                         <div className="margin">
                         </div>
