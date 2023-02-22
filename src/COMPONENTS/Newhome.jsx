@@ -63,9 +63,6 @@ export default function Newhome() {
         setreverse({
             color: 'white'
         })
-        setborderblue({
-            borderColor: 'black'
-        })
         document.body.style.background = 'white'
         document.body.style.backgroundPosition = 'center';
         setsunmoon('🌚')
@@ -75,7 +72,6 @@ export default function Newhome() {
         setgreetings({
             color: `${colorOfText}`,
             textShadow: ".2px .2px 0px black",
-            // fontSize : "23px"
         })
         setgreetings2({
             color: `${colorOfText}`,
@@ -86,11 +82,10 @@ export default function Newhome() {
             fontWeight: 600
         })
         setblacktowhite({
-            border: `4px solid ${colorOfText}`,
+            border: `2px solid ${colorOfText}`,
         })
         setbackorange({
             background: colorOfText,
-            borderColor: 'black',
             opacity: '85%'
         })
         setborderGoldToOrange({
@@ -318,7 +313,7 @@ export default function Newhome() {
                             looking for internships
                         </div>
                         <div className="resume align2">
-                            <a href="https://drive.google.com/file/d/1gUlCks6wTikDEIjFi3ZmI065N6X-0Mji/view"  target="_blank" rel="noopener noreferrer" style={{color : "white"}} >RESUME</a>
+                            <a href="https://drive.google.com/file/d/1gUlCks6wTikDEIjFi3ZmI065N6X-0Mji/view" target="_blank" rel="noopener noreferrer" style={{ color: "white" }} >RESUME</a>
                         </div>
                         <div className="margin">
                         </div>
@@ -457,7 +452,7 @@ export default function Newhome() {
                     </div>
                     <div className="align2">
                         <div style={greetingstyle}>working link to all below</div>
-                        <img style={{marginBottom: "15px"}} loading="lazy" className='actingthinking align2 ' src={actingthinking} alt="" />
+                        <img style={{ marginBottom: "15px" }} loading="lazy" className='actingthinking align2 ' src={actingthinking} alt="" />
                     </div>
                 </div>
 
@@ -590,6 +585,15 @@ export default function Newhome() {
                         </a>
                     </div>
                     <br />
+                    <p className="info_para" style={whitetoblack}>
+                        You can also check out the <strong style={greetingstyle} className='string'>previous versions </strong> of the portfolio website
+                    </p>
+                    <div className="links">
+                        <a className="github" href="https://ankitsinghchauhan2.netlify.app/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
+                            ANKITSINGH.NETLIFY.APP
+                        </a>
+                    </div>
+                    <br />
                 </div>
             </div>
 
@@ -634,8 +638,8 @@ export default function Newhome() {
                         <li style={whitetoblack} className='lik'>Local Storage</li>
                     </ul>
                     <div className="img-display">
-                            <img loading="lazy" style={borderGoldToOrange} src={weather} alt="nikaljao" className='hash_images' />
-                        </div>
+                        <img loading="lazy" style={borderGoldToOrange} src={weather} alt="nikaljao" className='hash_images' />
+                    </div>
                     {/* <div>
                         <a target="_blank" rel="noopener noreferrer" href="https://github.com/ankitsingh2105/Weather-App" className='align' style={{ flexDirection: "column" }}>
                             <i style={greetingstyle} class="fa-brands fa-github stack"></i>
@@ -681,8 +685,8 @@ export default function Newhome() {
                         <li style={whitetoblack} className='lik'>Local Storage</li>
                     </ul>
                     <div className="img-display">
-                            <img loading="lazy" style={borderGoldToOrange} src={spelling} alt="nikaljao" className='hash_images' />
-                        </div>
+                        <img loading="lazy" style={borderGoldToOrange} src={spelling} alt="nikaljao" className='hash_images' />
+                    </div>
                     <div></div>
                     {/* <div>
                         <a target="_blank" rel="noopener noreferrer" href="https://github.com/ankitsingh2105/Spelling_Practice" className='align' style={{ flexDirection: "column" }}>
@@ -696,7 +700,7 @@ export default function Newhome() {
                             SPELLHORNET.NETLIFY.APP
                         </a>
                     </div>
-                   <br />
+                    <br />
                 </div>
             </div>
 
