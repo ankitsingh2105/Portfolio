@@ -46,7 +46,6 @@ export default function Newhome() {
     const [borderblack, setborderblack] = useState({})
     const [sectioncolor, setsectioncolor] = useState({})
     const [yelloToblack, setyelloToblack] = useState({})
-    const [backgroundToWhite, setbackgroundToWhite] = useState({})
     const [backgroundYellotoorange, setbackgroundYellotoorange] = useState({});
     const [truck, settruck] = useState({})
     const [daynight, setdaynight] = useState(true)
@@ -103,10 +102,6 @@ export default function Newhome() {
             color: '#0a192f',
             fontWeight: '900'
         })
-        setbackgroundToWhite({
-            background: 'white',
-
-        })
         settruck({
             color: '#0a192f',
             'borderColor': '#0a192f',
@@ -116,13 +111,19 @@ export default function Newhome() {
             background: colorOfText,
         })
         setborderblue({
-            borderColor: 'black'
+            borderTop: "2px solid white",
+            borderBottom: "2px solid white",
+            borderLeft: "2px solid black",
+            borderRight: "2px solid black",
         })
         setdaynight(false);
     }
     const DarkMode = () => {
         setborderblue({
-            borderColor: '#fe6235'
+            borderTop: "2px solid #fe6235",
+            borderBottom: "2px solid #fe6235",
+            borderLeft: "2px solid white",
+            borderRight: "2px solid white",
         })
         setcoloring({
             color: 'white'
@@ -165,14 +166,11 @@ export default function Newhome() {
         setyelloToblack({
             color: '#fe6235',
         })
-        setbackgroundToWhite({
-            background: '#fe6235'
-        })
         setbackgroundYellotoorange({
             // background: 'rgb(43 51 64 / 98%)',
         })
         settruck({
-            color: 'white',
+            color: 'rgb(254, 98, 53)',
             'borderColor': 'white'
         })
         setdaynight(true);
@@ -348,10 +346,10 @@ export default function Newhome() {
                             Hi, I am Ankit Singh Chauhan, a 21 years old self-taught Web developer in
                             love with developing websites and learning new ways to improve myself.
                             <br /><br />
-                            I have completed my schooling and college from Haldwani, a city in the Nainital district
+                            I have completed my schooling and college in Haldwani, a city in the Nainital district
                             in Uttrakhand, INDIA.<br />
                             <br></br>Completed my Bachelor of Science, Mathematics (B.Sc) from Kumaun University. Planning to
-                            do <strong className='Mca' style={greetingstyle}  >Masters of Computer Applications</strong>.
+                            do <strong className='Mca' style={greetingstyle}  >Master of Computer Applications</strong>.
                         </p>
                     </div>
                     <div className="languages" style={greetingstyle}>
@@ -457,7 +455,7 @@ export default function Newhome() {
                         <ul className='lost'>
                             <li style={whitetoblack} className='lik'>Real Time Weather Web App</li>
                             <li style={whitetoblack} className='lik'>Spelling Quiz Web App</li>
-                            <li style={whitetoblack} className='lik'>Competative Coding Infomer</li>
+                            <li style={whitetoblack} className='lik'>Competitive Coding Informer</li>
                             <li style={whitetoblack} className='lik'>BackGround Color Changer</li>
                         </ul>
                     </div>
@@ -475,10 +473,10 @@ export default function Newhome() {
                         <div className="bakery" style={greetingstyle} >HASHTAG BAKERY</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
-                        I created a website for bakery which is based in Delhi-NCR.
+                        I created a website for a bakery which is based in Delhi-NCR.
                         <br />
                         <br />
-                        I used <strong className='string' style={greetingstyle}>REACT</strong> as library and used concepts like props, hooks
+                        I used <strong className='string' style={greetingstyle}>REACT <i style={greetingstyle} class="fa-brands fa-react"></i></strong> as library and used concepts like props, hooks
                         (useState, useEffect, useRef, useContext), and <strong className='string' style={greetingstyle}>React-Router-Dom </strong>
                         to switch between pages faster. Created a customized layout for the website and a
                         <strong className='string' style={greetingstyle}> Cart </strong> so that users can easily place the order.
@@ -494,13 +492,13 @@ export default function Newhome() {
                         <br /><br />
                         <div className="design" style={greetingstyle}>
                             I hosted the website on netlify and used godaddy for domain name.
-                            Overall I used,
+                            {/* Overall I used, */}
                         </div>
-                        <ul className='text1'>
+                        {/* <ul className='text1'>
                             <li style={whitetoblack} className='lik'>Reactjs    <i style={greetingstyle} class="fa-brands fa-react"></i></li>
                             <li style={whitetoblack} className='lik'>Javascript <i style={greetingstyle} class="fa-brands fa-square-js"></i></li>
                             <li style={whitetoblack} className='lik'>CSS3       <i style={greetingstyle} class="fa-brands fa-css3-alt"></i></li>
-                        </ul>
+                        </ul> */}
                     </p>
                     <br />
                     <div className="sample" style={whitetoblack}>
@@ -530,23 +528,24 @@ export default function Newhome() {
                         I created a website for a Haldwani-based family restaurant.
                         <br />
                         <br />
-                        I used <strong className='string' style={greetingstyle}>REACT</strong> as library  and used the concept of react-router, props
+                        I used <strong className='string' style={greetingstyle}>REACT <i style={greetingstyle} class="fa-brands fa-react"></i></strong> as library  and used the concept of react-router, props
                         to make the website fast. Created a customized layout for this website, I used useEffect to make an animated logo before showing the real content.
+                        <br /><br />
                         Also implemented <strong className='string' style={greetingstyle}> Lazy Loading </strong> to improve the performance and reduce the memory footprint of the application.
                         <br></br>
                         <br></br>
                         <div className="design" style={greetingstyle}>
                             I hosted the website on netlify and used Hostinger (.in) domain. <br />
-                            Overall I used-
+                            {/* Overall I used- */}
                         </div>
-                        <ul className='text1'>
+                        {/* <ul className='text1'>
                             <li style={whitetoblack} className='lik'>Reactjs    <i style={greetingstyle} class="fa-brands fa-react"></i></li>
                             <li style={whitetoblack} className='lik'>Javascript <i style={greetingstyle} class="fa-brands fa-square-js"></i></li>
                             <li style={whitetoblack} className='lik'>CSS3       <i style={greetingstyle} class="fa-brands fa-css3-alt"></i></li>
-                        </ul>
+                        </ul> */}
                     </p>
                     <div className="sample" style={whitetoblack}>
-                        Here is a sample of the same website which is RESPONSIVE in all devices
+                        Here is a sample of the same website which is RESPONSIVE on all devices
                     </div>
                     <div className="img-display">
                         <img loading="lazy" style={borderGoldToOrange} src={kk} alt="nikaljao" className='hash_images' />
@@ -573,7 +572,7 @@ export default function Newhome() {
                         <div className="bakery" style={greetingstyle} >Portfolio Website</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
-                        I created my <strong style={greetingstyle} className='string'>Portfolio Website </strong> using React JS to showcase my work I have completed so far.
+                        I created my <strong style={greetingstyle} className='string'>Portfolio Website </strong> using React JS to showcase the work I have completed so far.
                         <br />
                         <br />
                         I used <strong style={greetingstyle} className='string'>NETLIFY</strong> to host the website and <strong style={greetingstyle} className='string'>GITHUB </strong>
@@ -623,7 +622,7 @@ export default function Newhome() {
                         {/* <div className="align2" style={{ "marginBottom": "22px" }}>
                             <img loading="lazy" className='actingthinking2' src={Api} alt="api" />
                         </div> */}
-                        I created a project where we can see the real time weather report of different city all over the world.
+                        I created a project where we can see the real time weather report of the different cities all over the world.
                         The data is <strong className='string' style={greetingstyle}> fetched </strong> from a free weather API website.
                         <br />
                         <br />
@@ -632,7 +631,7 @@ export default function Newhome() {
                         <br />
                         <br />
                         I used <strong style={greetingstyle} className='string'> Async Await </strong> so that a loader is shown, the API if fetched synchronously and
-                        data is show after the loader element. I also used <strong style={greetingstyle} className='string'>LOCAL STORAGE </strong>
+                        data is shown after the loader element. I also used <strong style={greetingstyle} className='string'>LOCAL STORAGE </strong>
                         to save the record of previous searches.
                         <br />
                         <br />
@@ -643,7 +642,7 @@ export default function Newhome() {
                     </div>
                     <ul className='lost'>
                         <li style={whitetoblack} className='lik'>Async Await</li>
-                        <li style={whitetoblack} className='lik'>Fetch Api</li>
+                        <li style={whitetoblack} className='lik'>Fetch API</li>
                         <li style={whitetoblack} className='lik'>Event Listeners</li>
                         <li style={whitetoblack} className='lik'>Session Storage</li>
                         <li style={whitetoblack} className='lik'>Local Storage</li>
@@ -677,8 +676,8 @@ export default function Newhome() {
                         <div className="bakery" style={greetingstyle} >Spell Quiz</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
-                        I created a project where we can test english spellings, the voice assistant will speak the words and you have to
-                        write the words and the voice will response accordingly.
+                        I created a project where we can test english spellings, the voice assistant will speak the words and, you have to
+                        write the words and the voice will responD accordingly.
                         <br />
                         <br />
                         I used <strong style={greetingstyle} className='string'>NETLIFY</strong> to host the website and <strong style={greetingstyle} className='string'>GITHUB </strong>
@@ -691,7 +690,7 @@ export default function Newhome() {
                         I implemented the following concepts____
                     </div>
                     <ul className='lost'>
-                        <li style={whitetoblack} className='lik'>Speech Synthesis Api</li>
+                        <li style={whitetoblack} className='lik'>Speech Synthesis API</li>
                         <li style={whitetoblack} className='lik'>Session Storage</li>
                         <li style={whitetoblack} className='lik'>Local Storage</li>
                     </ul>
@@ -797,25 +796,25 @@ export default function Newhome() {
                     <div className="info2 align2">
                         <div className="number1" style={whitetoblack}>03.</div>
                         <div className="align">
-                        <div className="round1"></div>
-                        <div className="inner_heading" style={greetingstyle}>
-                            Contact
-                        </div>
-                        <div className="round2"></div>
+                            <div className="round1"></div>
+                            <div className="inner_heading" style={greetingstyle}>
+                                Contact
+                            </div>
+                            <div className="round2"></div>
                         </div>
                         <hr style={backblacktowhite} className='line1' />
                         <img loading="lazy" style={{ "height": "70px" }} src={contacts} alt="" />
                     </div>
 
                     <div className="contact-info">
-                        <div></div>
-                        <div className='active' style={whitetoblack}>
+                        <p className="info_para" style={whitetoblack}>
                             I am actively looking for internships if degree is not
-                            your concern then you can definitely ping me.  <br /> <br />
+                            your concern then you can definitely ping me. I am also open to code along,
+                            I believe in sharing the knowledge which often yield to great projects. <br /> <br />
 
                             If you do so, I will be able to add some more worthy projects here,
                             so contact me <strong className='string' style={greetingstyle}>ASAP!! 👀</strong>
-                        </div>
+                        </p>
                         {/* <video autoPlay loop muted src={messaging} type="video/gif" id='video1' /> */}
                         <img loading="lazy" className='newGif' src={messaging} alt="loading..." />
                     </div>
@@ -826,9 +825,9 @@ export default function Newhome() {
                             <div className="heading_contact" style={greetingstyle}>
                                 Deliver you message from here
                             </div>
-                            <input style={backgroundToWhite} type="text" id='newid1' className="info_contact Name" placeholder='Your Name' required></input>
-                            <input style={backgroundToWhite} type="text" id='newid2' className="info_contact Email" placeholder='Your Email' required></input>
-                            <textarea style={backgroundToWhite} type="text" id='newid3' className='info_contact textmsg' name="" cols="27" rows="10" placeholder='Your message' required></textarea>
+                            <input type="text" id='newid1' className="info_contact " placeholder='Your Name' required></input>
+                            <input type="text" id='newid2' className="info_contact " placeholder='Your Email' required></input>
+                            <textarea type="text" id='newid3' className='info_contact ' name="" cols="27" rows="10" placeholder='Your message' required></textarea>
                             <div className="shake">
                                 <div type='button' id='delivery' className="submit"
                                     onClick={SendtoWhatspp}>
@@ -861,7 +860,7 @@ export default function Newhome() {
                                 <a target="_blank" rel="noopener noreferrer" href="https://stackoverflow.com/users/19757319/ankit" className='align' style={{ flexDirection: "column" }}>
                                     <i style={greetingstyle} class="fa-brands fa-stack-overflow stack"></i>
                                 </a>
-                                <div style={whitetoblack} className='visit'>Visit my profile by clicking above icon <strong style={greetingstyle}>(1124 reputations)</strong></div>
+                                <div style={whitetoblack} className='visit'>Visit my profile by clicking above icon <strong style={greetingstyle}>(1188 reputations)</strong></div>
                             </div>
                         </div>
                     </div>
