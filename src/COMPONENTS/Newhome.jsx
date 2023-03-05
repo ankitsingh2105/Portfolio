@@ -55,7 +55,7 @@ export default function Newhome() {
     const [coloring, setcoloring] = useState({})
     const [reverse, setreverse] = useState({})
     const [borderblue, setborderblue] = useState({})
-    let colorOfText = "#fe6235";  //orange one
+    let colorOfText = "#FF3B3F";  //orange one
     const ChangeTheme = (colorOfText) => {
         setcoloring({
             color: 'black',
@@ -114,6 +114,9 @@ export default function Newhome() {
         })
         setbackgroundYellotoorange({
             background: colorOfText,
+        })
+        setborderblue({
+            borderColor: 'black'
         })
         setdaynight(false);
     }
@@ -332,9 +335,13 @@ export default function Newhome() {
                     <div className="info1 align2">
                         <br />
                         <div className="number1" style={whitetoblack}>01.</div>
-                        <h1 className="inner_heading" style={greetingstyle}>
-                            About Me
-                        </h1>
+                        <div className="align">
+                            <div className="round1"></div>
+                            <h1 className="inner_heading" style={greetingstyle}>
+                                About Me
+                            </h1>
+                            <div className="round2"></div>
+                        </div>
                         <hr style={backblacktowhite} className='line1' />
                         <img loading="lazy" style={{ "height": "70px" }} src={about1} alt="" />
                         <p className="info_para" style={whitetoblack}>
@@ -421,8 +428,12 @@ export default function Newhome() {
                 <div className="section" style={sectioncolor}>
                     <div className="info1 align2 " ><br />
                         <div className="number1" style={whitetoblack}>02.</div>
-                        <div className="inner_heading" style={greetingstyle}>
-                            Projects
+                        <div className="align">
+                            <div className="round1"></div>
+                            <div className="inner_heading" style={greetingstyle}>
+                                Projects
+                            </div>
+                            <div className="round2"></div>
                         </div>
                         <hr style={backblacktowhite} className='line1' />
                         <img loading="lazy" style={{ "height": "70px" }} src={bulb} alt="" />
@@ -785,8 +796,12 @@ export default function Newhome() {
                 <div className="section" style={sectioncolor}>
                     <div className="info2 align2">
                         <div className="number1" style={whitetoblack}>03.</div>
+                        <div className="align">
+                        <div className="round1"></div>
                         <div className="inner_heading" style={greetingstyle}>
                             Contact
+                        </div>
+                        <div className="round2"></div>
                         </div>
                         <hr style={backblacktowhite} className='line1' />
                         <img loading="lazy" style={{ "height": "70px" }} src={contacts} alt="" />
