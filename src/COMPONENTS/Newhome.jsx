@@ -329,7 +329,7 @@ export default function Newhome() {
             </div>
 
             <div className='first first1' style={blacktowhite} ref={about} >
-                <div className="section" style={sectioncolor} >
+                <div className="section section2" style={sectioncolor} >
                     <div className="info1 align2">
                         <br />
                         <div className="number1" style={whitetoblack}>01.</div>
@@ -423,7 +423,7 @@ export default function Newhome() {
 
             {/* Second page */}
             <div className="first" style={blacktowhite} ref={work} >
-                <div className="section" style={sectioncolor}>
+                <div className="section section2" style={sectioncolor}>
                     <div className="info1 align2 " ><br />
                         <div className="number1" style={whitetoblack}>02.</div>
                         <div className="align">

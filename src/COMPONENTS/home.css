@@ -152,6 +152,9 @@ body::-webkit-scrollbar-thumb {
     padding: 2px;
     border-radius: 12px;
 }
+.section2{
+    margin-top: 43px;
+}
 
 .design {
     font-family: "Cormorant Upright", serif;
@@ -1052,14 +1055,14 @@ li {
     }
 
     .name {
-        font-size: 125px;
+        font-size: 108px;
         margin-top: 2.5rem;
     }
     
     .surname {
         font-size: 152px;
         font-weight: bolder;
-        margin-top: 6.5rem;
+        margin-top: 5.5rem;
         margin-bottom: 10px;
     }
     
@@ -1083,6 +1086,10 @@ li {
         }
     }
 
+}
+
+.section2{
+    margin-top: 43px;
 }
 
 @media screen and (min-width :1262px) {
