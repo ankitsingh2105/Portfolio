@@ -195,11 +195,6 @@ export default function Newhome() {
         <>
             {/* making dots */}
 
-
-            <div className="floating_mail ">
-                ankitchauhan21500@gmail.com
-            </div>
-
             <div className='first' style={blacktowhite} ref={top} >
                 {/* Navbar */}
                 <nav className="navbar" style={backorange}>
