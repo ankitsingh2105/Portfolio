@@ -11,7 +11,7 @@ import bulb from './bulb.png'
 import about1 from './about.png'
 import contacts from './contacts.png'
 import certificates from './certificates.png'
-import main1 from './main1.png'
+// import main1 from './main1.png'
 import Api from './Api.png'
 import messaging from './messaging.png'
 import { useState } from 'react';
@@ -62,7 +62,7 @@ export default function Newhome() {
         setreverse({
             color: 'white'
         })
-        document.body.style.background = 'white'
+        document.body.style.background = 'rgb(241, 241, 241, .94)'
         document.body.style.backgroundPosition = 'center';
         setsunmoon('🌚')
         setbackblacktowhite({
@@ -70,7 +70,7 @@ export default function Newhome() {
         })
         setgreetings({
             color: `${colorOfText}`,
-            textShadow: ".2px .2px 0px black",
+            // textShadow: ".2px .2px 0px black",
         })
         setgreetings2({
             color: `${colorOfText}`,
@@ -85,7 +85,7 @@ export default function Newhome() {
         })
         setbackorange({
             background: colorOfText,
-            opacity: '85%'
+            // opacity: '85%'
         })
         setborderGoldToOrange({
             'borderColor': colorOfText,
@@ -95,8 +95,8 @@ export default function Newhome() {
             'borderColor': '#0a192f',
         })
         setsectioncolor({
-            webkitBackdropFilter: "blur(5px) saturate(200%)",
-            backgroundColor: " rgb(241, 241, 241, .94)",
+            // webkitBackdropFilter: "blur(5px) saturate(200%)",
+            backgroundColor: "white",
         })
         setyelloToblack({
             color: '#0a192f',
@@ -161,7 +161,7 @@ export default function Newhome() {
         })
         setsectioncolor({
             backgroundColor: "rgb(22 35 57 / 94%)",
-            webkitBackdropFilter: "blur(5px) saturate(200%)",
+            // webkitBackdropFilter: "blur(5px) saturate(200%)",
         })
         setyelloToblack({
             color: '#fe6235',
@@ -194,6 +194,11 @@ export default function Newhome() {
     return (
         <>
             {/* making dots */}
+
+
+            <div className="floating_mail ">
+                ankitchauhan21500@gmail.com
+            </div>
 
             <div className='first' style={blacktowhite} ref={top} >
                 {/* Navbar */}
@@ -265,7 +270,7 @@ export default function Newhome() {
                                     t
                                 </div>
                             </div>
-                            <div className="align">
+                            <div className="align ">
                                 <div className="name" style={yelloToblack}>
                                     S
                                 </div>
@@ -319,11 +324,11 @@ export default function Newhome() {
                         <div className="margin">
                         </div>
                     </div>
-                    <div>
+                    {/* <div>
                         <div>
                             <img loading="lazy" className='newImg' src={main1} alt="" />
                         </div>
-                    </div>
+                    </div> */}
 
                 </div>
             </div>
@@ -486,7 +491,7 @@ export default function Newhome() {
                         <strong className='string' style={greetingstyle}> useContext Hook. </strong> Had to manage a few states so preferred  Context Api over
                         <strong className='string' style={greetingstyle}> React Redux.</strong>
                         <br /><br />
-                        Also implemented <strong className='string' style={greetingstyle}> Lazy Loading </strong> to improve the performance and reduce the memory footprint of the application.
+                        Also implemented <strong className='string' style={greetingstyle}> Lazy Loading </strong> to improve the performance and reduce the memory footprint of the website.
                         Saved the cart data in <strong className='string' style={greetingstyle}> Local Storage </strong>so the items won't disappear after refresh.
 
                         <br /><br />
@@ -920,8 +925,6 @@ export default function Newhome() {
                     <i style={greetingstyle} class="fa-solid socail5 fa-envelope social_icon socialIcon2"></i>
                 </a>
             </div>
-
-
         </>
         // Project end 
         // Last updated on 7 october 2022

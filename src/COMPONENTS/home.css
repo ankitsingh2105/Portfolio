@@ -231,19 +231,14 @@ body::-webkit-scrollbar-thumb {
     transition: all .4s ease-out;
 }
 
+.surname,
+.name {}
+
 .name:hover,
 .surname:hover {
     text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white, 0 0 40px white, 0 0 50px white, 0 0 60px white, 0 0 70px white;
     border-radius: 100px;
     cursor: pointer;
-}
-
-.name:hover {
-    font-size: 95px;
-}
-
-.surname:hover {
-    font-size: 116px;
 }
 
 .greetings {
@@ -543,7 +538,6 @@ a {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-
 }
 
 #one1:hover::after,
@@ -723,8 +717,8 @@ li {
 }
 
 .letter {
-    font-size: 43px;
-    padding: 0px 13px;
+    font-size: 40px;
+    padding: 0px 10px;
     margin: 0px 6px 0px 18px;
     border-radius: 25px;
     border-top: "2px solid #fe6235";
@@ -741,6 +735,7 @@ li {
 
 .infoindex {
     margin-right: -5px;
+    font-size: 19px;
 }
 
 @media screen and (min-width :630px) {
@@ -886,7 +881,7 @@ li {
 
     .surname {
         font-size: 83px;
-        letter-spacing: 9px;
+        letter-spacing: 4px;
     }
 
     .greetings {
@@ -974,35 +969,35 @@ li {
     .socail5 {
         position: fixed;
         bottom: 12%;
-        left: .6%;
+        left: .5%;
         transition: transform .6s
     }
 
     .socail2 {
         position: fixed;
         bottom: 26%;
-        left: -0.8%;
+        left: -0.6%;
         transition: transform .6s
     }
 
     .socail3 {
         position: fixed;
         bottom: 40%;
-        left: -0.8%;
+        left: -0.6%;
         transition: transform .6s
     }
 
     .socail4 {
         position: fixed;
         bottom: 54%;
-        left: -0.8%;
+        left: -0.6%;
         transition: transform .6s
     }
 
     .socail1 {
         position: fixed;
         bottom: 68%;
-        left: -0.8%;
+        left: -0.6%;
         transition: transform 0.6s
     }
 
@@ -1042,11 +1037,10 @@ li {
     }
 }
 
-@media screen and (min-width: 1179px) {
+@media screen and (min-width: 1079px) {
     .intro {
         margin: 2rem -127px 1px -94px;
     }
-
 
     .resume {
         margin: 55px 370px 54px 370px;
@@ -1058,10 +1052,17 @@ li {
     }
 
     .name {
-        font-size: 75px;
+        font-size: 125px;
         margin-top: 2.5rem;
     }
-
+    
+    .surname {
+        font-size: 152px;
+        font-weight: bolder;
+        margin-top: 6.5rem;
+        margin-bottom: 10px;
+    }
+    
     .intro {
         position: relative;
         animation-name: fall2;
@@ -1082,20 +1083,15 @@ li {
         }
     }
 
-    .surname {
-        font-size: 102px;
-        font-weight: bolder;
-        margin-top: 4.5rem;
-    }
 }
 
 @media screen and (min-width :1262px) {
     .section {
-        margin: 80px 105px 50px 105px;
+        margin: 63px 105px 50px 105px;
     }
 
     .intro {
-        margin: 2rem -151px 1px -132px;
+        margin: 1rem -151px 1px -132px;
     }
 
     .socail5 {
