@@ -152,9 +152,6 @@ body::-webkit-scrollbar-thumb {
     padding: 2px;
     border-radius: 12px;
 }
-.section2{
-    margin-top: 43px;
-}
 
 .design {
     font-family: "Cormorant Upright", serif;
@@ -755,7 +752,7 @@ li {
     }
 
     .section {
-        margin-top: 80px;
+        margin-top: 67px;
     }
 
     @keyframes leftright {
@@ -1088,13 +1085,9 @@ li {
 
 }
 
-.section2{
-    margin-top: 43px;
-}
-
 @media screen and (min-width :1262px) {
     .section {
-        margin: 84px 105px 50px 105px;
+        margin: 68px 105px;
     }
 
     .intro {
