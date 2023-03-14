@@ -857,7 +857,7 @@ export default function Newhome() {
                                 <div className='alternates' style={whitetoblack} >
                                     Visit my Stack Overflow account where I try to get answers and <strong style={greetingstyle}>give answers related to WEB DEVELOPMENT</strong>, which helps me to improve my ability to understand codes.
                                 </div>
-                                <a href="https://stackoverflow.com/users/19757319/ankit">
+                                <a href="https://stackoverflow.com/users/19757319/ankit" target="_blank">
                                     <br />
                                     <img style={{border:"1px solid black"}} src="https://stackexchange.com/users/flair/26054765.png?theme=clean" className="stackOverflowLink" alt='Stack' />
                                 </a>
