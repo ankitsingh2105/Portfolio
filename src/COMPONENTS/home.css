@@ -193,8 +193,6 @@ body::-webkit-scrollbar-thumb {
     border-bottom: .1px solid #fe6235;
 }
 
-
-
 .info {
     margin: 0px 13px 0px 13px;
     list-style: none;
@@ -205,6 +203,7 @@ body::-webkit-scrollbar-thumb {
 .number {
     color: white;
     margin-right: 3px;
+    user-select: none;
 }
 
 .about {
@@ -320,6 +319,7 @@ body::-webkit-scrollbar-thumb {
 
 .inner_heading {
     font-size: 34px;
+    user-select: none;
 }
 
 .books {
@@ -356,7 +356,7 @@ h1 {
 .languages {
     margin-left: 20px;
     font-size: 20px;
-    margin-top: 43px;
+    margin-top: 23px;
     letter-spacing: 1px;
 }
 
@@ -739,6 +739,11 @@ li {
 }
 
 @media screen and (min-width :630px) {
+
+    .acknoledgement{
+        margin: 10px 90px;
+    }
+
     .navbar {
         position: fixed;
         top: -0.2%;
@@ -856,6 +861,10 @@ li {
         margin: 20px 150px 50px 150px;
         padding: 34px;
     }
+
+    .acknoledgement{
+        margin: 10px 150px;
+    }
 }
 
 @media screen and (max-width: 778px) {
@@ -867,6 +876,10 @@ li {
 @media screen and (min-width: 778px) {
     .section {
         margin: 80px 50px 50px 50px;
+    }
+
+    .acknoledgement{
+
     }
 
     .resume {
@@ -1124,6 +1137,10 @@ li {
         left: 2%;
     }
 
+    .acknoledgement{
+        margin: 10px 15rem;
+    }
+
 
 }
 
@@ -1192,6 +1209,9 @@ li {
 input::placeholder,
 textarea::placeholder {
     color: black;
+}
+textarea::placeholder{
+    font-size: 15px;
 }
 
 .heading_contact {

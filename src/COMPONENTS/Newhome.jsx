@@ -62,7 +62,7 @@ export default function Newhome() {
         setreverse({
             color: 'white'
         })
-        document.body.style.background = 'rgb(241, 241, 241, .94)'
+        document.body.style.background = 'white'
         document.body.style.backgroundPosition = 'center';
         setsunmoon('🌚')
         setbackblacktowhite({
@@ -96,7 +96,7 @@ export default function Newhome() {
         })
         setsectioncolor({
             // webkitBackdropFilter: "blur(5px) saturate(200%)",
-            backgroundColor: "white",
+            backgroundColor: "rgb(251 251 251 / 94%)",
         })
         setyelloToblack({
             color: '#0a192f',
@@ -823,7 +823,7 @@ export default function Newhome() {
                     <div className="form" >
                         <form action="" style={borderblack} className='contact_form'>
                             <div className="heading_contact" style={greetingstyle}>
-                                Deliver you message from here
+                                Deliver you message
                             </div>
                             <input type="text" id='newid1' className="info_contact " placeholder='Your Name' required></input>
                             <input type="text" id='newid2' className="info_contact " placeholder='Your Email' required></input>
@@ -857,10 +857,11 @@ export default function Newhome() {
                                 <div className='alternates' style={whitetoblack} >
                                     Visit my Stack Overflow account where I try to get answers and <strong style={greetingstyle}>give answers related to WEB DEVELOPMENT</strong>, which helps me to improve my ability to understand codes.
                                 </div>
-                                <a target="_blank" rel="noopener noreferrer" href="https://stackoverflow.com/users/19757319/ankit" className='align' style={{ flexDirection: "column" }}>
-                                    <i style={greetingstyle} class="fa-brands fa-stack-overflow stack"></i>
+                                <a href="https://stackoverflow.com/users/19757319/ankit">
+                                    <br />
+                                    <img style={{border:"1px solid black"}} src="https://stackexchange.com/users/flair/26054765.png?theme=clean" className="stackOverflowLink" alt='Stack' />
                                 </a>
-                                <div style={whitetoblack} className='visit'>Visit my profile by clicking above icon <strong style={greetingstyle}>(1188 reputations)</strong></div>
+                                <div style={whitetoblack} className='visit'>Visit my profile by clicking above image </div>
                             </div>
                         </div>
                     </div>
