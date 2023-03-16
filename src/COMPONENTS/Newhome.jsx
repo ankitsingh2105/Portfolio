@@ -46,6 +46,7 @@ export default function Newhome() {
     const [borderblack, setborderblack] = useState({})
     const [sectioncolor, setsectioncolor] = useState({})
     const [yelloToblack, setyelloToblack] = useState({})
+    const [yelloToblack2, setyelloToblack2] = useState({})
     const [backgroundYellotoorange, setbackgroundYellotoorange] = useState({});
     const [truck, settruck] = useState({})
     const [daynight, setdaynight] = useState(true)
@@ -102,6 +103,10 @@ export default function Newhome() {
             color: '#0a192f',
             fontWeight: '900'
         })
+        setyelloToblack2({
+            color: '#0a192f',
+            fontWeight: '900'
+        })
         settruck({
             color: '#0a192f',
             'borderColor': '#0a192f',
@@ -132,7 +137,8 @@ export default function Newhome() {
             color: '#fe6235'
         })
         setsunmoon('🌞');
-        document.body.style.background = 'rgb(43 51 64 / 98%)'
+        document.body.style.background = '#04293a'
+        // document.body.style.background = 'rgb(43 51 64 / 98%)'
         setborderGoldToOrange({
             'borderColor': '#fe6235',
         })
@@ -160,11 +166,15 @@ export default function Newhome() {
             'borderColor': 'white',
         })
         setsectioncolor({
-            backgroundColor: "rgb(22 35 57 / 94%)",
+            backgroundColor: "#04293a",
+            // backgroundColor: "rgb(22 35 57 / 94%)",
             // webkitBackdropFilter: "blur(5px) saturate(200%)",
         })
         setyelloToblack({
             color: '#fe6235',
+        })
+        setyelloToblack2({
+            color: 'white',
         })
         setbackgroundYellotoorange({
             // background: 'rgb(43 51 64 / 98%)',
@@ -249,36 +259,36 @@ export default function Newhome() {
                         <div className="align">
 
                             <div className="align spacing">
-                                <div className="name" style={yelloToblack}>
+                                <div className="name" style={yelloToblack2}>
                                     A
                                 </div>
-                                <div className="name" style={yelloToblack}>
+                                <div className="name" style={yelloToblack2}>
                                     n
                                 </div>
-                                <div className="name" style={yelloToblack}>
+                                <div className="name" style={yelloToblack2}>
                                     k
                                 </div>
-                                <div className="name" style={yelloToblack}>
+                                <div className="name" style={yelloToblack2}>
                                     i
                                 </div>
-                                <div className="name" style={yelloToblack}>
+                                <div className="name" style={yelloToblack2}>
                                     t
                                 </div>
                             </div>
                             <div className="align ">
-                                <div className="name" style={yelloToblack}>
+                                <div className="name" style={yelloToblack2}>
                                     S
                                 </div>
-                                <div className="name" style={yelloToblack}>
+                                <div className="name" style={yelloToblack2}>
                                     i
                                 </div>
-                                <div className="name" style={yelloToblack}>
+                                <div className="name" style={yelloToblack2}>
                                     n
                                 </div>
-                                <div className="name" style={yelloToblack}>
+                                <div className="name" style={yelloToblack2}>
                                     g
                                 </div>
-                                <div className="name" style={yelloToblack}>
+                                <div className="name" style={yelloToblack2}>
                                     h
                                 </div>
                             </div>
@@ -464,9 +474,11 @@ export default function Newhome() {
                         <img style={{ marginBottom: "15px" }} loading="lazy" className='actingthinking align2 ' src={actingthinking} alt="" />
                     </div>
                 </div>
+            </div>
 
 
-                {/*  first one */}
+            {/*  first one */}
+            <div className="first" style={blacktowhite}>
                 <div className="section" style={sectioncolor}>
                     <div className="languages">
                         <div className="number1" style={whitetoblack}>001.</div>
@@ -514,9 +526,11 @@ export default function Newhome() {
                     </div>
                     <br />
                 </div>
+            </div>
 
 
-                {/*  second project */}
+            {/*  second project */}
+            <div className="first" style={blacktowhite}  >
                 <div className="section" style={sectioncolor}>
                     <div>
                     </div>
@@ -857,9 +871,9 @@ export default function Newhome() {
                                 <div className='alternates' style={whitetoblack} >
                                     Visit my Stack Overflow account where I try to get answers and <strong style={greetingstyle}>give answers related to WEB DEVELOPMENT</strong>, which helps me to improve my ability to understand codes.
                                 </div>
-                                <a href="https://stackoverflow.com/users/19757319/ankit" target="_blank">
+                                <a href="https://stackoverflow.com/users/19757319/ankit" target="_blank"  rel="noreferrer" >
                                     <br />
-                                    <img style={{border:"1px solid black"}} src="https://stackexchange.com/users/flair/26054765.png?theme=clean" className="stackOverflowLink" alt='Stack' />
+                                    <img style={{ border: "1px solid black" }} src="https://stackexchange.com/users/flair/26054765.png?theme=clean" className="stackOverflowLink" alt='Stack' />
                                 </a>
                                 <div style={whitetoblack} className='visit'>Visit my profile by clicking above image </div>
                             </div>
@@ -905,6 +919,9 @@ export default function Newhome() {
             <button className="change_theme firstColor" ref={icon} onClick={() => ChangeTheme('#FF5757')} ></button>
             <button className="change_theme thirdColor" ref={icon} onClick={() => ChangeTheme('#fab005')} ></button> */}
             <div className="align2 socialMedia" >
+                <div className="verticalLine">
+
+                </div>
                 <a href="https://stackoverflow.com/users/19757319/ankit?tab=topactivity" className='hovering' target="_blank" rel="noopener noreferrer">
                     <i style={greetingstyle} class="fa-brands fa-stack-overflow social_icon socialIcon2 socail1"></i>
                 </a>
@@ -920,6 +937,9 @@ export default function Newhome() {
                 <a href="mailto:ankitchauhn21500@gmail.com" target="_blank" without rel="noreferrer">
                     <i style={greetingstyle} class="fa-solid socail5 fa-envelope social_icon socialIcon2"></i>
                 </a>
+                <div className="verticalLine" style={{yelloToblack2}} >
+
+                </div>
             </div>
         </>
         // Project end 
