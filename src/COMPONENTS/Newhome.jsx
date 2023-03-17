@@ -160,7 +160,7 @@ export default function Newhome() {
         setbackorange({
             backdropFilter: "blur(4px)",
             webkitBackdropFilter: "blur(4px)",
-            background: "rgba(22, 35, 57, 0.94)"
+            background: "#04293a"
         })
         setborderblack({
             'borderColor': 'white',
