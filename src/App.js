@@ -23,7 +23,7 @@ function App() {
             {/* <video muted autoPlay loop className="logo_video2">
               <source src={video1} type="video/mp4" />
             </video> */}
-            <img src={video1} alt="Ankit" />
+            <img className="introvideo" src={video1} alt="Ankit" />
           </div>
         </>
       ) : (
