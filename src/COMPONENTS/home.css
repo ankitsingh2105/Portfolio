@@ -43,45 +43,6 @@
     }
 }
 
-/* .firstColor {
-    position: fixed;
-    bottom: 27%;
-    right: 4.5%;
-    border-radius: 109px;
-    border: 0px;
-    width: 35px;
-    height: 35px;
-    background-color: #FF5757;
-    opacity: 85%;
-    z-index: 90909090
-}
-
-.secondColor {
-    position: fixed;
-    bottom: 18%;
-    right: 4.5%;
-    border-radius: 109px;
-    border: 0px;
-    width: 35px;
-    height: 35px;
-    background-color: green;
-    opacity: 85%;
-    z-index: 90909090
-}
-
-.thirdColor {
-    position: fixed;
-    bottom: 9%;
-    right: 4.5%;
-    border-radius: 109px;
-    border: 0px;
-    width: 35px;
-    height: 35px;
-    background-color: #fab005;
-    z-index: 90909090;
-    opacity: 85%;
-} */
-
 .four {
     position: fixed;
     bottom: 50%;
