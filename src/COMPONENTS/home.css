@@ -191,7 +191,6 @@ body::-webkit-scrollbar-thumb {
 .surname {
     font-size: 79px;
     margin-top: 30px;
-    transition: all .4s ease-out;
 }
 
 .name:hover,
@@ -520,51 +519,25 @@ a {
 
 
 
-
-@keyframes jump {
-    0% {
-        color: rgb(0, 21, 255);
-    }
-
-    25% {
-        color: rgb(16, 162, 240);
-    }
-
-    70% {
-        color: rgb(21, 255, 9);
-    }
-
-    100% {
-        color: rgb(0, 21, 255);
-    }
+.round1 , .round2{
+    width: 9px;
+    height: 9px;
+    border: 1px solid white;
+    border-radius: 0px;
+    margin: 0px 12px;
+    transition: all ease-in-out;
+    animation-duration: .6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-color: #fe6235;
 }
 
 .round1 {
-    width: 9px;
-    height: 9px;
-    border: 1px solid white;
-    border-radius: 0px;
-    margin: 0px 12px;
-    transition: all ease-in-out;
     animation-name: roundAndround1;
-    animation-duration: .6s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    background-color: #fe6235;
 }
 
 .round2 {
-    width: 9px;
-    height: 9px;
-    border: 1px solid white;
-    border-radius: 0px;
-    margin: 0px 12px;
-    transition: all ease-in-out;
     animation-name: roundAndround2;
-    animation-duration: .6s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    background-color: #fe6235;
 }
 
 @keyframes roundAndround1 {

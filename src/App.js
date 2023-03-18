@@ -8,7 +8,7 @@ function App() {
   const [showVideo, setShowVideo] = useState(true);
   useEffect(
     () => {
-      let timer1 = setTimeout(() => setShowVideo(false), 1800);
+      let timer1 = setTimeout(() => setShowVideo(false), 1300);
       return () => {
         clearTimeout(timer1);
       };
@@ -20,9 +20,6 @@ function App() {
       {showVideo ? (
         <>
           <div className="App">
-            {/* <video muted autoPlay loop className="logo_video2">
-              <source src={video1} type="video/mp4" />
-            </video> */}
             <img className="introvideo" src={video1} alt="Ankit" />
           </div>
         </>
