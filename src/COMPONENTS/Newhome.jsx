@@ -12,6 +12,7 @@ import about1 from './about.png'
 import contacts from './contacts.png'
 import certificates from './certificates.png'
 // import main1 from './main1.png'
+import resume from "./AnkitPORTFOLIO.pdf"
 import Api from './Api.png'
 import messaging from './messaging.png'
 import { useState } from 'react';
@@ -324,7 +325,7 @@ export default function Newhome() {
                             looking for internships
                         </div>
                         <div className="resume align2">
-                            <a href="https://drive.google.com/file/d/1gUlCks6wTikDEIjFi3ZmI065N6X-0Mji/view" target="_blank" rel="noopener noreferrer" style={{ color: "white" }} >RESUME</a>
+                            <a href={resume} target="_blank" rel="noopener noreferrer" style={{ color: "white" }} >RESUME</a>
                         </div>
                         <div className="margin">
                         </div>
