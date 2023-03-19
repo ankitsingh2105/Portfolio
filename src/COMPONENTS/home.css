@@ -251,15 +251,6 @@ body::-webkit-scrollbar-thumb {
     margin: 6px 0px 0px 250px;
 }
 
-.verticalline {
-    position: fixed;
-    top: 30%;
-    right: 97%;
-    height: 392px;
-    width: 3px;
-    background-color: white;
-}
-
 .margin {
     margin-bottom: 1px;
 }
@@ -610,6 +601,78 @@ input {
 .deep {
     color: white;
     margin-top: 14px;
+}
+
+.verticalLine5{
+    width: 1px;
+    height: 30px;
+    position: fixed;
+    bottom:72%;
+    left: 4.5%;
+    background-color: white;
+    
+}
+.verticalLine1{
+    width: 1px;
+    height: 60px;
+    position: fixed;
+    bottom:58%;
+    left: 4.5%;
+    background-color: white;
+    
+}
+.verticalLine2{
+    width: 1px;
+    height: 60px;
+    position: fixed;
+    bottom:44%;
+    left: 4.5%;
+    background-color: white;
+
+}
+.verticalLine3{
+    width: 1px;
+    height: 60px;
+    position: fixed;
+    bottom:30%;
+    left: 4.5%;
+    background-color: white;
+
+}
+.verticalLine4{
+    width: 1px;
+    height: 60px;
+    position: fixed;
+    bottom:16%;
+    left: 4.5%;
+    background-color: white;
+
+}
+.verticalLine6{
+    width: 1px;
+    height: 30px;
+    position: fixed;
+    bottom:7%;
+    left: 4.5%;
+    background-color: white;
+    
+}
+
+.circle1 ,  .circle2{
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+    position: fixed;
+    background-color: yellow;
+    box-shadow: 0px 0px 9px yellow;
+}
+.circle2{
+    bottom:7%;
+    left: 4.14%;
+}
+.circle1{
+    bottom:75.3%;
+    left: 4.14%;
 }
 
 
@@ -967,7 +1030,7 @@ li {
     }
 
     .list {
-        margin: 0px 0px 0px -100px;
+        margin: 0px 0px 0px -37px;
     }
 }
 
@@ -1017,6 +1080,34 @@ li {
         }
     }
 
+}
+
+
+@media screen and (max-width :1262px) {
+    .verticalLine1{
+        display: none;
+    }
+    .verticalLine2{
+        display: none;
+    }
+    .verticalLine3{
+        display: none;
+    }
+    .verticalLine4{
+        display: none;
+    }
+    .verticalLine5{
+        display: none;
+    }
+    .verticalLine6{
+        display: none;
+    }
+    .circle1{
+        display: none;
+    }
+    .circle2{
+        display: none;
+    }
 }
 
 @media screen and (min-width :1262px) {

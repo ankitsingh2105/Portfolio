@@ -11,8 +11,7 @@ import bulb from './bulb.png'
 import about1 from './about.png'
 import contacts from './contacts.png'
 import certificates from './certificates.png'
-// import main1 from './main1.png'
-import resume from "./AnkitPORTFOLIO.pdf"
+import resume from "./AnkitRESUME.pdf"
 import Api from './Api.png'
 import messaging from './messaging.png'
 import { useState } from 'react';
@@ -139,6 +138,7 @@ export default function Newhome() {
         })
         setsunmoon('🌞');
         document.body.style.background = '#04293a'
+        // document.body.style.background = '#04293a'
         // document.body.style.background = 'rgb(43 51 64 / 98%)'
         setborderGoldToOrange({
             'borderColor': '#fe6235',
@@ -920,27 +920,29 @@ export default function Newhome() {
             <button className="change_theme firstColor" ref={icon} onClick={() => ChangeTheme('#FF5757')} ></button>
             <button className="change_theme thirdColor" ref={icon} onClick={() => ChangeTheme('#fab005')} ></button> */}
             <div className="align2 socialMedia" >
-                <div className="verticalLine">
-
-                </div>
+            <div className="verticalLine6" style={{yelloToblack2}}> </div>
+            <div className="circle1" style={{yelloToblack2}}> </div>
                 <a href="https://stackoverflow.com/users/19757319/ankit?tab=topactivity" className='hovering' target="_blank" rel="noopener noreferrer">
                     <i style={greetingstyle} class="fa-brands fa-stack-overflow social_icon socialIcon2 socail1"></i>
                 </a>
+                <div className="verticalLine1" style={{yelloToblack2}}> </div>
                 <a href="https://github.com/ankitsingh2105" target="_blank" without rel="noreferrer" >
                     <i style={greetingstyle} class="socail2 fa-brands fa-github social_icon socialIcon2 "></i>
                 </a>
+                <div className="verticalLine2" style={{yelloToblack2}}> </div>
                 <a href="https://www.linkedin.com/in/ankit-singh-chauhan-30057220a/" target="_blank" rel="noopener noreferrer">
                     <i style={greetingstyle} class="fa-brands socail3 fa-linkedin social_icon socialIcon2"></i>
                 </a>
+                <div className="verticalLine3" style={{yelloToblack2}}> </div>
                 <a href="https://www.instagram.com/_ankitchauhan__/?next=%2F" target="_blank" rel="noopener noreferrer">
                     <i style={greetingstyle} class="fa-brands socail4 fa-instagram social_icon socialIcon2"></i>
                 </a>
+                <div className="verticalLine4" style={{yelloToblack2}}> </div>
                 <a href="mailto:ankitchauhn21500@gmail.com" target="_blank" without rel="noreferrer">
                     <i style={greetingstyle} class="fa-solid socail5 fa-envelope social_icon socialIcon2"></i>
                 </a>
-                <div className="verticalLine" style={{yelloToblack2}} >
-
-                </div>
+                <div className="verticalLine5" style={{yelloToblack2}}> </div>
+                <div className="circle2" style={{yelloToblack2}}> </div>
             </div>
         </>
         // Project end 
