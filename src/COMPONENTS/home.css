@@ -42,7 +42,9 @@
         top: -6px;
     }
 }
-
+aside{
+    color: #08425d;
+}
 .four {
     position: fixed;
     bottom: 50%;
@@ -73,6 +75,8 @@
 
 .section {
     line-height: 33px;
+    padding: 2px;
+    border-radius: 12px;
 }
 
 .logo_letter {
@@ -106,12 +110,6 @@ body::-webkit-scrollbar-thumb {
 .first {
     font-family: "Cormorant Upright", serif;
     margin: 2px;
-}
-
-.section {
-    /* margin: 11px; */
-    padding: 2px;
-    border-radius: 12px;
 }
 
 .design {
@@ -1175,6 +1173,27 @@ li {
         position: absolute;
         left: 75%;
     }
+}
+
+@media screen and (min-width :1300px) {
+    .verticalLine5 , .verticalLine6 ,.verticalLine4 , .verticalLine3 , .verticalLine2,.verticalLine1{
+        left: 4.3%;
+        
+    }
+    .circle1 , .circle2{
+        left: 4%;
+    }
+
+}
+@media screen and (min-width :1405px) {
+    .verticalLine5 , .verticalLine6 ,.verticalLine4 , .verticalLine3 , .verticalLine2,.verticalLine1{
+        left: 4.2%;
+        
+    }
+    .circle1 , .circle2{
+        left: 3.88%;
+    }
+
 }
 
 

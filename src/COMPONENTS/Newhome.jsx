@@ -56,7 +56,8 @@ export default function Newhome() {
     const [reverse, setreverse] = useState({})
     const [borderblue, setborderblue] = useState({})
     let colorOfText = "#FF3B3F";  //orange one
-    const ChangeTheme = (colorOfText) => {
+    // let colorOfText = "#FFD700";  //orange one
+    const ChangeTheme = () => {
         setcoloring({
             color: 'black',
         })
@@ -104,7 +105,7 @@ export default function Newhome() {
             fontWeight: '900'
         })
         setyelloToblack2({
-            color: '#0a192f',
+            color: 'black',
             fontWeight: '900'
         })
         settruck({
@@ -138,8 +139,6 @@ export default function Newhome() {
         })
         setsunmoon('🌞');
         document.body.style.background = '#04293a'
-        // document.body.style.background = '#04293a'
-        // document.body.style.background = 'rgb(43 51 64 / 98%)'
         setborderGoldToOrange({
             'borderColor': '#fe6235',
         })
@@ -167,7 +166,8 @@ export default function Newhome() {
             'borderColor': 'white',
         })
         setsectioncolor({
-            backgroundColor: "#04293a",
+            // backgroundColor: "#04293a",
+            "background-image": "radial-gradient(#08425d, #04293a, #04293a)",
             // backgroundColor: "rgb(22 35 57 / 94%)",
             // webkitBackdropFilter: "blur(5px) saturate(200%)",
         })
@@ -872,7 +872,7 @@ export default function Newhome() {
                                 <div className='alternates' style={whitetoblack} >
                                     Visit my Stack Overflow account where I try to get answers and <strong style={greetingstyle}>give answers related to WEB DEVELOPMENT</strong>, which helps me to improve my ability to understand codes.
                                 </div>
-                                <a href="https://stackoverflow.com/users/19757319/ankit" target="_blank"  rel="noreferrer" >
+                                <a href="https://stackoverflow.com/users/19757319/ankit" target="_blank" rel="noreferrer" >
                                     <br />
                                     <img style={{ border: "1px solid black" }} src="https://stackexchange.com/users/flair/26054765.png?theme=clean" className="stackOverflowLink" alt='Stack' />
                                 </a>
@@ -920,29 +920,29 @@ export default function Newhome() {
             <button className="change_theme firstColor" ref={icon} onClick={() => ChangeTheme('#FF5757')} ></button>
             <button className="change_theme thirdColor" ref={icon} onClick={() => ChangeTheme('#fab005')} ></button> */}
             <div className="align2 socialMedia" >
-            <div className="verticalLine6" style={{yelloToblack2}}> </div>
-            <div className="circle1" style={{yelloToblack2}}> </div>
+                <div className="verticalLine6" style={yelloToblack2}> </div>
+                <div className="circle1" style={{ yelloToblack2 }}> </div>
                 <a href="https://stackoverflow.com/users/19757319/ankit?tab=topactivity" className='hovering' target="_blank" rel="noopener noreferrer">
                     <i style={greetingstyle} class="fa-brands fa-stack-overflow social_icon socialIcon2 socail1"></i>
                 </a>
-                <div className="verticalLine1" style={{yelloToblack2}}> </div>
+                <div className="verticalLine1" style={yelloToblack2}> </div>
                 <a href="https://github.com/ankitsingh2105" target="_blank" without rel="noreferrer" >
                     <i style={greetingstyle} class="socail2 fa-brands fa-github social_icon socialIcon2 "></i>
                 </a>
-                <div className="verticalLine2" style={{yelloToblack2}}> </div>
+                <div className="verticalLine2" style={yelloToblack2}> </div>
                 <a href="https://www.linkedin.com/in/ankit-singh-chauhan-30057220a/" target="_blank" rel="noopener noreferrer">
                     <i style={greetingstyle} class="fa-brands socail3 fa-linkedin social_icon socialIcon2"></i>
                 </a>
-                <div className="verticalLine3" style={{yelloToblack2}}> </div>
+                <div className="verticalLine3" style={yelloToblack2}> </div>
                 <a href="https://www.instagram.com/_ankitchauhan__/?next=%2F" target="_blank" rel="noopener noreferrer">
                     <i style={greetingstyle} class="fa-brands socail4 fa-instagram social_icon socialIcon2"></i>
                 </a>
-                <div className="verticalLine4" style={{yelloToblack2}}> </div>
+                <div className="verticalLine4" style={yelloToblack2}> </div>
                 <a href="mailto:ankitchauhn21500@gmail.com" target="_blank" without rel="noreferrer">
                     <i style={greetingstyle} class="fa-solid socail5 fa-envelope social_icon socialIcon2"></i>
                 </a>
-                <div className="verticalLine5" style={{yelloToblack2}}> </div>
-                <div className="circle2" style={{yelloToblack2}}> </div>
+                <div className="verticalLine5" style={yelloToblack2}> </div>
+                <div className="circle2"> </div>
             </div>
         </>
         // Project end 
