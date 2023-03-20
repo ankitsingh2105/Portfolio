@@ -47,6 +47,7 @@ export default function Newhome() {
     const [sectioncolor, setsectioncolor] = useState({})
     const [yelloToblack, setyelloToblack] = useState({})
     const [yelloToblack2, setyelloToblack2] = useState({})
+    const [yelloToblack3, setyelloToblack3] = useState({})
     const [backgroundYellotoorange, setbackgroundYellotoorange] = useState({});
     const [truck, settruck] = useState({})
     const [daynight, setdaynight] = useState(true)
@@ -101,12 +102,15 @@ export default function Newhome() {
             backgroundColor: "rgb(251 251 251 / 94%)",
         })
         setyelloToblack({
-            color: '#0a192f',
+            color: 'black',
             fontWeight: '900'
         })
         setyelloToblack2({
             color: 'black',
             fontWeight: '900'
+        })
+        setyelloToblack3({
+            background: "yellow"
         })
         settruck({
             color: '#0a192f',
@@ -176,6 +180,9 @@ export default function Newhome() {
         })
         setyelloToblack2({
             color: 'white',
+        })
+        setyelloToblack3({
+            background: "white"
         })
         setbackgroundYellotoorange({
             // background: 'rgb(43 51 64 / 98%)',
@@ -920,28 +927,28 @@ export default function Newhome() {
             <button className="change_theme firstColor" ref={icon} onClick={() => ChangeTheme('#FF5757')} ></button>
             <button className="change_theme thirdColor" ref={icon} onClick={() => ChangeTheme('#fab005')} ></button> */}
             <div className="align2 socialMedia" >
-                <div className="verticalLine6" style={yelloToblack2}> </div>
+                <div className="verticalLine6" style={yelloToblack3}> </div>
                 <div className="circle1" style={{ yelloToblack2 }}> </div>
                 <a href="https://stackoverflow.com/users/19757319/ankit?tab=topactivity" className='hovering' target="_blank" rel="noopener noreferrer">
                     <i style={greetingstyle} class="fa-brands fa-stack-overflow social_icon socialIcon2 socail1"></i>
                 </a>
-                <div className="verticalLine1" style={yelloToblack2}> </div>
+                <div className="verticalLine1" style={yelloToblack3}> </div>
                 <a href="https://github.com/ankitsingh2105" target="_blank" without rel="noreferrer" >
                     <i style={greetingstyle} class="socail2 fa-brands fa-github social_icon socialIcon2 "></i>
                 </a>
-                <div className="verticalLine2" style={yelloToblack2}> </div>
+                <div className="verticalLine2" style={yelloToblack3}> </div>
                 <a href="https://www.linkedin.com/in/ankit-singh-chauhan-30057220a/" target="_blank" rel="noopener noreferrer">
                     <i style={greetingstyle} class="fa-brands socail3 fa-linkedin social_icon socialIcon2"></i>
                 </a>
-                <div className="verticalLine3" style={yelloToblack2}> </div>
+                <div className="verticalLine3" style={yelloToblack3}> </div>
                 <a href="https://www.instagram.com/_ankitchauhan__/?next=%2F" target="_blank" rel="noopener noreferrer">
                     <i style={greetingstyle} class="fa-brands socail4 fa-instagram social_icon socialIcon2"></i>
                 </a>
-                <div className="verticalLine4" style={yelloToblack2}> </div>
+                <div className="verticalLine4" style={yelloToblack3}> </div>
                 <a href="mailto:ankitchauhn21500@gmail.com" target="_blank" without rel="noreferrer">
                     <i style={greetingstyle} class="fa-solid socail5 fa-envelope social_icon socialIcon2"></i>
                 </a>
-                <div className="verticalLine5" style={yelloToblack2}> </div>
+                <div className="verticalLine5" style={yelloToblack3}> </div>
                 <div className="circle2"> </div>
             </div>
         </>
