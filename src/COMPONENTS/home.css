@@ -663,6 +663,7 @@ input {
     position: fixed;
     background-color: yellow;
     box-shadow: 0px 0px 9px yellow;
+    z-index: 12;
 }
 .circle2{
     bottom:7%;
