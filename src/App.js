@@ -8,7 +8,7 @@ function App() {
   const [showVideo, setShowVideo] = useState(true);
   useEffect(
     () => {
-      let timer1 = setTimeout(() => setShowVideo(false), 1300);
+      let timer1 = setTimeout(() => setShowVideo(false), 2350);
       return () => {
         clearTimeout(timer1);
       };
