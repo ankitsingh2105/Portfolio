@@ -970,30 +970,35 @@ li {
         position: fixed;
         bottom: 12%;
         left: 4%;
+        color: #fe6235;
     }
 
     .socail2 {
         position: fixed;
         bottom: 26%;
         left: 3%;
+        color: #fe6235;
     }
 
     .socail3 {
         position: fixed;
         bottom: 40%;
         left: 3%;
+        color: #fe6235;
     }
 
     .socail4 {
         position: fixed;
         bottom: 54%;
         left: 3%;
+        color: #fe6235;
     }
 
     .socail1 {
         position: fixed;
         bottom: 68%;
         left: 3%;
+        color: #fe6235;
     }
 
     .socail1:hover,
@@ -1002,7 +1007,20 @@ li {
     .socail4:hover,
     .socail5:hover {
         font-size: 23px;
-        /* transition: all  ease-out */
+    }
+    .socail2:hover{
+        background-color: black;
+        color: white;
+        border-radius: 100px;
+    }
+    .socail3:hover{
+        color: #1667b8;
+    }
+    .socail4:hover{
+        color: rgb(247, 40, 74);
+    }
+    .socail5:hover{
+        color: red;
     }
 
 }
