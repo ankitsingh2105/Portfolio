@@ -42,9 +42,11 @@
         top: -6px;
     }
 }
-aside{
+
+aside {
     color: #08425d;
 }
+
 .four {
     position: fixed;
     bottom: 50%;
@@ -508,7 +510,8 @@ a {
 
 
 
-.round1 , .round2{
+.round1,
+.round2 {
     width: 9px;
     height: 9px;
     border: 1px solid white;
@@ -601,62 +604,68 @@ input {
     margin-top: 14px;
 }
 
-.verticalLine5{
+.verticalLine5 {
     width: 1px;
     height: 30px;
     position: fixed;
-    bottom:72%;
-    left: 4.5%;
-    background-color: white;
-    
-}
-.verticalLine1{
-    width: 1px;
-    height: 60px;
-    position: fixed;
-    bottom:58%;
-    left: 4.5%;
-    background-color: white;
-    
-}
-.verticalLine2{
-    width: 1px;
-    height: 60px;
-    position: fixed;
-    bottom:44%;
+    bottom: 72%;
     left: 4.5%;
     background-color: white;
 
 }
-.verticalLine3{
+
+.verticalLine1 {
     width: 1px;
     height: 60px;
     position: fixed;
-    bottom:30%;
+    bottom: 58%;
     left: 4.5%;
     background-color: white;
 
 }
-.verticalLine4{
+
+.verticalLine2 {
     width: 1px;
     height: 60px;
     position: fixed;
-    bottom:16%;
+    bottom: 44%;
     left: 4.5%;
     background-color: white;
 
 }
-.verticalLine6{
+
+.verticalLine3 {
+    width: 1px;
+    height: 60px;
+    position: fixed;
+    bottom: 30%;
+    left: 4.5%;
+    background-color: white;
+
+}
+
+.verticalLine4 {
+    width: 1px;
+    height: 60px;
+    position: fixed;
+    bottom: 16%;
+    left: 4.5%;
+    background-color: white;
+
+}
+
+.verticalLine6 {
     width: 1px;
     height: 30px;
     position: fixed;
-    bottom:7%;
+    bottom: 7%;
     left: 4.5%;
     background-color: white;
-    
+
 }
 
-.circle1 ,  .circle2{
+.circle1,
+.circle2 {
     width: 10px;
     height: 10px;
     border-radius: 100px;
@@ -665,12 +674,14 @@ input {
     box-shadow: 0px 0px 9px yellow;
     z-index: 12;
 }
-.circle2{
-    bottom:7%;
+
+.circle2 {
+    bottom: 7%;
     left: 4.14%;
 }
-.circle1{
-    bottom:75.3%;
+
+.circle1 {
+    bottom: 75.3%;
     left: 4.14%;
 }
 
@@ -1008,19 +1019,32 @@ li {
     .socail5:hover {
         font-size: 23px;
     }
-    .socail2:hover{
+
+    .socail2:hover {
         background-color: black;
         color: white;
         border-radius: 100px;
     }
-    .socail3:hover{
+
+    .socail3:hover {
         color: #1667b8;
+        background-color: white;
+        padding: 0px 1.8px;
     }
-    .socail4:hover{
-        color: rgb(247, 40, 74);
+
+    .socail4:hover {
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
-    .socail5:hover{
+
+    .socail5:hover {
         color: red;
+        padding: 0px;
+    }
+    .socail1:hover {
+        color:#ef8236;
     }
 
 }
@@ -1085,7 +1109,6 @@ li {
 
     @keyframes fall2 {
         0% {
-            /* display: none; */
             opacity: 0;
             transform: translateY(300px);
         }
@@ -1100,28 +1123,35 @@ li {
 
 
 @media screen and (max-width :1262px) {
-    .verticalLine1{
+    .verticalLine1 {
         display: none;
     }
-    .verticalLine2{
+
+    .verticalLine2 {
         display: none;
     }
-    .verticalLine3{
+
+    .verticalLine3 {
         display: none;
     }
-    .verticalLine4{
+
+    .verticalLine4 {
         display: none;
     }
-    .verticalLine5{
+
+    .verticalLine5 {
         display: none;
     }
-    .verticalLine6{
+
+    .verticalLine6 {
         display: none;
     }
-    .circle1{
+
+    .circle1 {
         display: none;
     }
-    .circle2{
+
+    .circle2 {
         display: none;
     }
 }
@@ -1194,21 +1224,38 @@ li {
 }
 
 @media screen and (min-width :1300px) {
-    .verticalLine5 , .verticalLine6 ,.verticalLine4 , .verticalLine3 , .verticalLine2,.verticalLine1{
+
+    .verticalLine5,
+    .verticalLine6,
+    .verticalLine4,
+    .verticalLine3,
+    .verticalLine2,
+    .verticalLine1 {
         left: 4.3%;
-        
+
     }
-    .circle1 , .circle2{
+
+    .circle1,
+    .circle2 {
         left: 4%;
     }
 
 }
+
 @media screen and (min-width :1405px) {
-    .verticalLine5 , .verticalLine6 ,.verticalLine4 , .verticalLine3 , .verticalLine2,.verticalLine1{
+
+    .verticalLine5,
+    .verticalLine6,
+    .verticalLine4,
+    .verticalLine3,
+    .verticalLine2,
+    .verticalLine1 {
         left: 4.2%;
-        
+
     }
-    .circle1 , .circle2{
+
+    .circle1,
+    .circle2 {
         left: 3.88%;
     }
 

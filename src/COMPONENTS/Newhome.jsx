@@ -666,8 +666,8 @@ export default function Newhome() {
                         <li style={whitetoblack} className='lik'>Async Await</li>
                         <li style={whitetoblack} className='lik'>Fetch API</li>
                         <li style={whitetoblack} className='lik'>Event Listeners</li>
-                        <li style={whitetoblack} className='lik'>Session Storage</li>
-                        <li style={whitetoblack} className='lik'>Local Storage</li>
+                        <li style={whitetoblack} className='lik'>Local & Session Storage</li>
+                        <li style={whitetoblack} className='lik'>CSS Flex Box and Grid</li>
                     </ul>
                     <div className="img-display">
                         <img loading="lazy" style={borderGoldToOrange} src={weather} alt="nikaljao" className='hash_images' />
