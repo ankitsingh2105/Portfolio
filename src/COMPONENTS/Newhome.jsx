@@ -665,9 +665,9 @@ export default function Newhome() {
                     <ul className='lost'>
                         <li style={whitetoblack} className='lik'>Async Await</li>
                         <li style={whitetoblack} className='lik'>Fetch API</li>
-                        <li style={whitetoblack} className='lik'>Event Listeners</li>
                         <li style={whitetoblack} className='lik'>Local & Session Storage</li>
                         <li style={whitetoblack} className='lik'>CSS Flex Box and Grid</li>
+                        <li style={whitetoblack} className='lik'>Event Listeners</li>
                     </ul>
                     <div className="img-display">
                         <img loading="lazy" style={borderGoldToOrange} src={weather} alt="nikaljao" className='hash_images' />
@@ -713,8 +713,8 @@ export default function Newhome() {
                     </div>
                     <ul className='lost'>
                         <li style={whitetoblack} className='lik'>Speech Synthesis API</li>
-                        <li style={whitetoblack} className='lik'>Session Storage</li>
-                        <li style={whitetoblack} className='lik'>Local Storage</li>
+                        <li style={whitetoblack} className='lik'>Local & Session Storage</li>
+                        <li style={whitetoblack} className='lik'>CSS Flex Box</li>
                     </ul>
                     <div className="img-display">
                         <img loading="lazy" style={borderGoldToOrange} src={spelling} alt="nikaljao" className='hash_images' />
