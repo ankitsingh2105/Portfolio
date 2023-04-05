@@ -468,7 +468,7 @@ export default function Newhome() {
                             <li style={whitetoblack} className='lik'>AnkitSinghChauhan.tech - Portfolio Website</li>
                         </ul>
                         <div className="languages" style={greetingstyle}>
-                            The Personal Projects I have added here____________
+                            The Web App and other projects I have added here____________
                         </div>
                         <ul className='lost'>
                             <li style={whitetoblack} className='lik'>Real Time Weather Web App</li>
