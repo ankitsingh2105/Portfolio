@@ -1,0 +1,49 @@
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.box{
+    border: 1px solid black;
+    width: 79px;
+    height: 79px;
+    margin-top: 6px;
+    margin-left: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    background-color: #fab005;
+    color: black;
+}
+.align{
+    display: grid;
+    margin-top: -10px;
+    grid-template-columns: 120px 120px 120px;
+}
+aside{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+datagrid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button {
+    background-color: #fab005;
+    border: 1px solid black;
+    box-shadow: 2px 3px 2px #183153;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 2px 7px;
+    color: #183153;
+    font-weight: bolder;
+}
+
+body{
+    background-color: rgb(246, 177, 132) ;
+}
