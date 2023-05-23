@@ -11,7 +11,8 @@ boxes.forEach((box) => {
         box.style.background = "greenyellow";
         let checking = JSON.parse(localStorage.getItem("objectColor"));
         if(checking!==null){
-            checking.forEach(element => {
+            checking.forEach(element => 
+                 {
                 objectArray.push(element);
             });
         }
