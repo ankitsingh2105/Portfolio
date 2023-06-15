@@ -655,6 +655,7 @@ export default function Newhome() {
                         I used <strong style={greetingstyle} className='string'> Async Await </strong> so that a loader is shown, the API if fetched synchronously and
                         data is shown after the loader element. I also used <strong style={greetingstyle} className='string'>LOCAL STORAGE </strong>
                         to save the record of previous searches.
+                        Moreover I implemented <strong style={greetingstyle} className='string'> Speech Synthesis API </strong> so that user can search places through voice.
                         <br />
                         <br />
                         This project was made using <strong style={greetingstyle} className='string'>Vanilla Javascript</strong> CSS and HTML
@@ -668,6 +669,7 @@ export default function Newhome() {
                         <li style={whitetoblack} className='lik'>Local & Session Storage</li>
                         <li style={whitetoblack} className='lik'>CSS Flex Box and Grid</li>
                         <li style={whitetoblack} className='lik'>Event Listeners</li>
+                        <li style={whitetoblack} className='lik'>Speech Synthesis API</li>
                     </ul>
                     <div className="img-display">
                         <img loading="lazy" style={borderGoldToOrange} src={weather} alt="nikaljao" className='hash_images' />
