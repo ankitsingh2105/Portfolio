@@ -722,16 +722,54 @@ export default function Newhome() {
                         <img loading="lazy" style={borderGoldToOrange} src={spelling} alt="nikaljao" className='hash_images' />
                     </div>
                     <div></div>
-                    {/* <div>
-                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/ankitsingh2105/Spelling_Practice" className='align' style={{ flexDirection: "column" }}>
-                            <i style={greetingstyle} class="fa-brands fa-github stack"></i>
-                        </a>
-                        <div style={whitetoblack} className='visit'>Code</div>
-                    </div> */}
-                    {/* <hr /> */}
                     <div className="links">
                         <a className="github" href="https://spellhornet.netlify.app/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
                             SPELLHORNET.NETLIFY.APP
+                        </a>
+                    </div>
+                    <br />
+                </div>
+            </div>
+
+
+            {/* 5th project */}
+            <div className='first first1' style={blacktowhite}>
+
+                <div className="section" style={sectioncolor}>
+                    <div className="languages">
+                        <div className="number1" style={whitetoblack}>005.</div>
+                        <div className="bakery" style={greetingstyle} >Firebase Authentication System</div>
+                    </div>
+                    <p className="info_para" style={whitetoblack}>
+                    I developed a web application that integrates with Firebase authentication and storage to provide user login functionality and image uploading capabilities. The application allows users to sign in using their Google accounts, view their profile information such as name and email, and upload a new profile image.
+                    </p>
+                    <div className="languages" style={greetingstyle}>
+                    Key Features:
+                    </div>
+                    <ul className='lost'>
+                        <li style={whitetoblack} className='lik'>Firebase integration for authentication and storage</li>
+                        <li style={whitetoblack} className='lik'>Google login integration using Firebase Auth</li>
+                        <li style={whitetoblack} className='lik'>Image uploading functionality with Firebase Storage</li>
+                        <li style={whitetoblack} className='lik'>Real-time user authentication state using onAuthStateChanged</li>
+                        <li style={whitetoblack} className='lik'>Integration of React Router for navigation between different pages</li>
+                    </ul>
+
+                    <div className="languages" style={greetingstyle}>
+                    Technologies Used:
+                    </div>
+                    <ul className='lost'>
+                        <li style={whitetoblack} className='lik'>Firebase for backend services such as authentication and storage</li>
+                        <li style={whitetoblack} className='lik'>React Router for handling routing within the application</li>
+                        <li style={whitetoblack} className='lik'>React.js for building the frontend UI </li>
+                    </ul>
+                    <hr />
+                    <ul className='lost'>
+                        <li style={whitetoblack} className='lik'>Best viewed in mobile, focus was to try hands on firebase and reactjs </li>
+                    </ul>
+                    <div></div>
+                    <div className="links">
+                        <a className="github" href="https://fireauthapp.netlify.app/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
+                            FIREAUTHAPP.NETLIFY.APP
                         </a>
                     </div>
                     <br />
