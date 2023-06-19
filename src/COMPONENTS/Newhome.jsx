@@ -472,6 +472,7 @@ export default function Newhome() {
                         </div>
                         <ul className='lost'>
                             <li style={whitetoblack} className='lik'>Real Time Weather Web App</li>
+                            <li style={whitetoblack} className='lik'>FireAuth App</li>
                             <li style={whitetoblack} className='lik'>Spelling Quiz Web App</li>
                             <li style={whitetoblack} className='lik'>Competitive Coding Informer</li>
                             <li style={whitetoblack} className='lik'>BackGround Color Changer</li>
@@ -737,7 +738,7 @@ export default function Newhome() {
 
                 <div className="section" style={sectioncolor}>
                     <div className="languages">
-                        <div className="number1" style={whitetoblack}>005.</div>
+                        <div className="number1" style={whitetoblack}>006.</div>
                         <div className="bakery" style={greetingstyle} >Firebase Authentication System</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
@@ -764,7 +765,7 @@ export default function Newhome() {
                     </ul>
                     <hr />
                     <ul className='lost'>
-                        <li style={whitetoblack} className='lik'>Best viewed in mobile, focus was to try hands on firebase and reactjs </li>
+                        <li style={whitetoblack} className='lik'>Best viewed in mobile, the focus was to try hands-on Firebase and reactjs </li>
                     </ul>
                     <div></div>
                     <div className="links">
