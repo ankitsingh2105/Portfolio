@@ -742,16 +742,16 @@ export default function Newhome() {
                         <div className="bakery" style={greetingstyle} >Firebase Authentication System</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
-                    I developed a web application that integrates with Firebase authentication and storage to provide user login functionality and image uploading capabilities. The application allows users to sign in using their Google accounts, view their profile information such as name and email, and upload a new profile image.
+                    I developed a small e-commerce cart application using Firebase and React Redux. The application allows users to sign up, log in, and authenticate using Google authentication. Users can browse through products, add them to their cart, and proceed to checkout. The app also supports image uploads.
                     </p>
                     <div className="languages" style={greetingstyle}>
                     Key Features:
                     </div>
                     <ul className='lost'>
                         <li style={whitetoblack} className='lik'>Firebase integration for authentication and storage</li>
-                        <li style={whitetoblack} className='lik'>Google login integration using Firebase Auth</li>
+                        <li style={whitetoblack} className='lik'>Google login/sign up and manuall login/sign up integration using Firebase Auth</li>
                         <li style={whitetoblack} className='lik'>Image uploading functionality with Firebase Storage</li>
-                        <li style={whitetoblack} className='lik'>Real-time user authentication state using onAuthStateChanged</li>
+                        <li style={whitetoblack} className='lik'>Shopping Cart: Enabled users to add products to their cart, view the cart contents, and update or remove items.</li>
                         <li style={whitetoblack} className='lik'>Integration of React Router for navigation between different pages</li>
                     </ul>
 
@@ -759,9 +759,9 @@ export default function Newhome() {
                     Technologies Used:
                     </div>
                     <ul className='lost'>
-                        <li style={whitetoblack} className='lik'>Firebase for backend services such as authentication and storage</li>
-                        <li style={whitetoblack} className='lik'>React Router for handling routing within the application</li>
-                        <li style={whitetoblack} className='lik'>React.js for building the frontend UI </li>
+                        <li style={whitetoblack} className='lik'>React: Built the frontend user interface and implemented state management using React Redux.</li>
+                        <li style={whitetoblack} className='lik'>Firebase: Utilized Firebase Authentication for user authentication and Firestore for data storage.</li>
+                        <li style={whitetoblack} className='lik'>Redux: Managed application state using Redux, allowing for efficient data management and actions. </li>
                     </ul>
                     <hr />
                     <ul className='lost'>
@@ -769,8 +769,8 @@ export default function Newhome() {
                     </ul>
                     <div></div>
                     <div className="links">
-                        <a className="github" href="https://fireauthapp.netlify.app/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
-                            FIREAUTHAPP.NETLIFY.APP
+                        <a className="github" href="https://firecartredux.netlify.app/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
+                            FIRECARTREDUX.NETLIFY.APP
                         </a>
                     </div>
                     <br />
