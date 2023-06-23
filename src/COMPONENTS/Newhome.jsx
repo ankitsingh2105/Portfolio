@@ -81,7 +81,7 @@ export default function Newhome() {
         })
         setwhitetoblack({
             color: '#0a192f',
-            fontWeight: 600
+            fontWeight: 500
         })
         setblacktowhite({
             border: `2px solid ${colorOfText}`,
@@ -357,7 +357,7 @@ export default function Newhome() {
                         <img loading="lazy" style={{ "height": "70px" }} src={about1} alt="" />
                         <p className="info_para" style={whitetoblack}>
 
-                            Hi, I am Ankit Singh Chauhan, a 21 years old self-taught Web developer in
+                            Hi, I am Ankit Singh Chauhan, a 22 years old self-taught Web developer in
                             love with developing websites and learning new ways to improve myself.
                             <br /><br />
 
@@ -370,7 +370,7 @@ export default function Newhome() {
                     </div>
 
                     <div className="languages" style={greetingstyle}>
-                        I know the following languages and library____________
+                        I know the following languages and library -
                     </div>
 
                     <ul className='lost'>
@@ -388,14 +388,14 @@ export default function Newhome() {
                     </ul>
 
                     <div className="languages" style={greetingstyle}>
-                        I also know the following  ____________
+                        I also know the following -
                     </div>
 
                     <ul className='lost'>
                         <li style={whitetoblack} className='like'>Github&nbsp;&nbsp; <i style={greetingstyle} class="fa-brands fa-github"></i></li>
 
                         <li style={whitetoblack} className='like'>Git&nbsp;&nbsp;    <i style={greetingstyle} class="fa-brands fa-git"></i></li>
-                        
+
                         <li style={whitetoblack} className='like'>Firebase&nbsp;&nbsp;    <i style={greetingstyle} class="fa-solid fa-fire"></i></li>
 
                         <li style={whitetoblack} className='like'>Web Hosting&nbsp;&nbsp;    <i style={greetingstyle} class="fa-solid fa-globe"></i></li>
@@ -405,7 +405,7 @@ export default function Newhome() {
                         <li style={whitetoblack} className='like'>Netlify</li>
 
                     </ul>
-                    
+
                     <div className="competitive" style={whitetoblack}>
                         I also do competitive programming using <strong className='Mca' style={greetingstyle}> C++ </strong>
                         I am active on Codechef, Codeforces, Leetcode
@@ -452,21 +452,24 @@ export default function Newhome() {
                             websites for businesses and some are implemented projects after learning concepts.
                         </p>
                         <div className="languages" style={greetingstyle}>
-                            The Work Projects I have Completed so far____________
+                            The Work Projects I have Completed so far
                         </div>
                         <ul className='lost'>
-                            <li style={whitetoblack} className='like'>HashTag Bakery - Bakery and Flower shop</li>
-                            <li style={whitetoblack} className='like'>KK Food Haldwani - Family Restaurant</li>
-                            <li style={whitetoblack} className='like'>AnkitSinghChauhan.tech - Portfolio Website</li>
+                            <li style={whitetoblack} className='like'><a href="http://hashtagbakery.in/">HashTag Bakery - Bakery and Flower shop</a></li>
+                            <li style={whitetoblack} className='like'><a href="https://kkfoodshaldwani.in/">KK Food Haldwani - Family Restaurant</a></li>
+                            <li style={whitetoblack} className='like'><a href="https://ankitsinghchauhan.tech/">AnkitSinghChauhan.tech - Portfolio Website</a></li>
                         </ul>
                         <div className="languages" style={greetingstyle}>
-                            The Web Apps and other projects I have added here____________
+                            The Web Apps and other projects I have added here
                         </div>
                         <ul className='lost'>
-                            <li style={whitetoblack} className='like'>Real Time Weather Web App</li>
-                            <li style={whitetoblack} className='like'>Firebase + Redux E-commerce Web App</li>
-                            <li style={whitetoblack} className='like'>Spelling Quiz Web App</li>
-                            <li style={whitetoblack} className='like'>Competitive Coding Informer</li>
+                            <li style={whitetoblack} className='like'><a href="https://weatherappfetchapi.netlify.app/">Real Time Weather Web App</a></li>
+
+                            <li style={whitetoblack} className='like'><a href="https://firecartredux.netlify.app/">Firebase + Redux E-commerce Web App</a></li>
+
+                            <li style={whitetoblack} className='like'><a href="https://firecartredux.netlify.app/">Spelling Quiz Web App</a></li>
+
+                            <li style={whitetoblack} className='like'><a href="https://contestinformer.netlify.app/">Competitive Coding Informer</a></li>
                         </ul>
                     </div>
                     <div className="align2">
@@ -673,9 +676,12 @@ export default function Newhome() {
                     <div className="languages">
                         <div className="number1" style={whitetoblack}>007.</div>
                         <div className="bakery" style={greetingstyle} >Contest Informer<br /> </div>
+                        <br />
+                    </div>
+                    <div className="align">
+                        <img loading="lazy" className='actingthinking2 align' src={Api} alt="api" />
                     </div>
                     <p className="info_para" style={whitetoblack}>
-                        <img loading="lazy" className='actingthinking2' src={Api} alt="api" />
                         <li style={whitetoblack} className='lik'>I created a small project where I fetched an API and displayed the upcoming contests of <strong className='string' style={greetingstyle}>Codechef</strong>, <strong className='string' style={greetingstyle}>Codeforces</strong>, and <strong className='string' style={greetingstyle}>Atcoder</strong>.</li>
                         <li style={whitetoblack} className='lik'><strong className='string' style={greetingstyle}>Fetched</strong> data from an external <strong className='string' style={greetingstyle}>API</strong>.</li>
                     </p>
@@ -804,31 +810,36 @@ export default function Newhome() {
             <div className="movetotop" onClick={(() => scrollSection(top))} style={backgroundYellotoorange}>
                 <i class="fa-solid fa-arrow-up"></i>
             </div>
-            {/* <button className="change_theme secondColor" ref={icon} onClick={() => ChangeTheme('green')} ></button>
-            <button className="change_theme firstColor" ref={icon} onClick={() => ChangeTheme('#FF5757')} ></button>
-            <button className="change_theme thirdColor" ref={icon} onClick={() => ChangeTheme('#fab005')} ></button> */}
+            
+
+
             <div className="align2 socialMedia" >
                 <div className="verticalLine6" style={yelloToblack3}> </div>
                 <div className="circle1" style={{ yelloToblack2 }}> </div>
-                <a href="https://stackoverflow.com/users/19757319/ankit?tab=topactivity" className='hovering' target="_blank" rel="noopener noreferrer">
+                <a aria-label="Link to Stack OverFlow" href="https://stackoverflow.com/users/19757319/ankit?tab=topactivity" className='hovering' target="_blank" rel="noopener noreferrer">
                     <i class="fa-brands fa-stack-overflow social_icon socialIcon2 socail1"></i>
                 </a>
+
                 <div className="verticalLine1" style={yelloToblack3}> </div>
-                <a href="https://github.com/ankitsingh2105" target="_blank" without rel="noreferrer" >
+                <a aria-label="Link to GitHub" href="https://github.com/ankitsingh2105" target="_blank" without rel="noreferrer" >
                     <i class="socail2 fa-brands fa-github social_icon socialIcon2 "></i>
                 </a>
+
                 <div className="verticalLine2" style={yelloToblack3}> </div>
-                <a href="https://www.linkedin.com/in/ankit-singh-chauhan-30057220a/" target="_blank" rel="noopener noreferrer">
+                <a aria-label="Link to LinkedIn" href="https://www.linkedin.com/in/ankit-singh-chauhan-30057220a/" target="_blank" rel="noopener noreferrer">
                     <i class="fa-brands socail3 fa-linkedin social_icon socialIcon2"></i>
                 </a>
+
                 <div className="verticalLine3" style={yelloToblack3}> </div>
-                <a href="https://www.instagram.com/_ankitchauhan__/?next=%2F" target="_blank" rel="noopener noreferrer">
+                <a aria-label="Link to Instagram" href="https://www.instagram.com/_ankitchauhan__/?next=%2F" target="_blank" rel="noopener noreferrer">
                     <i class="fa-brands socail4 fa-instagram social_icon socialIcon2"></i>
                 </a>
+
                 <div className="verticalLine4" style={yelloToblack3}> </div>
-                <a href="mailto:ankitchauhn21500@gmail.com" target="_blank" without rel="noreferrer">
+                <a aria-label="Link to Gmail" href="mailto:ankitchauhn21500@gmail.com" target="_blank" without rel="noreferrer">
                     <i class="fa-solid socail5 fa-envelope social_icon socialIcon2"></i>
                 </a>
+
                 <div className="verticalLine5" style={yelloToblack3}> </div>
                 <div className="circle2"> </div>
             </div>
