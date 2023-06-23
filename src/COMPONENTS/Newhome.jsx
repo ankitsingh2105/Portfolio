@@ -337,11 +337,6 @@ export default function Newhome() {
                         <div className="margin">
                         </div>
                     </div>
-                    {/* <div>
-                        <div>
-                            <img loading="lazy" className='newImg' src={main1} alt="" />
-                        </div>
-                    </div> */}
 
                 </div>
             </div>
@@ -361,69 +356,66 @@ export default function Newhome() {
                         <hr style={backblacktowhite} className='line1' />
                         <img loading="lazy" style={{ "height": "70px" }} src={about1} alt="" />
                         <p className="info_para" style={whitetoblack}>
+
                             Hi, I am Ankit Singh Chauhan, a 21 years old self-taught Web developer in
                             love with developing websites and learning new ways to improve myself.
                             <br /><br />
+
                             I have completed my schooling and college in Haldwani, a city in the Nainital district
                             in Uttrakhand, INDIA.<br />
+
                             <br></br>Completed my Bachelor of Science, Mathematics (B.Sc) from Kumaun University. Planning to
                             do <strong className='Mca' style={greetingstyle}  >Master of Computer Applications</strong>.
                         </p>
                     </div>
+
                     <div className="languages" style={greetingstyle}>
                         I know the following languages and library____________
                     </div>
+
                     <ul className='lost'>
                         <li style={whitetoblack} className='lik'>C++</li>
-                        <li style={whitetoblack} className='lik'>C</li>
-                        <li style={whitetoblack} className='lik'>HTML5 &nbsp;        <i style={greetingstyle} class="fa-brands fa-html5"></i></li>
-                        <li style={whitetoblack} className='lik'>CSS3&nbsp;&nbsp;    <i style={greetingstyle} class="fa-brands fa-css3-alt"></i></li>
-                        <li style={whitetoblack} className='lik'>Javascript &nbsp;   <i style={greetingstyle} class="fa-brands fa-square-js"></i></li>
-                        <li style={whitetoblack} className='lik'>React Js&nbsp;&nbsp;<i style={greetingstyle} class="fa-brands fa-react"></i>
-                            <br />
-                            &nbsp;&nbsp;Concepts I know in <strong className='Mca' style={greetingstyle}>React JS</strong></li>
-                        <ul className='lost1'>
-                            <li style={greetingstyle} className='lik'>Conditional Rendering</li>
-                            <li style={greetingstyle} className='lik'>Props</li>
-                            <li style={greetingstyle} className='lik'>Hooks
-                                <ul className='lost1'>
-                                    <li style={whitetoblack} className='lik'>useState Hook</li>
-                                    <li style={whitetoblack} className='lik'>useRef Hook</li>
-                                    <li style={whitetoblack} className='lik'>useEffect Hook</li>
-                                    <li style={whitetoblack} className='lik'>useContext Hook</li>
-                                    <li style={whitetoblack} className='lik'>useReducer Hook</li>
-                                </ul>
-                            </li>
-                            <li style={greetingstyle} className='lik'>React-Router-Dom</li>
-                            <li style={greetingstyle} className='lik'>State Management </li>
-                            <ul className='lost1'>
-                                <li style={whitetoblack} className='lik'>Context Api</li>
-                                <li style={whitetoblack} className='lik'>React Redux</li>
-                            </ul>
-                            <li style={greetingstyle} className='lik'>Axios</li>
-                            <li style={greetingstyle} className='lik'>Jest for Unit testing</li>
-                            <li style={greetingstyle} className='lik'>Lazy loading</li>
-                        </ul>
+
+                        <li style={whitetoblack} className='like'>C</li>
+
+                        <li style={whitetoblack} className='like'>HTML5 &nbsp; <i style={greetingstyle} class="fa-brands fa-html5"></i></li>
+
+                        <li style={whitetoblack} className='like'>CSS3&nbsp;&nbsp;<i style={greetingstyle} class="fa-brands fa-css3-alt"></i></li>
+
+                        <li style={whitetoblack} className='like'>Javascript &nbsp;<i style={greetingstyle} class="fa-brands fa-square-js"></i></li>
+
+                        <li style={whitetoblack} className='like'>React Js&nbsp;&nbsp;<i style={greetingstyle} class="fa-brands fa-react"></i></li>
                     </ul>
+
                     <div className="languages" style={greetingstyle}>
                         I also know the following  ____________
                     </div>
+
                     <ul className='lost'>
-                        <li style={whitetoblack} className='lik'>Github&nbsp;&nbsp; <i style={greetingstyle} class="fa-brands fa-github"></i></li>
-                        <li style={whitetoblack} className='lik'>Git&nbsp;&nbsp;    <i style={greetingstyle} class="fa-brands fa-git"></i></li>
-                        <li style={whitetoblack} className='lik'>Web Hosting&nbsp;&nbsp;    <i style={greetingstyle} class="fa-solid fa-globe"></i></li>
-                        <li style={whitetoblack} className='lik'>Netlify</li>
-                        <li style={whitetoblack} className='lik'>Responsive Web Designs</li>
+                        <li style={whitetoblack} className='like'>Github&nbsp;&nbsp; <i style={greetingstyle} class="fa-brands fa-github"></i></li>
+
+                        <li style={whitetoblack} className='like'>Git&nbsp;&nbsp;    <i style={greetingstyle} class="fa-brands fa-git"></i></li>
+                        
+                        <li style={whitetoblack} className='like'>Firebase&nbsp;&nbsp;    <i style={greetingstyle} class="fa-solid fa-fire"></i></li>
+
+                        <li style={whitetoblack} className='like'>Web Hosting&nbsp;&nbsp;    <i style={greetingstyle} class="fa-solid fa-globe"></i></li>
+
+                        <li style={whitetoblack} className='like'>Responsive Web Designs&nbsp;&nbsp;    <i style={greetingstyle} class="fa-solid fa-pen-nib"></i></li>
+
+                        <li style={whitetoblack} className='like'>Netlify</li>
+
                     </ul>
+                    
                     <div className="competitive" style={whitetoblack}>
                         I also do competitive programming using <strong className='Mca' style={greetingstyle}> C++ </strong>
                         I am active on Codechef, Codeforces, Leetcode
                         and have Highest Rating of 1828 (4 <i style={greetingstyle} class="fa-solid fa-star"></i>) on CODECHEF
                     </div>
                     <br></br>
-                    {/* <div> */}
+
+
                     <div className="head-certify" style={whitetoblack}>
-                        I also have Hackerank Certifications (<i style={greetingstyle} class="fa-brands fa-hackerrank"></i>) you can click and see them
+                        Here are my Hackerank Certificates (<i style={greetingstyle} class="fa-brands fa-hackerrank"></i>) you can click and see them
                     </div>
                     <div className="align2">
                         <img loading="lazy" src={certificates} className='actingthinking' alt="certificates" />
@@ -463,19 +455,18 @@ export default function Newhome() {
                             The Work Projects I have Completed so far____________
                         </div>
                         <ul className='lost'>
-                            <li style={whitetoblack} className='lik'>HashTag Bakery - Bakery and Flower shop</li>
-                            <li style={whitetoblack} className='lik'>KK Food Haldwani - Family Restaurant</li>
-                            <li style={whitetoblack} className='lik'>AnkitSinghChauhan.tech - Portfolio Website</li>
+                            <li style={whitetoblack} className='like'>HashTag Bakery - Bakery and Flower shop</li>
+                            <li style={whitetoblack} className='like'>KK Food Haldwani - Family Restaurant</li>
+                            <li style={whitetoblack} className='like'>AnkitSinghChauhan.tech - Portfolio Website</li>
                         </ul>
                         <div className="languages" style={greetingstyle}>
                             The Web Apps and other projects I have added here____________
                         </div>
                         <ul className='lost'>
-                            <li style={whitetoblack} className='lik'>Real Time Weather Web App</li>
-                            <li style={whitetoblack} className='lik'>FireAuth App</li>
-                            <li style={whitetoblack} className='lik'>Spelling Quiz Web App</li>
-                            <li style={whitetoblack} className='lik'>Competitive Coding Informer</li>
-                            <li style={whitetoblack} className='lik'>BackGround Color Changer</li>
+                            <li style={whitetoblack} className='like'>Real Time Weather Web App</li>
+                            <li style={whitetoblack} className='like'>Firebase + Redux E-commerce Web App</li>
+                            <li style={whitetoblack} className='like'>Spelling Quiz Web App</li>
+                            <li style={whitetoblack} className='like'>Competitive Coding Informer</li>
                         </ul>
                     </div>
                     <div className="align2">
@@ -494,37 +485,16 @@ export default function Newhome() {
                         <div className="bakery" style={greetingstyle} >HASHTAG BAKERY</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
-                        I created a website for a bakery which is based in Delhi-NCR.
-                        <br />
-                        <br />
-                        I used <strong className='string' style={greetingstyle}>REACT <i style={greetingstyle} class="fa-brands fa-react"></i></strong> as library and used concepts like props, hooks
-                        (useState, useEffect, useRef, useContext), and <strong className='string' style={greetingstyle}>React-Router-Dom </strong>
-                        to switch between pages faster. Created a customized layout for the website and a
-                        <strong className='string' style={greetingstyle}> Cart </strong> so that users can easily place the order.
-                        <br></br>
-                        <br></br>
-                        Used <strong className='string' style={greetingstyle}>Context Api </strong> as state manager to manage global data, which was consumed using
-                        <strong className='string' style={greetingstyle}> useContext Hook. </strong> Had to manage a few states so preferred  Context Api over
-                        <strong className='string' style={greetingstyle}> React Redux.</strong>
-                        <br /><br />
-                        Also implemented <strong className='string' style={greetingstyle}> Lazy Loading </strong> to improve the performance and reduce the memory footprint of the website.
-                        Saved the cart data in <strong className='string' style={greetingstyle}> Local Storage </strong>so the items won't disappear after refresh.
+                        <li style={whitetoblack} className='lik'>Created a bakery website using React</li>
 
-                        <br /><br />
-                        <div className="design" style={greetingstyle}>
-                            I hosted the website on netlify and used godaddy for domain name.
-                            {/* Overall I used, */}
-                        </div>
-                        {/* <ul className='text1'>
-                            <li style={whitetoblack} className='lik'>Reactjs    <i style={greetingstyle} class="fa-brands fa-react"></i></li>
-                            <li style={whitetoblack} className='lik'>Javascript <i style={greetingstyle} class="fa-brands fa-square-js"></i></li>
-                            <li style={whitetoblack} className='lik'>CSS3       <i style={greetingstyle} class="fa-brands fa-css3-alt"></i></li>
-                        </ul> */}
+                        <li style={whitetoblack} className='lik'>Utilized <strong className='string' style={greetingstyle}>React-Router-Dom</strong> to switch between pages faster.</li>
+
+                        <li style={whitetoblack} className='lik'>Utilized<strong className='string' style={greetingstyle}> Context API</strong>  as the state manager for global data</li>
+
+                        <li style={whitetoblack} className='lik'>Implemented <strong className='string' style={greetingstyle}>Lazy Loading</strong>  to enhance website performance.</li>
+
+                        <li style={whitetoblack} className='lik'>Saved cart data in <strong className='string' style={greetingstyle}>Local Storage</strong> to persist items across page refreshes.</li>
                     </p>
-                    <br />
-                    <div className="sample" style={whitetoblack}>
-                        Here is a sample of the same website
-                    </div>
                     <div className="img-display">
                         <img loading="lazy" style={borderGoldToOrange} src={hash} alt="nikaljao" className='hash_images' />
                     </div>
@@ -548,28 +518,12 @@ export default function Newhome() {
                         <div className="bakery" style={greetingstyle} >KK FOOD</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
-                        I created a website for a Haldwani-based family restaurant.
-                        <br />
-                        <br />
-                        I used <strong className='string' style={greetingstyle}>REACT <i style={greetingstyle} class="fa-brands fa-react"></i></strong> as library  and used the concept of react-router, props
-                        to make the website fast. Created a customized layout for this website, I used useEffect to make an animated logo before showing the real content.
-                        <br /><br />
-                        Also implemented <strong className='string' style={greetingstyle}> Lazy Loading </strong> to improve the performance and reduce the memory footprint of the application.
-                        <br></br>
-                        <br></br>
-                        <div className="design" style={greetingstyle}>
-                            I hosted the website on netlify and used Hostinger (.in) domain. <br />
-                            {/* Overall I used- */}
-                        </div>
-                        {/* <ul className='text1'>
-                            <li style={whitetoblack} className='lik'>Reactjs    <i style={greetingstyle} class="fa-brands fa-react"></i></li>
-                            <li style={whitetoblack} className='lik'>Javascript <i style={greetingstyle} class="fa-brands fa-square-js"></i></li>
-                            <li style={whitetoblack} className='lik'>CSS3       <i style={greetingstyle} class="fa-brands fa-css3-alt"></i></li>
-                        </ul> */}
+
+                        <li style={whitetoblack} className='lik'>Created a family restaurant website using <strong className='string' style={greetingstyle}>React</strong></li>
+
+                        <li style={whitetoblack} className='lik'>Implemented <strong className='string' style={greetingstyle}>Lazy Loading</strong> to improve performance and reduce memory usage</li>
+
                     </p>
-                    <div className="sample" style={whitetoblack}>
-                        Here is a sample of the same website which is RESPONSIVE on all devices
-                    </div>
                     <div className="img-display">
                         <img loading="lazy" style={borderGoldToOrange} src={kk} alt="nikaljao" className='hash_images' />
                     </div>
@@ -597,33 +551,13 @@ export default function Newhome() {
                     <p className="info_para" style={whitetoblack}>
                         I created my <strong style={greetingstyle} className='string'>Portfolio Website </strong> using React JS to showcase the work I have completed so far.
                         <br />
-                        <br />
-                        I used <strong style={greetingstyle} className='string'>NETLIFY</strong> to host the website and <strong style={greetingstyle} className='string'>GITHUB </strong>
-                        to deploy the project on netlify. I used hostinger for <strong style={greetingstyle} className='string'>domain</strong> name.
-                        <br />
                         <div className="img-display">
                             <img loading="lazy" style={borderGoldToOrange} src={ank} alt="nikaljao" className='hash_images' />
                         </div>
                     </p>
-                    {/* <div>
-                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/ankitsingh2105/Portfolio" className='align' style={{ flexDirection: "column" }}>
-                            <i style={greetingstyle} class="fa-brands fa-github stack"></i>
-                        </a>
-                        <div style={whitetoblack} className='visit'>Code</div>
-                    </div> */}
-                    {/* <hr /> */}
                     <div className="links">
                         <a className="github" href="https://ankitsinghchauhan.tech/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
                             ANKITSINGHCHAUHNA.TECH
-                        </a>
-                    </div>
-                    <br />
-                    <p className="info_para" style={whitetoblack}>
-                        You can also check out the <strong style={greetingstyle} className='string'>previous versions </strong> of the portfolio website
-                    </p>
-                    <div className="links">
-                        <a className="github" href="https://ankitsinghchauhan2.netlify.app/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
-                            ANKITSINGH.NETLIFY.APP
                         </a>
                     </div>
                     <br />
@@ -642,46 +576,20 @@ export default function Newhome() {
                         <div className="bakery" style={greetingstyle} >Weather Web App </div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
-                        {/* <div className="align2" style={{ "marginBottom": "22px" }}>
-                            <img loading="lazy" className='actingthinking2' src={Api} alt="api" />
-                        </div> */}
-                        I created a project where we can see the real time weather report of the different cities all over the world.
-                        The data is <strong className='string' style={greetingstyle}> fetched </strong> from a free weather API website.
-                        <br />
-                        <br />
-                        I used <strong style={greetingstyle} className='string'>NETLIFY</strong> to host the website and <strong style={greetingstyle} className='string'>GITHUB </strong>
-                        to deploy the project on netlify.
-                        <br />
-                        <br />
-                        I used <strong style={greetingstyle} className='string'> Async Await </strong> so that a loader is shown, the API if fetched synchronously and
-                        data is shown after the loader element. I also used <strong style={greetingstyle} className='string'>LOCAL STORAGE </strong>
-                        to save the record of previous searches.
-                        Moreover I implemented <strong style={greetingstyle} className='string'> Speech Synthesis API </strong> so that user can search places through voice.
-                        <br />
-                        <br />
-                        This project was made using <strong style={greetingstyle} className='string'>Vanilla Javascript</strong> CSS and HTML
+                        <li style={whitetoblack} className='lik'>Created a project to display real-time weather reports of different cities.</li>
+
+                        <li style={whitetoblack} className='lik'>Utilized <strong className='string' style={greetingstyle}>Async/Await</strong> to show a loader while synchronously fetching API data.</li>
+
+                        <li style={whitetoblack} className='lik'>Used <strong className='string' style={greetingstyle}>Local Storage</strong> to save previous search records and <strong className='string' style={greetingstyle}>Session Storage</strong> for refreshed data for every session.</li>
+
+                        <li style={whitetoblack} className='lik'>Implemented <strong className='string' style={greetingstyle}>Speech Synthesis API</strong> for voice-based place search.</li>
+
+                        <li style={whitetoblack} className='lik'>Also used CSS <strong className='string' style={greetingstyle}>Flex Box and Grid</strong>.</li>
+
                     </p>
-                    <div className="languages" style={greetingstyle}>
-                        I implemented the following concepts____
-                    </div>
-                    <ul className='lost'>
-                        <li style={whitetoblack} className='lik'>Async Await</li>
-                        <li style={whitetoblack} className='lik'>Fetch API</li>
-                        <li style={whitetoblack} className='lik'>Local & Session Storage</li>
-                        <li style={whitetoblack} className='lik'>CSS Flex Box and Grid</li>
-                        <li style={whitetoblack} className='lik'>Event Listeners</li>
-                        <li style={whitetoblack} className='lik'>Speech Synthesis API</li>
-                    </ul>
                     <div className="img-display">
                         <img loading="lazy" style={borderGoldToOrange} src={weather} alt="nikaljao" className='hash_images' />
                     </div>
-                    {/* <div>
-                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/ankitsingh2105/Weather-App" className='align' style={{ flexDirection: "column" }}>
-                            <i style={greetingstyle} class="fa-brands fa-github stack"></i>
-                        </a>
-                        <div style={whitetoblack} className='visit'>Code</div>
-                    </div> */}
-                    {/* <hr /> */}
                     <div className="links">
                         <a className="github" href="https://weatherappfetchapi.netlify.app/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
                             WEATHERAPI.NETLIFY.APP
@@ -701,24 +609,13 @@ export default function Newhome() {
                         <div className="bakery" style={greetingstyle} >Spell Quiz</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
-                        I created a project where we can test english spellings, the voice assistant will speak the words and, you have to
-                        write the words and the voice will responD accordingly.
-                        <br />
-                        <br />
-                        I used <strong style={greetingstyle} className='string'>NETLIFY</strong> to host the website and <strong style={greetingstyle} className='string'>GITHUB </strong>
-                        to deploy the project on netlify.
-                        <br />
-                        <br />
-                        This project was made using <strong style={greetingstyle} className='string'>Vanilla Javascript</strong> CSS and HTML
+                        <li style={whitetoblack} className='lik'>Created a web app for <strong className='string' style={greetingstyle}>testing English spellings</strong> using a voice assistant.</li>
+
+                        <li style={whitetoblack} className='lik'>Implemented a <strong className='string' style={greetingstyle}>voice assistant</strong> that say words and prompts the user to write them.</li>
+
+                        <li style={whitetoblack} className='lik'>Used <strong className='string' style={greetingstyle}>local storage</strong> to save the progress of each level.</li>
+
                     </p>
-                    <div className="languages" style={greetingstyle}>
-                        I implemented the following concepts____
-                    </div>
-                    <ul className='lost'>
-                        <li style={whitetoblack} className='lik'>Speech Synthesis API</li>
-                        <li style={whitetoblack} className='lik'>Local & Session Storage</li>
-                        <li style={whitetoblack} className='lik'>CSS Flex Box</li>
-                    </ul>
                     <div className="img-display">
                         <img loading="lazy" style={borderGoldToOrange} src={spelling} alt="nikaljao" className='hash_images' />
                     </div>
@@ -739,34 +636,26 @@ export default function Newhome() {
                 <div className="section" style={sectioncolor}>
                     <div className="languages">
                         <div className="number1" style={whitetoblack}>006.</div>
-                        <div className="bakery" style={greetingstyle} >Firebase Authentication System</div>
+                        <div className="bakery" style={greetingstyle} >Firebase + Redux Web App</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
-                    I developed a small e-commerce cart application using Firebase and React Redux. The application allows users to sign up, log in, and authenticate using Google authentication. Users can browse through products, add them to their cart, and proceed to checkout. The app also supports image uploads.
-                    </p>
-                    <div className="languages" style={greetingstyle}>
-                    Key Features:
-                    </div>
-                    <ul className='lost'>
-                        <li style={whitetoblack} className='lik'>Firebase integration for authentication and storage</li>
-                        <li style={whitetoblack} className='lik'>Google login/sign up and manuall login/sign up integration using Firebase Auth</li>
-                        <li style={whitetoblack} className='lik'>Image uploading functionality with Firebase Storage</li>
-                        <li style={whitetoblack} className='lik'>Shopping Cart: Enabled users to add products to their cart, view the cart contents, and update or remove items.</li>
-                        <li style={whitetoblack} className='lik'>Integration of React Router for navigation between different pages</li>
-                    </ul>
 
-                    <div className="languages" style={greetingstyle}>
-                    Technologies Used:
-                    </div>
-                    <ul className='lost'>
-                        <li style={whitetoblack} className='lik'>React: Built the frontend user interface and implemented state management using React Redux.</li>
-                        <li style={whitetoblack} className='lik'>Firebase: Utilized Firebase Authentication for user authentication and Firestore for data storage.</li>
-                        <li style={whitetoblack} className='lik'>Redux: Managed application state using Redux, allowing for efficient data management and actions. </li>
-                    </ul>
-                    <hr />
-                    <ul className='lost'>
-                        <li style={whitetoblack} className='lik'>Best viewed in mobile, the focus was to try hands-on Firebase and reactjs </li>
-                    </ul>
+                        <li style={whitetoblack} className='lik'>I developed a web app using <strong className='string' style={greetingstyle}>Firebase</strong> and <strong className='string' style={greetingstyle}>React Redux</strong> with the functionality of an <strong className='string' style={greetingstyle}>e-commerce web app</strong>.</li>
+
+
+                        <li style={whitetoblack} className='lik'>Google login/sign up and manual login/sign up integration using <strong className='string' style={greetingstyle}>Firebase Auth</strong></li>
+
+                        <li style={whitetoblack} className='lik'>Image uploading functionality with <strong className='string' style={greetingstyle}>Firebase Storage</strong></li>
+
+                        <li style={whitetoblack} className='lik'><strong className='string' style={greetingstyle}>Shopping Cart:</strong> Enabled users to <strong className='string' style={greetingstyle}>add products</strong> to their cart, <strong className='string' style={greetingstyle}>view the cart contents</strong>, and <strong className='string' style={greetingstyle}>update or remove items</strong>.</li>
+
+
+
+                        <li style={whitetoblack} className='lik'>Integrated of <strong className='string' style={greetingstyle}>React Router</strong> for navigation between different pages</li>
+
+                        <hr />
+                        <li style={whitetoblack} className='lik'>Best viewed in mobile, the focus was to try hands-on Firebase and Redux </li>
+                    </p>
                     <div></div>
                     <div className="links">
                         <a className="github" href="https://firecartredux.netlify.app/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
@@ -782,28 +671,14 @@ export default function Newhome() {
                     <div>
                     </div>
                     <div className="languages">
-                        <div className="number1" style={whitetoblack}>006.</div>
-                        <div className="bakery" style={greetingstyle} >Contest Informer<br /> <small style={whitetoblack}>(Vanilla JS)</small><br /> </div>
+                        <div className="number1" style={whitetoblack}>007.</div>
+                        <div className="bakery" style={greetingstyle} >Contest Informer<br /> </div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
-                        <div className="align2" style={{ "marginBottom": "22px" }}>
-                            <img loading="lazy" className='actingthinking2' src={Api} alt="api" />
-                        </div>
-                        I created a small project where I fetched an API and displayed the upcoming contests of Codechef, Codeforces, and Atcoder.
-                        <br />
-                        <br />
-                        I used <strong style={greetingstyle} className='string'>NETLIFY</strong> to host the website and <strong style={greetingstyle} className='string'>GITHUB </strong>
-                        to deploy the project on netlify.
-                        <br />
-                        <br />
-                        This project was made entirely using <strong style={greetingstyle} className='string'>Vanilla Javascript</strong>.
+                        <img loading="lazy" className='actingthinking2' src={Api} alt="api" />
+                        <li style={whitetoblack} className='lik'>I created a small project where I fetched an API and displayed the upcoming contests of <strong className='string' style={greetingstyle}>Codechef</strong>, <strong className='string' style={greetingstyle}>Codeforces</strong>, and <strong className='string' style={greetingstyle}>Atcoder</strong>.</li>
+                        <li style={whitetoblack} className='lik'><strong className='string' style={greetingstyle}>Fetched</strong> data from an external <strong className='string' style={greetingstyle}>API</strong>.</li>
                     </p>
-                    <div>
-                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/ankitsingh2105/FreeRestAPi" className='align' style={{ flexDirection: "column" }}>
-                            <i style={greetingstyle} class="fa-brands fa-github stack"></i>
-                        </a>
-                        <div style={whitetoblack} className='visit'>Code</div>
-                    </div>
                     <div className="links">
                         <a className="github" href="https://contestinformer.netlify.app/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
                             CONTESTINFORMER.NETLIFY.APP
@@ -812,47 +687,12 @@ export default function Newhome() {
                     <br />
                 </div>
             </div>
-            {/*  third  one demo */}
-            {/* <div className='first first1' style={blacktowhite}   >
-
-                <div className="section" style={sectioncolor} >
-                    <div>
-                    </div>
-                    <div className="languages">
-                        <div className="number1" style={whitetoblack}>007.</div>
-                        <div className="bakery" style={greetingstyle} >Background Color Change<br />  <small style={whitetoblack}>(Vanilla JS)</small><br /> </div>
-                    </div>
-                    <p className="info_para" style={whitetoblack}>
-                        I created a small project where you can change the colour of the background change by clicking on the colour you want.
-                        <br />
-                        <br /><br />
-                        I also used <strong style={greetingstyle} className='string'>LOCAL STORAGE</strong> to save the current colour, so that the colour won't change
-                        when you refresh the page after selecting some.
-                        <br />
-                        <br />
-                    </p>
-                    <div>
-                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/ankitsingh2105/BackGround_Color_Change" className='align' style={{ flexDirection: "column" }}>
-                            <i style={greetingstyle} class="fa-brands fa-github stack"></i>
-                        </a>
-                        <div style={whitetoblack} className='visit'>Code</div>
-                    </div>
-                    <div className="links">
-                        <a className="github" href="https://bodycolorchange.netlify.app/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
-                            BODYCOLORCHANGE.NETLIFY.APP
-                        </a>
-                    </div>
-                </div>
-                <div>.</div>
-            </div> */}
 
 
-            {/*  third  one demo */}
 
-            {/* Second page end */}
-            {/* .}
 
-            {/* Third page */}
+
+            {/* Todo : contact form */}
             <div className="first" ref={contact} style={blacktowhite}>
 
                 <div className="section" style={sectioncolor}>
