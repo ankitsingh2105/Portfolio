@@ -409,7 +409,7 @@ export default function Newhome() {
                     <div className="competitive" style={whitetoblack}>
                         I also do competitive programming using <strong className='Mca' style={greetingstyle}> C++ </strong>
                         I am active on Codechef, Codeforces, Leetcode
-                        and have Highest Rating of 1828 (4 <i style={greetingstyle} class="fa-solid fa-star"></i>) on CODECHEF
+                        and have Highest the Rating of 1828 (4 <i style={greetingstyle} class="fa-solid fa-star"></i>) on CODECHEF
                     </div>
                     <br></br>
 
@@ -801,6 +801,9 @@ export default function Newhome() {
                     </div>
                     <br />
                 </div>
+
+
+
             </div>
             <div>
             </div>
