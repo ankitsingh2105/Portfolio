@@ -365,7 +365,7 @@ export default function Newhome() {
                             in Uttrakhand, INDIA.<br />
 
                             <br></br>Completed my Bachelor of Science, Mathematics (B.Sc) from Kumaun University. Planning to
-                            do <strong className='Mca' style={greetingstyle}  >Master of Computer Applications</strong>.
+                            do <strong className='Mca' style={greetingstyle}  >Masters of Computer Applications</strong>.
                         </p>
                     </div>
 
@@ -614,7 +614,7 @@ export default function Newhome() {
                     <p className="info_para" style={whitetoblack}>
                         <li style={whitetoblack} className='lik'>Created a web app for <strong className='string' style={greetingstyle}>testing English spellings</strong> using a voice assistant.</li>
 
-                        <li style={whitetoblack} className='lik'>Implemented a <strong className='string' style={greetingstyle}>voice assistant</strong> that say words and prompts the user to write them.</li>
+                        <li style={whitetoblack} className='lik'>Implemented a <strong className='string' style={greetingstyle}>voice assistant</strong> that says words and prompts the user to write them.</li>
 
                         <li style={whitetoblack} className='lik'>Used <strong className='string' style={greetingstyle}>local storage</strong> to save the progress of each level.</li>
 
@@ -654,7 +654,7 @@ export default function Newhome() {
 
 
 
-                        <li style={whitetoblack} className='lik'>Integrated of <strong className='string' style={greetingstyle}>React Router</strong> for navigation between different pages</li>
+                        <li style={whitetoblack} className='lik'>Integrated <strong className='string' style={greetingstyle}>React Router</strong> for navigation between different pages</li>
 
                         <hr />
                         <li style={whitetoblack} className='lik'>Best viewed in mobile, the focus was to try hands-on Firebase and Redux </li>
@@ -717,9 +717,9 @@ export default function Newhome() {
 
                     <div className="contact-info">
                         <p className="info_para" style={whitetoblack}>
-                            I am actively looking for internships if degree is not
-                            your concern then you can definitely ping me. I am also open to code along,
-                            I believe in sharing the knowledge which often yield to great projects. <br /> <br />
+                            I am actively looking for internships if a degree is not
+                            your concern then you can ping me. I am also open to code along,
+                            I believe in sharing knowledge which often yields great projects. <br /> <br />
 
                             If you do so, I will be able to add some more worthy projects here,
                             so contact me <strong className='string' style={greetingstyle}>ASAP!! 👀</strong>
@@ -770,7 +770,7 @@ export default function Newhome() {
                                     <br />
                                     <img style={{ border: "1px solid black" }} src="https://stackexchange.com/users/flair/26054765.png?theme=clean" className="stackOverflowLink" alt='Stack' />
                                 </a>
-                                <div style={whitetoblack} className='visit'>Visit my profile by clicking above image </div>
+                                <div style={whitetoblack} className='visit'>Visit my profile by clicking the above image </div>
                             </div>
                         </div>
                     </div>
