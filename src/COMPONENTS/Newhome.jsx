@@ -581,7 +581,8 @@ export default function Newhome() {
                     <p className="info_para" style={whitetoblack}>
                         <li style={whitetoblack} className='lik'>Created a project to display real-time weather reports of different cities.</li>
 
-                        <li style={whitetoblack} className='lik'>Utilized <strong className='string' style={greetingstyle}>Async/Await</strong> to show a loader while synchronously fetching API data.</li>
+                        <li style={whitetoblack} className='lik'>Utilized <strong className='string' style={greetingstyle}> async await </strong>
+                         to handle asynchronous API data fetching and showing a loader while the data is being fetched </li>
 
                         <li style={whitetoblack} className='lik'>Used <strong className='string' style={greetingstyle}>Local Storage</strong> to save previous search records and <strong className='string' style={greetingstyle}>Session Storage</strong> for refreshed data for every session.</li>
 
