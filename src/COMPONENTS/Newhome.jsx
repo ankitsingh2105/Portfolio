@@ -364,8 +364,7 @@ export default function Newhome() {
                             I have completed my schooling and college in Haldwani, a city in the Nainital district
                             in Uttrakhand, INDIA.<br />
 
-                            <br></br>Completed my Bachelor of Science, Mathematics (B.Sc) from Kumaun University. Planning to
-                            do <strong className='Mca' style={greetingstyle}  >Masters of Computer Applications</strong>.
+                            <br></br>Completed my Bachelor of Science, Mathematics (B.Sc) from Kumaun University. Selected for <strong className='Mca' style={greetingstyle}  >Masters of Computer Applications</strong> through NIMCET (AIR - 309) and will be joining an NIT soon.
                         </p>
                     </div>
 
@@ -406,12 +405,12 @@ export default function Newhome() {
 
                     </ul>
 
-                    <div className="competitive" style={whitetoblack}>
+                    {/* <div className="competitive" style={whitetoblack}>
                         I also do competitive programming using <strong className='Mca' style={greetingstyle}> C++ </strong>
                         I am active on Codechef, Codeforces, Leetcode
                         and have Highest the Rating of 1828 (4 <i style={greetingstyle} class="fa-solid fa-star"></i>) on CODECHEF
                     </div>
-                    <br></br>
+                    <br></br> */}
 
 
                     <div className="head-certify" style={whitetoblack}>
