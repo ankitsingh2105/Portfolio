@@ -402,6 +402,7 @@ export default function Newhome() {
                         <li style={whitetoblack} className='like'>Responsive Web Designs&nbsp;&nbsp;    <i style={greetingstyle} class="fa-solid fa-pen-nib"></i></li>
 
                         <li style={whitetoblack} className='like'>Netlify</li>
+                        <li style={whitetoblack} className='like'>Chat GPT</li>
 
                     </ul>
 
@@ -581,7 +582,7 @@ export default function Newhome() {
                         <li style={whitetoblack} className='lik'>Created a project to display real-time weather reports of different cities.</li>
 
                         <li style={whitetoblack} className='lik'>Utilized <strong className='string' style={greetingstyle}> async await </strong>
-                         to handle asynchronous API data fetching and showing a loader while the data is being fetched </li>
+                            to handle asynchronous API data fetching and showing a loader while the data is being fetched </li>
 
                         <li style={whitetoblack} className='lik'>Used <strong className='string' style={greetingstyle}>Local Storage</strong> to save previous search records and <strong className='string' style={greetingstyle}>Session Storage</strong> for refreshed data for every session.</li>
 
@@ -813,7 +814,7 @@ export default function Newhome() {
             <div className="movetotop" onClick={(() => scrollSection(top))} style={backgroundYellotoorange}>
                 <i class="fa-solid fa-arrow-up"></i>
             </div>
-            
+
 
 
             <div className="align2 socialMedia" >
