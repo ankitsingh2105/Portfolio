@@ -403,6 +403,7 @@ export default function Newhome() {
 
                         <li style={whitetoblack} className='like'>Netlify</li>
                         <li style={whitetoblack} className='like'>Chat GPT</li>
+                        <br />
 
                     </ul>
 
