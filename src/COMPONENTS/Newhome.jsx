@@ -14,8 +14,11 @@ import certificates from './certificates.png'
 import resume from "./AnkitRESUME.pdf"
 import Api from './Api.png'
 import messaging from './messaging.png'
+import linkBee from "./linkbeeIMG.png"
+
 import { useState } from 'react';
 import { useRef } from 'react';
+
 export default function Newhome() {
     const about = useRef(null);
     const work = useRef(null);
@@ -464,6 +467,8 @@ export default function Newhome() {
                             The Web Apps and other projects I have added here
                         </div>
                         <ul className='lost'>
+                            <li style={whitetoblack} className='like'><a href="https://linkbee.online/">Linkbee Web App</a></li>
+
                             <li style={whitetoblack} className='like'><a href="https://weatherappfetchapi.netlify.app/">Real Time Weather Web App</a></li>
 
                             <li style={whitetoblack} className='like'><a href="https://firecartredux.netlify.app/">Firebase + Redux E-commerce Web App</a></li>
@@ -577,6 +582,40 @@ export default function Newhome() {
                     </div>
                     <div className="languages">
                         <div className="number1" style={whitetoblack}>004.</div>
+                        <div className="bakery" style={greetingstyle} >Link Bee Web App </div>
+                    </div>
+                    <p className="info_para" style={whitetoblack}>
+                        <li style={whitetoblack} className='lik'>Users can effortlessly add their links to a single page.</li>
+
+                        <li style={whitetoblack} className='lik'> Utilizes Firebase for storing and managing user data in real-time. </li>
+
+                        <li style={whitetoblack} className='lik'>React Router for seamless navigation</li>
+
+                        <li style={whitetoblack} className='lik'>Asynchronous Javascript</li>
+
+                        <li style={whitetoblack} className='lik'>Also used CSS <strong className='string' style={greetingstyle}>Flex Box and Grid</strong>.</li>
+
+                    </p>
+                    <div className="img-display">
+                        <img loading="lazy" style={borderGoldToOrange} src={linkBee} alt="nikaljao" className='hash_images' />
+                    </div>
+                    <div className="links">
+                        <a className="github" href="https://linkbee.online/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
+                            LINKBEE.ONLINE
+                        </a>
+                    </div>
+                    <br />
+                </div>
+            </div>
+
+
+            <div className='first first1' style={blacktowhite}>
+
+                <div className="section" style={sectioncolor}>
+                    <div>
+                    </div>
+                    <div className="languages">
+                        <div className="number1" style={whitetoblack}>005.</div>
                         <div className="bakery" style={greetingstyle} >Weather Web App </div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
@@ -605,12 +644,13 @@ export default function Newhome() {
             </div>
 
 
+
             {/* 4th project */}
             <div className='first first1' style={blacktowhite}>
 
                 <div className="section" style={sectioncolor}>
                     <div className="languages">
-                        <div className="number1" style={whitetoblack}>005.</div>
+                        <div className="number1" style={whitetoblack}>006.</div>
                         <div className="bakery" style={greetingstyle} >Spell Quiz</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
@@ -640,7 +680,7 @@ export default function Newhome() {
 
                 <div className="section" style={sectioncolor}>
                     <div className="languages">
-                        <div className="number1" style={whitetoblack}>006.</div>
+                        <div className="number1" style={whitetoblack}>007.</div>
                         <div className="bakery" style={greetingstyle} >Firebase + Redux Web App</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
@@ -676,7 +716,7 @@ export default function Newhome() {
                     <div>
                     </div>
                     <div className="languages">
-                        <div className="number1" style={whitetoblack}>007.</div>
+                        <div className="number1" style={whitetoblack}>008.</div>
                         <div className="bakery" style={greetingstyle} >Contest Informer<br /> </div>
                         <br />
                     </div>
@@ -719,8 +759,7 @@ export default function Newhome() {
 
                     <div className="contact-info">
                         <p className="info_para" style={whitetoblack}>
-                            I am actively looking for internships if a degree is not
-                            your concern then you can ping me. I am also open to code along,
+                            I am actively looking for internships. I am also open to code along,
                             I believe in sharing knowledge which often yields great projects. <br /> <br />
 
                             If you do so, I will be able to add some more worthy projects here,
