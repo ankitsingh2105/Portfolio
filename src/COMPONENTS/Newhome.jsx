@@ -586,7 +586,8 @@ export default function Newhome() {
                         <div className="bakery" style={greetingstyle} >Link Bee Web App </div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
-                        <li style={whitetoblack} className='lik'>Users can effortlessly add their links to a single page.</li>
+                        <li style={whitetoblack} className='lik'>
+                            Users can create unique links where they can add links to their social media and upcoming events.</li>
 
                         <li style={whitetoblack} className='lik'> Utilizes Firebase for storing and managing user data in real-time. </li>
 
