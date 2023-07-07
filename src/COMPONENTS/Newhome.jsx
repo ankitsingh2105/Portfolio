@@ -589,7 +589,7 @@ export default function Newhome() {
                         <li style={whitetoblack} className='lik'>
                             Users can create unique links where they can add links to their social media and upcoming events.</li>
 
-                        <li style={whitetoblack} className='lik'> Utilizes Firebase for storing and managing user data in real-time. </li>
+                        <li style={whitetoblack} className='lik'> Utilized Firebase for storing and managing user data in real-time. </li>
 
                         <li style={whitetoblack} className='lik'>React Router for seamless navigation</li>
 
