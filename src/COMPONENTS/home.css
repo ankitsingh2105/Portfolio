@@ -146,6 +146,25 @@ body::-webkit-scrollbar-thumb {
     margin-left: 4px
 }
 
+li {
+    list-style-type: circle;
+}
+
+.info_para div li {
+    list-style-type: disc;
+    margin: 10px 0px;
+}
+
+.info_para div {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    place-items: center;
+    margin-left: -25px;
+}
+.info_para li{
+    list-style: none;
+}
+
 .navbar {
     display: flex;
     align-items: center;
@@ -313,7 +332,8 @@ h1 {
     color: white;
     font-size: 16px;
 }
-.like{
+
+.like {
     font-size: 15.5px;
     font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
     font-weight: 300;
@@ -595,8 +615,9 @@ input {
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
     letter-spacing: 2px;
-    
+
 }
+
 .head-certify {
     letter-spacing: 2px;
     font-family: "Open Sans", sans-serif;
@@ -1048,8 +1069,9 @@ li {
         color: red;
         padding: 0px;
     }
+
     .socail1:hover {
-        color:#ef8236;
+        color: #ef8236;
     }
 
 }

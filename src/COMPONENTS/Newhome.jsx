@@ -497,13 +497,21 @@ export default function Newhome() {
                     <p className="info_para" style={whitetoblack}>
                         <li style={whitetoblack} className='lik'>Created a bakery website using React</li>
 
-                        <li style={whitetoblack} className='lik'>Utilized <strong className='string' style={greetingstyle}>React-Router-Dom</strong> to switch between pages faster.</li>
+                        <li style={whitetoblack} className='lik'>Utilized  React-Router-Dom to switch between pages faster.</li>
 
-                        <li style={whitetoblack} className='lik'>Utilized<strong className='string' style={greetingstyle}> Context API</strong>  as the state manager for global data</li>
+                        <li style={whitetoblack} className='lik'>Utilized  Context API  as the state manager for global data</li>
 
-                        <li style={whitetoblack} className='lik'>Implemented <strong className='string' style={greetingstyle}>Lazy Loading</strong>  to enhance website performance.</li>
+                        <li style={whitetoblack} className='lik'>Implemented  Lazy Loading  to enhance website performance.</li>
 
-                        <li style={whitetoblack} className='lik'>Saved cart data in <strong className='string' style={greetingstyle}>Local Storage</strong> to persist items across page refreshes.</li>
+                        <li style={whitetoblack} className='lik'>Saved cart data in  Local Storage to persist items across page refreshes.</li>
+                    </p>
+                    <p className="info_para" style={whitetoblack}>
+                        <div>
+                            <li><strong className='string' style={greetingstyle}>React-Router-Dom</strong></li>
+                            <li><strong className='string' style={greetingstyle}>Context API</strong></li>
+                            <li><strong className='string' style={greetingstyle}>Lazy Loading </strong></li>
+                            <li><strong className='string' style={greetingstyle}>Local Storage</strong></li>
+                        </div>
                     </p>
                     <div className="img-display">
                         <img loading="lazy" style={borderGoldToOrange} src={hash} alt="nikaljao" className='hash_images' />
@@ -529,10 +537,16 @@ export default function Newhome() {
                     </div>
                     <p className="info_para" style={whitetoblack}>
 
-                        <li style={whitetoblack} className='lik'>Created a family restaurant website using <strong className='string' style={greetingstyle}>React</strong></li>
+                        <li style={whitetoblack} className='lik'>Created a family restaurant website using  React</li>
 
-                        <li style={whitetoblack} className='lik'>Implemented <strong className='string' style={greetingstyle}>Lazy Loading</strong> to improve performance and reduce memory usage</li>
+                        <li style={whitetoblack} className='lik'>Implemented  Lazy Loading to improve performance and reduce memory usage</li>
 
+                    </p>
+                    <p className="info_para" style={whitetoblack}>
+                        <div>
+                            <li><strong className='string' style={greetingstyle}>ReactJS</strong></li>
+                            <li><strong className='string' style={greetingstyle}>Lazy Loading </strong></li>
+                        </div>
                     </p>
                     <div className="img-display">
                         <img loading="lazy" style={borderGoldToOrange} src={kk} alt="nikaljao" className='hash_images' />
@@ -561,10 +575,10 @@ export default function Newhome() {
                     <p className="info_para" style={whitetoblack}>
                         I created my <strong style={greetingstyle} className='string'>Portfolio Website </strong> using React JS to showcase the work I have completed so far.
                         <br />
-                        <div className="img-display">
-                            <img loading="lazy" style={borderGoldToOrange} src={ank} alt="nikaljao" className='hash_images' />
-                        </div>
                     </p>
+                    <div className="img-display">
+                        <img loading="lazy" style={borderGoldToOrange} src={ank} alt="nikaljao" className='hash_images' />
+                    </div>
                     <div className="links">
                         <a className="github" href="https://ankitsinghchauhan.tech/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
                             ANKITSINGHCHAUHNA.TECH
@@ -598,6 +612,15 @@ export default function Newhome() {
                         <li style={whitetoblack} className='lik'>Also used CSS <strong className='string' style={greetingstyle}>Flex Box and Grid</strong>.</li>
 
                     </p>
+                    <p className="info_para" style={whitetoblack}>
+                        <div>
+                            <li><strong className='string' style={greetingstyle}>Firebase</strong></li>
+                            <li><strong className='string' style={greetingstyle}>React-Router-Dom</strong></li>
+                            <li><strong className='string' style={greetingstyle}>Async JS</strong></li>
+                            <li><strong className='string' style={greetingstyle}>FlexBox & Grid</strong></li>
+                            <li><strong className='string' style={greetingstyle}>Dynamic Rendering</strong></li>
+                        </div>
+                    </p>
                     <div className="img-display">
                         <img loading="lazy" style={borderGoldToOrange} src={linkBee} alt="nikaljao" className='hash_images' />
                     </div>
@@ -623,15 +646,24 @@ export default function Newhome() {
                     <p className="info_para" style={whitetoblack}>
                         <li style={whitetoblack} className='lik'>Created a project to display real-time weather reports of different cities.</li>
 
-                        <li style={whitetoblack} className='lik'>Utilized <strong className='string' style={greetingstyle}> async await </strong>
+                        <li style={whitetoblack} className='lik'>Utilized  async await
                             to handle asynchronous API data fetching and showing a loader while the data is being fetched </li>
 
-                        <li style={whitetoblack} className='lik'>Used <strong className='string' style={greetingstyle}>Local Storage</strong> to save previous search records and <strong className='string' style={greetingstyle}>Session Storage</strong> for refreshed data for every session.</li>
+                        <li style={whitetoblack} className='lik'>Used Local Storage    to save previous search records and Session Storage    for refreshed data for every session.</li>
 
-                        <li style={whitetoblack} className='lik'>Implemented <strong className='string' style={greetingstyle}>Speech Synthesis API</strong> for voice-based place search.</li>
+                        <li style={whitetoblack} className='lik'>Implemented Speech Synthesis API    for voice-based place search.</li>
 
-                        <li style={whitetoblack} className='lik'>Also used CSS <strong className='string' style={greetingstyle}>Flex Box and Grid</strong>.</li>
+                        <li style={whitetoblack} className='lik'>Also used CSS Flex Box and Grid   .</li>
 
+                    </p>
+                    <p className="info_para" style={whitetoblack}>
+                        <div>
+                            <li><strong className='string' style={greetingstyle}>Async Await </strong></li>
+                            <li><strong className='string' style={greetingstyle}>Local Storage</strong></li>
+                            <li><strong className='string' style={greetingstyle}>Speech Synthesis</strong></li>
+                            <li><strong className='string' style={greetingstyle}>Flex Box & Grid</strong></li>
+                            <li><strong className='string' style={greetingstyle}>Vanilla JS</strong></li>
+                        </div>
                     </p>
                     <div className="img-display">
                         <img loading="lazy" style={borderGoldToOrange} src={weather} alt="nikaljao" className='hash_images' />
@@ -656,12 +688,20 @@ export default function Newhome() {
                         <div className="bakery" style={greetingstyle} >Spell Quiz</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
-                        <li style={whitetoblack} className='lik'>Created a web app for <strong className='string' style={greetingstyle}>testing English spellings</strong> using a voice assistant.</li>
+                        <li style={whitetoblack} className='lik'>Created a web app for     testing English spellings      using a voice assistant.</li>
 
-                        <li style={whitetoblack} className='lik'>Implemented a <strong className='string' style={greetingstyle}>voice assistant</strong> that says words and prompts the user to write them.</li>
+                        <li style={whitetoblack} className='lik'>Implemented a     voice assistant      that says words and prompts the user to write them.</li>
 
-                        <li style={whitetoblack} className='lik'>Used <strong className='string' style={greetingstyle}>local storage</strong> to save the progress of each level.</li>
+                        <li style={whitetoblack} className='lik'>Used     local storage      to save the progress of each level.</li>
 
+                    </p>
+                    <p className="info_para" style={whitetoblack}>
+                        <div>
+                            <li><strong className='string' style={greetingstyle}>voice assistant</strong></li>
+                            <li><strong className='string' style={greetingstyle}>Local Storage</strong></li>
+                            <li><strong className='string' style={greetingstyle}>Speech Synthesis</strong></li>
+                            <li><strong className='string' style={greetingstyle}>English Testing</strong></li>
+                        </div>
                     </p>
                     <div className="img-display">
                         <img loading="lazy" style={borderGoldToOrange} src={spelling} alt="nikaljao" className='hash_images' />
@@ -687,23 +727,25 @@ export default function Newhome() {
                     </div>
                     <p className="info_para" style={whitetoblack}>
 
-                        <li style={whitetoblack} className='lik'>I developed a web app using <strong className='string' style={greetingstyle}>Firebase</strong> and <strong className='string' style={greetingstyle}>React Redux</strong> with the functionality of an <strong className='string' style={greetingstyle}>e-commerce web app</strong>.</li>
+                        <li style={whitetoblack} className='lik'>I developed a web app using  Firebase and  React Redux  with the functionality of an  e-commerce web app .</li>
 
+                        <li style={whitetoblack} className='lik'>Google login/sign up and manual login/sign up integration using  Firebase Auth </li>
 
-                        <li style={whitetoblack} className='lik'>Google login/sign up and manual login/sign up integration using <strong className='string' style={greetingstyle}>Firebase Auth</strong></li>
+                        <li style={whitetoblack} className='lik'>Image uploading functionality with  Firebase Storage </li>
 
-                        <li style={whitetoblack} className='lik'>Image uploading functionality with <strong className='string' style={greetingstyle}>Firebase Storage</strong></li>
+                        <li style={whitetoblack} className='lik'> Shopping Cart:  Enabled users to  add products  to their cart,  view the cart contents , and  update or remove items .</li>
 
-                        <li style={whitetoblack} className='lik'><strong className='string' style={greetingstyle}>Shopping Cart:</strong> Enabled users to <strong className='string' style={greetingstyle}>add products</strong> to their cart, <strong className='string' style={greetingstyle}>view the cart contents</strong>, and <strong className='string' style={greetingstyle}>update or remove items</strong>.</li>
+                        <li style={whitetoblack} className='lik'>Integrated  React Router  for navigation between different pages</li>
 
-
-
-                        <li style={whitetoblack} className='lik'>Integrated <strong className='string' style={greetingstyle}>React Router</strong> for navigation between different pages</li>
-
-                        <hr />
-                        <li style={whitetoblack} className='lik'>Best viewed in mobile, the focus was to try hands-on Firebase and Redux </li>
                     </p>
-                    <div></div>
+                    <p className="info_para" style={whitetoblack}>
+                        <div>
+                            <li><strong className='string' style={greetingstyle}>Firebase</strong></li>
+                            <li><strong className='string' style={greetingstyle}>React Redux</strong></li>
+                            <li><strong className='string' style={greetingstyle}>React Router</strong></li>
+                            <li><strong className='string' style={greetingstyle}>Login/Signup</strong></li>
+                        </div>
+                    </p>
                     <div className="links">
                         <a className="github" href="https://firecartredux.netlify.app/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
                             FIRECARTREDUX.NETLIFY.APP
