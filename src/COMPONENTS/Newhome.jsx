@@ -367,7 +367,7 @@ export default function Newhome() {
                             I have completed my schooling and college in Haldwani, a city in the Nainital district
                             in Uttrakhand, INDIA.<br />
 
-                            <br></br>Completed my Bachelor of Science, Mathematics (B.Sc) from Kumaun University. Selected for <strong className='Mca' style={greetingstyle}  >Masters of Computer Applications</strong> through NIMCET (AIR - 309) and will be joining an NIT soon.
+                            <br></br>Completed my Bachelor of Science, Science (B.Sc) from Kumaun University. Currently, a student of <strong className='Mca' style={greetingstyle}> NIT Bhopal </strong> enrolled in MCA program through NIMCET (AIR - 309).
                         </p>
                     </div>
 
