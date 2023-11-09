@@ -461,7 +461,7 @@ export default function Newhome() {
                         </div>
                         <ul className='lost'>
                             <li style={whitetoblack} className='like'><a href="http://hashtagbakery.in/">HashTag Bakery - Bakery and Flower shop</a></li>
-                            <li style={whitetoblack} className='like'><a href="https://kkfoodshaldwani.in/">KK Food Haldwani - Family Restaurant</a></li>
+                            <li style={whitetoblack} className='like'><a href="https://kkfoodshaldwani.netlify.app/">KK Food Haldwani - Family Restaurant</a></li>
                             <li style={whitetoblack} className='like'><a href="https://ankitsinghchauhan.tech/">AnkitSinghChauhan.tech - Portfolio Website</a></li>
                         </ul>
                         <div className="languages" style={greetingstyle}>
