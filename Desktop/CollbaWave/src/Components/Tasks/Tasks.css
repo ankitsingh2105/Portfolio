@@ -1,0 +1,283 @@
+.code_main {
+    font-family: var(--main-font);
+}
+
+.SecondSection ul li {
+    font-size: 30px;
+    margin: 20px 2rem;
+    padding: 3px 7px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px black;
+    font-weight: bolder;
+    list-style: none;
+}
+
+.code_nav {
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    background-color: white;
+    z-index: 999999999;
+}
+
+.code_nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin: 1px;
+}
+
+.SecondSection {
+    margin-top: 4rem;
+}
+
+.code-display {
+    margin-top: 1rem;
+    background-color: #1e1e1e;
+    padding: 1rem;
+    border-radius: 4px;
+    overflow: auto;
+}
+
+.CodeTextArea {
+    margin-top: 1rem;
+    width: 100%;
+    padding: 1rem;
+    background-color: #1e1e1e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.in_tasks  {
+    position: fixed;
+    top: 0%;
+    padding: 0rem 4rem 4rem 4rem;
+    z-index: 99999999;
+    background-color: rgb(253, 253, 253);
+}
+.share{
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    top: 10%;
+    background-color: white;
+    padding: 10rem 3rem;
+    z-index: 100000000;
+    /* border: 1px solid rgb(103, 103, 103); */
+
+}
+
+pre {
+    text-align: justify;
+    padding: 10px;
+    max-height: 500px;
+    overflow: auto;
+    min-width: 1000px;
+    font-weight: bolder;
+    font-family: var(--main-font);
+    border-radius: 3px;
+    background: black;
+    color: rgb(10, 225, 10);
+}
+
+.firebaseCodes :nth-child(1) {
+    font-weight: bolder;
+}
+
+.firebaseCodes {
+    border: 1px solid black;
+    padding: 6px;
+    margin: 6px 0px 1.5rem 0px;
+    position: relative;
+    border-radius: 2px;
+}
+
+pre {
+    max-width: 1100px;
+}
+
+.firebaseCodes button {
+    font-size: 14px;
+}
+
+.Status {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+.custom-toast {
+    z-index: 99999999999999999;
+}
+
+.copyButton {
+    position: absolute;
+    top: 0%;
+    z-index: 12121;
+    right: 0%;
+    box-shadow: 0px 0px 0px black;
+    border-radius: 0px;
+    font-size: 13px;
+    padding: 5px 8px;
+}
+
+pre {
+    position: relative;
+    padding-top: 2rem;
+}
+
+.in_tasks input {
+    border-radius: 5px;
+    border: none;
+    padding: 10px 5px;
+    box-shadow: 2px 2px 5px rgb(114, 114, 114);
+}
+
+.wheel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border-top: 5px solid var(--main-color);
+    border-radius: 100px;
+    animation: spin 1s linear infinite;
+}
+
+.saveLoadingWheel {
+    width: 50px;
+    height: 50px;
+    border-top: 2px solid var(--main-color);
+    animation: spin 1s linear infinite;
+    border-radius: 100px;
+}
+
+#filtering {
+    text-align: left;
+}
+
+select {
+    border: none;
+    font-size: 13px;
+    box-shadow: 2px 2px 2px rgb(69, 69, 69);
+    padding: 5px 2px;
+    border-radius: 3px;
+}
+
+.SecondSection ul li {
+    font-size: 30px;
+    margin: 20px 2rem;
+    padding: 3px 7px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px black;
+    font-weight: bolder;
+    list-style: none;
+}
+
+.floating{
+    background-color: var(--secondary-color);
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+    font-size: 25px;
+    padding: 15px 18px;
+    border-radius: 100px;
+    z-index: 9999999999999;
+    color: white;
+}
+.count{
+    position: absolute;
+    top: 5%;
+}
+.proGrammingLangs {
+    display: grid;
+    grid-template-columns: repeat(5, 8rem);
+    padding: 0px;
+}
+
+
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width: 1190px) {
+    pre, .CodeTextArea {
+        max-width: 850px;
+        min-width: 850px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    pre, .CodeTextArea {
+        max-width: 700px;
+        min-width: 700px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    pre, .CodeTextArea {
+        max-width: 500px;
+        min-width: 500px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    pre, .CodeTextArea {
+        max-width: 400px;
+        min-width: 400px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    pre, .CodeTextArea {
+        max-width: 350px;
+        min-width: 350px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    pre, .CodeTextArea {
+        max-width: 320px;
+        min-width: 320px;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    .SecondSection ul li {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    pre , .CodeTextArea{
+        max-width: 320px;
+        min-width: 320px;
+    }
+    .proGrammingLangs {
+        grid-template-columns: repeat(3, 6.3rem);
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    .proGrammingLangs {
+        display: grid;
+        grid-template-columns: repeat(3, 7.5rem);
+        padding: 0px;
+    }
+    .SecondSection ul li {
+        font-size: 25px;
+    }
+}
