@@ -15,6 +15,7 @@ import resume from "./AnkitRESUME.pdf"
 import Api from './Api.png'
 import messaging from './messaging.png'
 import linkBee from "./linkbeeIMG.png"
+import collab from "./COLLABB.png"
 
 import { useState } from 'react';
 import { useRef } from 'react';
@@ -470,6 +471,8 @@ export default function Newhome() {
                         <ul className='lost'>
                             <li style={whitetoblack} className='like'><a href="https://linkbee.online/">Linkbee Web App</a></li>
 
+                            <li style={whitetoblack} className='like'><a href="https://colllabwavenitb.netlify.app/">Collab Wave Web App</a></li>
+
                             <li style={whitetoblack} className='like'><a href="https://weatherappfetchapi.netlify.app/">Real Time Weather Web App</a></li>
 
                             <li style={whitetoblack} className='like'><a href="https://firecartredux.netlify.app/">Firebase + Redux E-commerce Web App</a></li>
@@ -641,6 +644,46 @@ export default function Newhome() {
                     </div>
                     <div className="languages">
                         <div className="number1" style={whitetoblack}>005.</div>
+                        <div className="bakery" style={greetingstyle} >Collab Wave Web App </div>
+                    </div>
+                    <p className="info_para" style={whitetoblack}>
+                        <li style={whitetoblack} className='lik'>
+                        Users can share their codes as messages to the other users of the web app.</li>
+
+                        <li style={whitetoblack} className='lik'> Secure and personalized experience with user login. </li>
+
+                        <li style={whitetoblack} className='lik'>Effortlessly manage your codes and stay organized.</li>
+
+                        <li style={whitetoblack} className='lik'>Leveraging Firebase for seamless real-time updates.</li>
+
+                    </p>
+                    <p className="info_para" style={whitetoblack}>
+                        <div>
+                            <li><strong className='string' style={greetingstyle}>Realtime Updates</strong></li>
+                            <li><strong className='string' style={greetingstyle}>Messaging Feature</strong></li>
+                            <li><strong className='string' style={greetingstyle}>Code Saving functionality</strong></li>
+                        </div>
+                    </p>
+                    <div className="img-display">
+                        <img loading="lazy" style={borderGoldToOrange} src={collab} alt="nikaljao" className='hash_images' />
+                    </div>
+                    <div className="links">
+                        <a className="github" href="https://colllabwavenitb.netlify.app/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
+                            COLLABWAVE.NETLIFY.APP
+                        </a>
+                    </div>
+                    <br />
+                </div>
+            </div>
+
+
+            <div className='first first1' style={blacktowhite}>
+
+                <div className="section" style={sectioncolor}>
+                    <div>
+                    </div>
+                    <div className="languages">
+                        <div className="number1" style={whitetoblack}>006.</div>
                         <div className="bakery" style={greetingstyle} >Weather Web App </div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
@@ -684,7 +727,7 @@ export default function Newhome() {
 
                 <div className="section" style={sectioncolor}>
                     <div className="languages">
-                        <div className="number1" style={whitetoblack}>006.</div>
+                        <div className="number1" style={whitetoblack}>007.</div>
                         <div className="bakery" style={greetingstyle} >Spell Quiz</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
@@ -722,7 +765,7 @@ export default function Newhome() {
 
                 <div className="section" style={sectioncolor}>
                     <div className="languages">
-                        <div className="number1" style={whitetoblack}>007.</div>
+                        <div className="number1" style={whitetoblack}>008.</div>
                         <div className="bakery" style={greetingstyle} >Firebase + Redux Web App</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
@@ -760,7 +803,7 @@ export default function Newhome() {
                     <div>
                     </div>
                     <div className="languages">
-                        <div className="number1" style={whitetoblack}>008.</div>
+                        <div className="number1" style={whitetoblack}>009.</div>
                         <div className="bakery" style={greetingstyle} >Contest Informer<br /> </div>
                         <br />
                     </div>
