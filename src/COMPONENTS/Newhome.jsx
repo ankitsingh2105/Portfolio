@@ -477,7 +477,7 @@ export default function Newhome() {
 
                             <li style={whitetoblack} className='like'><a href="https://firecartredux.netlify.app/">Firebase + Redux E-commerce Web App</a></li>
 
-                            <li style={whitetoblack} className='like'><a href="https://firecartredux.netlify.app/">Spelling Quiz Web App</a></li>
+                            <li style={whitetoblack} className='like'><a href="https://spellhornet.netlify.app/">Spelling Quiz Web App</a></li>
 
                             <li style={whitetoblack} className='like'><a href="https://contestinformer.netlify.app/">Competitive Coding Informer</a></li>
                         </ul>
