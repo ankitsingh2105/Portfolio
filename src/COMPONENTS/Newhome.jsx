@@ -790,7 +790,7 @@ export default function Newhome() {
                         </div>
                     </p>
                     <div className="links">
-                        <a className="github" href="https://firecartredux.netlify.app/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
+                        <a className="github" href="https://spellhornet.netlify.app/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
                             FIRECARTREDUX.NETLIFY.APP
                         </a>
                     </div>
