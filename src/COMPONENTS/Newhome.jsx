@@ -388,6 +388,8 @@ export default function Newhome() {
                         <li style={whitetoblack} className='like'>Javascript &nbsp;<i style={greetingstyle} class="fa-brands fa-square-js"></i></li>
 
                         <li style={whitetoblack} className='like'>React Js&nbsp;&nbsp;<i style={greetingstyle} class="fa-brands fa-react"></i></li>
+
+                         <li style={whitetoblack} className='like'>Redux Toolkit&nbsp;&nbsp;</li>
                     </ul>
 
                     <div className="languages" style={greetingstyle}>
