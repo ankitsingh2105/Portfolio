@@ -16,6 +16,7 @@ import Api from './Api.png'
 import messaging from './messaging.png'
 import linkBee from "./linkbeeIMG.png"
 import collab from "./COLLABB.png"
+import video from "./doodleVideo.mp4";
 
 import { useState } from 'react';
 import { useRef } from 'react';
@@ -372,14 +373,14 @@ export default function Newhome() {
                         </p>
                     </div>
 
+                    <br />
+
                     <div className="languages" style={greetingstyle}>
                         I know the following languages and library -
                     </div>
 
-                    <ul className='lost'>
+                    <ul className='lost2'>
                         <li style={whitetoblack} className='lik'>C++</li>
-
-                        <li style={whitetoblack} className='like'>C</li>
 
                         <li style={whitetoblack} className='like'>HTML5 &nbsp; <i style={greetingstyle} class="fa-brands fa-html5"></i></li>
 
@@ -388,13 +389,21 @@ export default function Newhome() {
                         <li style={whitetoblack} className='like'>Javascript &nbsp;<i style={greetingstyle} class="fa-brands fa-square-js"></i></li>
 
                         <li style={whitetoblack} className='like'>React Js&nbsp;&nbsp;<i style={greetingstyle} class="fa-brands fa-react"></i></li>
+
+                        <li style={whitetoblack} className='like'>Express Js&nbsp;&nbsp;<i style={greetingstyle} class="fa-brands fa-react"></i></li>
+
+                        <li style={whitetoblack} className='like'>Node Js&nbsp;&nbsp;<i style={greetingstyle} class="fa-brands fa-react"></i></li>
+
+                        <li style={whitetoblack} className='like'>Mongo DB&nbsp;&nbsp;<i style={greetingstyle} class="fa-brands fa-react"></i></li>
                     </ul>
+                    <br />
 
                     <div className="languages" style={greetingstyle}>
                         I also know the following -
                     </div>
 
-                    <ul className='lost'>
+                    <ul className='lost2'>
+                        <li style={whitetoblack} className='like'>Web Sockets</li>
                         <li style={whitetoblack} className='like'>Github&nbsp;&nbsp; <i style={greetingstyle} class="fa-brands fa-github"></i></li>
 
                         <li style={whitetoblack} className='like'>Git&nbsp;&nbsp;    <i style={greetingstyle} class="fa-brands fa-git"></i></li>
@@ -411,6 +420,8 @@ export default function Newhome() {
                         <br />
 
                     </ul>
+                    <br />
+                    <br />
 
                     {/* <div className="competitive" style={whitetoblack}>
                         I also do competitive programming using <strong className='Mca' style={greetingstyle}> C++ </strong>
@@ -469,6 +480,8 @@ export default function Newhome() {
                             The Web Apps and other projects I have added here
                         </div>
                         <ul className='lost'>
+                            <li style={whitetoblack} className='like'><a href="https://github.com/ankitsingh2105/DoodleQuest">Doodle Quest</a></li>
+
                             <li style={whitetoblack} className='like'><a href="https://linkbee.online/">Linkbee Web App</a></li>
 
                             <li style={whitetoblack} className='like'><a href="https://colllabwavenitb.netlify.app/">Collab Wave Web App</a></li>
@@ -643,12 +656,58 @@ export default function Newhome() {
                     <div>
                     </div>
                     <div className="languages">
+                        <div className="number1" style={whitetoblack}>004.</div>
+                        <div className="bakery" style={greetingstyle} >Doodle Quest</div>
+                    </div>
+                    <p className="info_para" style={whitetoblack}>
+                        <li style={whitetoblack} className='lik'>
+                            A gaming web app, users can join or create specific rooms, where they can draw the object on the board and others will guess it.</li>
+
+                        <li style={whitetoblack} className='lik'>Implemented the ability for users to join a specific room, enabling them to connect with friends. </li>
+
+                        <li style={whitetoblack} className='lik'>Integrated real-time chatting functionality, allowing users in the same room to communicate</li>
+
+                        <li style={whitetoblack} className='lik'>Developed a real-time drawing board where players can express their creativity and guess</li>
+
+                        <li style={whitetoblack} className='lik'>Implemented real-time leaderboard updates to keep track of players' scores and rankings as the game progresses</li>
+
+                    </p>
+                    <p className="info_para" style={whitetoblack}>
+                        <div>
+                            <li><strong className='string' style={greetingstyle}>Web Sockets</strong></li>
+                            <li><strong className='string' style={greetingstyle}>MongoDB</strong></li>
+                            <li><strong className='string' style={greetingstyle}>Express JS</strong></li>
+                            <li><strong className='string' style={greetingstyle}>Node JS</strong></li>
+                            <li><strong className='string' style={greetingstyle}>React JS</strong></li>
+                        </div>
+                    </p>
+                    <div className="img-display">
+                        <video width="320" height="240" controls>
+                            <source src={video} type="video/mp4" />
+                        </video>
+                    </div>
+                    <div className="links">
+                        <a className="github" href="https://github.com/ankitsingh2105/DoodleQuest" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
+                            DOODLE QUEST GITHUB
+                        </a>
+                    </div>
+                    <br />
+                </div>
+            </div>
+
+
+            <div className='first first1' style={blacktowhite}>
+
+                <div className="section" style={sectioncolor}>
+                    <div>
+                    </div>
+                    <div className="languages">
                         <div className="number1" style={whitetoblack}>005.</div>
                         <div className="bakery" style={greetingstyle} >Collab Wave Web App </div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
                         <li style={whitetoblack} className='lik'>
-                        Users can share their codes as messages to the other users of the web app.</li>
+                            Users can share their codes as messages to the other users of the web app.</li>
 
                         <li style={whitetoblack} className='lik'> Secure and personalized experience with user login. </li>
 
@@ -975,7 +1034,7 @@ export default function Newhome() {
                 <div className="circle2"> </div>
             </div>
         </>
-        // Project end 
+        // Project end
         // Last updated on 7 october 2022
         // Last updated on 9 october 2022
         // Last updated on 10 october 2022  => (added dark mode) 1:39am , 10:46am
