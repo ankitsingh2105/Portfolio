@@ -656,7 +656,7 @@ export default function Newhome() {
                     <div>
                     </div>
                     <div className="languages">
-                        <div className="number1" style={whitetoblack}>004.</div>
+                        <div className="number1" style={whitetoblack}>005.</div>
                         <div className="bakery" style={greetingstyle} >Doodle Quest</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
@@ -702,7 +702,7 @@ export default function Newhome() {
                     <div>
                     </div>
                     <div className="languages">
-                        <div className="number1" style={whitetoblack}>005.</div>
+                        <div className="number1" style={whitetoblack}>006.</div>
                         <div className="bakery" style={greetingstyle} >Collab Wave Web App </div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
@@ -742,7 +742,7 @@ export default function Newhome() {
                     <div>
                     </div>
                     <div className="languages">
-                        <div className="number1" style={whitetoblack}>006.</div>
+                        <div className="number1" style={whitetoblack}>007.</div>
                         <div className="bakery" style={greetingstyle} >Weather Web App </div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
@@ -786,7 +786,7 @@ export default function Newhome() {
 
                 <div className="section" style={sectioncolor}>
                     <div className="languages">
-                        <div className="number1" style={whitetoblack}>007.</div>
+                        <div className="number1" style={whitetoblack}>008.</div>
                         <div className="bakery" style={greetingstyle} >Spell Quiz</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
@@ -824,7 +824,7 @@ export default function Newhome() {
 
                 <div className="section" style={sectioncolor}>
                     <div className="languages">
-                        <div className="number1" style={whitetoblack}>008.</div>
+                        <div className="number1" style={whitetoblack}>009.</div>
                         <div className="bakery" style={greetingstyle} >Firebase + Redux Web App</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
@@ -862,7 +862,7 @@ export default function Newhome() {
                     <div>
                     </div>
                     <div className="languages">
-                        <div className="number1" style={whitetoblack}>009.</div>
+                        <div className="number1" style={whitetoblack}>0010.</div>
                         <div className="bakery" style={greetingstyle} >Contest Informer<br /> </div>
                         <br />
                     </div>
