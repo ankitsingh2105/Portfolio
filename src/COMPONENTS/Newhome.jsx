@@ -596,7 +596,7 @@ export default function Newhome() {
                         <img loading="lazy" style={borderGoldToOrange} src={ank} alt="nikaljao" className='hash_images' />
                     </div>
                     <div className="links">
-                        <a className="github" href="https://ankitsinghchauhan.tech/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
+                        <a className="github" href="https://ankitsinghchauhan.in/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
                             ANKITSINGHCHAUHNA.TECH
                         </a>
                     </div>
