@@ -17,6 +17,7 @@ import messaging from './messaging.png'
 import linkBee from "./linkbeeIMG.png"
 import collab from "./COLLABB.png"
 import video from "./doodleVideo.mp4";
+import video2 from "./linkbee.mp4";
 
 import { useState } from 'react';
 import { useRef } from 'react';
@@ -597,7 +598,7 @@ export default function Newhome() {
                     </div>
                     <div className="links">
                         <a className="github" href="https://ankitsinghchauhan.in/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
-                            ANKITSINGHCHAUHNA.TECH
+                            ANKITSINGHCHAUHNA.IN
                         </a>
                     </div>
                     <br />
@@ -613,50 +614,6 @@ export default function Newhome() {
                     </div>
                     <div className="languages">
                         <div className="number1" style={whitetoblack}>004.</div>
-                        <div className="bakery" style={greetingstyle} >Link Bee Web App </div>
-                    </div>
-                    <p className="info_para" style={whitetoblack}>
-                        <li style={whitetoblack} className='lik'>
-                            Users can create unique links where they can add links to their social media and upcoming events.</li>
-
-                        <li style={whitetoblack} className='lik'> Utilized Firebase for storing and managing user data in real-time. </li>
-
-                        <li style={whitetoblack} className='lik'>React Router for seamless navigation</li>
-
-                        <li style={whitetoblack} className='lik'>Asynchronous Javascript</li>
-
-                        <li style={whitetoblack} className='lik'>Also used CSS <strong className='string' style={greetingstyle}>Flex Box and Grid</strong>.</li>
-
-                    </p>
-                    <p className="info_para" style={whitetoblack}>
-                        <div>
-                            <li><strong className='string' style={greetingstyle}>Firebase</strong></li>
-                            <li><strong className='string' style={greetingstyle}>React-Router-Dom</strong></li>
-                            <li><strong className='string' style={greetingstyle}>Async JS</strong></li>
-                            <li><strong className='string' style={greetingstyle}>FlexBox & Grid</strong></li>
-                            <li><strong className='string' style={greetingstyle}>Dynamic Rendering</strong></li>
-                        </div>
-                    </p>
-                    <div className="img-display">
-                        <img loading="lazy" style={borderGoldToOrange} src={linkBee} alt="nikaljao" className='hash_images' />
-                    </div>
-                    <div className="links">
-                        <a className="github" href="https://linkbee.online/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
-                            LINKBEE.ONLINE
-                        </a>
-                    </div>
-                    <br />
-                </div>
-            </div>
-
-
-            <div className='first first1' style={blacktowhite}>
-
-                <div className="section" style={sectioncolor}>
-                    <div>
-                    </div>
-                    <div className="languages">
-                        <div className="number1" style={whitetoblack}>005.</div>
                         <div className="bakery" style={greetingstyle} >Doodle Quest</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
@@ -693,7 +650,55 @@ export default function Newhome() {
                     </div>
                     <br />
                 </div>
+
+
+            <div className='first first1' style={blacktowhite}>
+
+                <div className="section" style={sectioncolor}>
+                    <div>
+                    </div>
+                    <div className="languages">
+                        <div className="number1" style={whitetoblack}>005.</div>
+                        <div className="bakery" style={greetingstyle} >LinkBee (MERN Stack)</div>
+                    </div>
+                    <p className="info_para" style={whitetoblack}>
+                        <li style={whitetoblack} className='lik'>
+                        Customizable Profiles: Choose from different themes, fonts, and background images to make your profile stand out.</li>
+
+                        <li style={whitetoblack} className='lik'>Link Management: Add, edit, and delete links effortlessly.</li>
+
+                        <li style={whitetoblack} className='lik'> Analytics: Track the number of clicks on each link and gain insights into your audience's behaviour.</li>
+
+                        <li style={whitetoblack} className='lik'>Unique Profile Link: Share your unique URL across all your social media platforms.</li>
+
+
+                    </p>
+                    <p className="info_para" style={whitetoblack}>
+                        <div>
+                            <li><strong className='string' style={greetingstyle}>Chart.JS</strong></li>
+                            <li><strong className='string' style={greetingstyle}>MongoDB</strong></li>
+                            <li><strong className='string' style={greetingstyle}>Express JS</strong></li>
+                            <li><strong className='string' style={greetingstyle}>React JS</strong></li>
+                            <li><strong className='string' style={greetingstyle}>Node JS</strong></li>
+                            <li><strong className='string' style={greetingstyle}>Cookie and JWT</strong></li>
+                        </div>
+                    </p>
+                    <div className="img-display">
+                        <video width="320" height="240" controls>
+                            <source src={video2} type="video/mp4" />
+                        </video>
+                    </div>
+                    <div className="links">
+                        <a className="github" href="https://github.com/ankitsingh2105/LinkBee" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
+                            DOODLE QUEST GITHUB
+                        </a>
+                    </div>
+                    <br />
+                </div>
             </div>
+
+
+
 
 
             <div className='first first1' style={blacktowhite}>
@@ -703,6 +708,52 @@ export default function Newhome() {
                     </div>
                     <div className="languages">
                         <div className="number1" style={whitetoblack}>006.</div>
+                        <div className="bakery" style={greetingstyle} >Link Bee Web App (firebase) </div>
+                    </div>
+                    <p className="info_para" style={whitetoblack}>
+                        <li style={whitetoblack} className='lik'>
+                            Users can create unique links where they can add links to their social media and upcoming events.</li>
+
+                        <li style={whitetoblack} className='lik'> Utilized Firebase for storing and managing user data in real-time. </li>
+
+                        <li style={whitetoblack} className='lik'>React Router for seamless navigation</li>
+
+                        <li style={whitetoblack} className='lik'>Asynchronous Javascript</li>
+
+                        <li style={whitetoblack} className='lik'>Also used CSS <strong className='string' style={greetingstyle}>Flex Box and Grid</strong>.</li>
+
+                    </p>
+                    <p className="info_para" style={whitetoblack}>
+                        <div>
+                            <li><strong className='string' style={greetingstyle}>Firebase</strong></li>
+                            <li><strong className='string' style={greetingstyle}>React-Router-Dom</strong></li>
+                            <li><strong className='string' style={greetingstyle}>Async JS</strong></li>
+                            <li><strong className='string' style={greetingstyle}>FlexBox & Grid</strong></li>
+                            <li><strong className='string' style={greetingstyle}>Dynamic Rendering</strong></li>
+                        </div>
+                    </p>
+                    <div className="img-display">
+                        <img loading="lazy" style={borderGoldToOrange} src={linkBee} alt="nikaljao" className='hash_images' />
+                    </div>
+                    <div className="links">
+                        <a className="github" href="https://linkbee.online/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
+                            LINKBEE.ONLINE
+                        </a>
+                    </div>
+                    <br />
+                </div>
+            </div>
+
+
+
+
+            <div className='first first1' style={blacktowhite}>
+
+                <div className="section" style={sectioncolor}>
+                    <div>
+                    </div>
+                    <div className="languages">
+                        <div className="number1" style={whitetoblack}>007.</div>
                         <div className="bakery" style={greetingstyle} >Collab Wave Web App </div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
@@ -742,7 +793,7 @@ export default function Newhome() {
                     <div>
                     </div>
                     <div className="languages">
-                        <div className="number1" style={whitetoblack}>007.</div>
+                        <div className="number1" style={whitetoblack}>008.</div>
                         <div className="bakery" style={greetingstyle} >Weather Web App </div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
@@ -786,7 +837,7 @@ export default function Newhome() {
 
                 <div className="section" style={sectioncolor}>
                     <div className="languages">
-                        <div className="number1" style={whitetoblack}>008.</div>
+                        <div className="number1" style={whitetoblack}>009.</div>
                         <div className="bakery" style={greetingstyle} >Spell Quiz</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
@@ -819,7 +870,7 @@ export default function Newhome() {
             </div>
 
 
-            {/* 5th project */}
+            {/* 5th project
             <div className='first first1' style={blacktowhite}>
 
                 <div className="section" style={sectioncolor}>
@@ -880,7 +931,7 @@ export default function Newhome() {
                     </div>
                     <br />
                 </div>
-            </div>
+            </div> */}
 
 
 
