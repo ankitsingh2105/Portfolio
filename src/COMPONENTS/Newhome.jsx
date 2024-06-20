@@ -12,7 +12,7 @@ import about1 from './about.png'
 import contacts from './contacts.png'
 import certificates from './certificates.png'
 import resume from "./AnkitRESUME.pdf"
-import Api from './Api.png'
+// import Api from './Api.png'
 import messaging from './messaging.png'
 import linkBee from "./linkbeeIMG.png"
 import collab from "./COLLABB.png"
