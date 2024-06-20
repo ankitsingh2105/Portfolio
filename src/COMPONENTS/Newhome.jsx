@@ -483,6 +483,8 @@ export default function Newhome() {
                         <ul className='lost'>
                             <li style={whitetoblack} className='like'><a href="https://github.com/ankitsingh2105/DoodleQuest">Doodle Quest</a></li>
 
+                            <li style={whitetoblack} className='like'><a href="https://linkbeemern.vercel.app/">LinkBEE MERN</a></li>
+
                             <li style={whitetoblack} className='like'><a href="https://linkbee.online/">Linkbee Web App</a></li>
 
                             <li style={whitetoblack} className='like'><a href="https://colllabwavenitb.netlify.app/">Collab Wave Web App</a></li>
@@ -689,8 +691,8 @@ export default function Newhome() {
                         </video>
                     </div>
                     <div className="links">
-                        <a className="github" href="https://github.com/ankitsingh2105/LinkBee" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
-                            DOODLE QUEST GITHUB
+                        <a className="github" href="https://linkbeemern.vercel.app/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
+                            LinkBee MERN Live Link
                         </a>
                     </div>
                     <br />
