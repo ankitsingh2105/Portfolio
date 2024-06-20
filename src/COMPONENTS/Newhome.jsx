@@ -652,6 +652,7 @@ export default function Newhome() {
                     </div>
                     <br />
                 </div>
+                </div>
 
 
             <div className='first first1' style={blacktowhite}>
@@ -1087,12 +1088,5 @@ export default function Newhome() {
                 <div className="circle2"> </div>
             </div>
         </>
-        // Project end
-        // Last updated on 7 october 2022
-        // Last updated on 9 october 2022
-        // Last updated on 10 october 2022  => (added dark mode) 1:39am , 10:46am
-        // Last updated on 8 Novermber 2022 => (added stackOverflow link and removed errors) : 2:45PM
-        // Last updated on 11 Novermber 2022 => (added new project [rest API]) : 4:15PM
-        // Last Updated on 15 January 2023
     )
 }
