@@ -363,14 +363,14 @@ export default function Newhome() {
                         <img loading="lazy" style={{ "height": "70px" }} src={about1} alt="" />
                         <p className="info_para" style={whitetoblack}>
 
-                            Hi, I am Ankit Singh Chauhan, a 22 years old self-taught Web developer in
+                            Hi, I am Ankit Singh Chauhan, a 23 years old self-taught Web developer in
                             love with developing websites and learning new ways to improve myself.
                             <br /><br />
 
-                            I have completed my schooling and college in Haldwani, a city in the Nainital district
-                            in Uttrakhand, INDIA.<br />
+                            {/* I have completed my schooling and college in Haldwani, a city in the Nainital district
+                            in Uttrakhand, INDIA.<br /> */}
 
-                            <br></br>Completed my Bachelor of Science, Science (B.Sc) from Kumaun University. Currently, a student of <strong className='Mca' style={greetingstyle}> NIT Bhopal </strong> enrolled in MCA program through NIMCET (AIR - 309).
+                            <br></br>I have completed my Bachelor of Science, (B.Sc) from Kumaun University, Nainital. Currently, a student of <strong className='Mca' style={greetingstyle}> NIT Bhopal </strong> enrolled in MCA program through NIMCET (AIR - 309).
                         </p>
                     </div>
 
@@ -405,6 +405,7 @@ export default function Newhome() {
 
                     <ul className='lost2'>
                         <li style={whitetoblack} className='like'>Web Sockets</li>
+                        <li style={whitetoblack} className='like'>Chart JS</li>
                         <li style={whitetoblack} className='like'>Github&nbsp;&nbsp; <i style={greetingstyle} class="fa-brands fa-github"></i></li>
 
                         <li style={whitetoblack} className='like'>Git&nbsp;&nbsp;    <i style={greetingstyle} class="fa-brands fa-git"></i></li>
