@@ -502,7 +502,7 @@ export default function Newhome() {
                         </ul>
                     </div>
                     <div className="align2">
-                        <div style={greetingstyle}>working link to all below</div>
+                        {/* <div style={greetingstyle}>working link to all below</div> */}
                         <img style={{ marginBottom: "15px" }} loading="lazy" className='actingthinking align2 ' src={actingthinking} alt="" />
                     </div>
                 </div>
