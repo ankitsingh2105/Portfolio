@@ -18,7 +18,7 @@ import linkBee from "./linkbeeIMG.png"
 import collab from "./COLLABB.png"
 import video from "./doodleVideo.mp4";
 import video2 from "./linkbee.mp4";
-
+import video3 from "./prepMateVideo.mp4";
 import { useState } from 'react';
 import { useRef } from 'react';
 
@@ -337,8 +337,8 @@ export default function Newhome() {
                         <div className="greetings2 newpreeting" style={greetingstyle2}>
                             looking for internships
                         </div>
-                        <div className="resume align2">
-                            <a href={resume} target="_blank" rel="noopener noreferrer" style={{ color: "white" }} >RESUME</a>
+                        <div style={{ border: "none" }} className="resume align2">
+                            <a href={resume} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "white" }} >RESUME</a>
                         </div>
                         <div className="margin">
                         </div>
@@ -364,13 +364,13 @@ export default function Newhome() {
                         <p className="info_para" style={whitetoblack}>
 
                             Hi, I am Ankit Singh Chauhan, a 23 years old self-taught Web developer in
-                            love with developing websites and learning new ways to improve myself.
+                            love with developing web apps and learning new ways to improve myself.
                             <br /><br />
 
                             {/* I have completed my schooling and college in Haldwani, a city in the Nainital district
                             in Uttrakhand, INDIA.<br /> */}
 
-                            <br></br>I have completed my Bachelor of Science, (B.Sc) from Kumaun University, Nainital. Currently, a student of <strong className='Mca' style={greetingstyle}> NIT Bhopal </strong> enrolled in MCA program through NIMCET (AIR - 309).
+                            <br></br>I have completed my Bachelor of Science, (B.Sc) from Kumaun University, Nainital. Currently, a student of <strong className='Mca' style={greetingstyle}> NIT Bhopal </strong> enrolled in MCA program.
                         </p>
                     </div>
 
@@ -484,9 +484,11 @@ export default function Newhome() {
                         <ul className='lost'>
                             <li style={whitetoblack} className='like'><a href="https://github.com/ankitsingh2105/DoodleQuest">Doodle Quest</a></li>
 
-                            <li style={whitetoblack} className='like'><a href="https://linkbeemern.vercel.app/">LinkBEE MERN</a></li>
+                            <li style={whitetoblack} className='like'><a href="https://github.com/ankitsingh2105/PrepMate">PrepMate</a></li>
 
-                            <li style={whitetoblack} className='like'><a href="https://linkbee.online/">Linkbee Web App</a></li>
+                            <li style={whitetoblack} className='like'><a href="https://linkbeemern.vercel.app/">LinkBEE</a></li>
+
+                            {/* <li style={whitetoblack} className='like'><a href="https://linkbee.online/">Linkbee Web App</a></li> */}
 
                             <li style={whitetoblack} className='like'><a href="https://colllabwavenitb.netlify.app/">Collab Wave Web App</a></li>
 
@@ -572,7 +574,7 @@ export default function Newhome() {
                         <img loading="lazy" style={borderGoldToOrange} src={kk} alt="nikaljao" className='hash_images' />
                     </div>
                     <div className="links">
-                        <a className="github" href="https://www.kkfoodshaldwani.in/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
+                        <a className="github" href="https://kkfoodshaldwani.netlify.app" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
                             KKFOODSHALDWANI.IN
                         </a>
                     </div>
@@ -621,17 +623,26 @@ export default function Newhome() {
                     </div>
                     <p className="info_para" style={whitetoblack}>
                         <li style={whitetoblack} className='lik'>
-                            A gaming web app, users can join or create specific rooms, where they can draw the object on the board and others will guess it.</li>
+                            🎮 <strong style={greetingstyle} className="Mca">Gaming Web App</strong>: Users can join or create specific rooms, where they can draw the object on the board, and others will guess it.
+                        </li>
 
-                        <li style={whitetoblack} className='lik'>Implemented the ability for users to join a specific room, enabling them to connect with friends. </li>
+                        <li style={whitetoblack} className='lik'>
+                            🏠 <strong style={greetingstyle} className="Mca">Room Connectivity</strong>: Implemented the ability for users to join a specific room.
+                        </li>
 
-                        <li style={whitetoblack} className='lik'>Integrated real-time chatting functionality, allowing users in the same room to communicate</li>
+                        <li style={whitetoblack} className='lik'>
+                            💬 <strong style={greetingstyle} className="Mca">Real-Time Chatting</strong>: Integrated functionality allowing users in the same room to communicate.
+                        </li>
 
-                        <li style={whitetoblack} className='lik'>Developed a real-time drawing board where players can express their creativity and guess</li>
+                        <li style={whitetoblack} className='lik'>
+                            🎨 <strong style={greetingstyle} className="Mca">Real-Time Drawing Board</strong>: Developed a feature where players can express their creativity and guess drawings.
+                        </li>
 
-                        <li style={whitetoblack} className='lik'>Implemented real-time leaderboard updates to keep track of players' scores and rankings as the game progresses</li>
-
+                        <li style={whitetoblack} className='lik'>
+                            🏆 <strong style={greetingstyle} className="Mca">Leaderboard Updates</strong>: Implemented real-time updates to keep track of players' scores and rankings as the game progresses.
+                        </li>
                     </p>
+
                     <p className="info_para" style={whitetoblack}>
                         <div>
                             <li><strong className='string' style={greetingstyle}>Web Sockets</strong></li>
@@ -653,8 +664,9 @@ export default function Newhome() {
                     </div>
                     <br />
                 </div>
-                </div>
+            </div>
 
+            {/* todo :: second project prepmate */}
 
             <div className='first first1' style={blacktowhite}>
 
@@ -663,20 +675,79 @@ export default function Newhome() {
                     </div>
                     <div className="languages">
                         <div className="number1" style={whitetoblack}>005.</div>
-                        <div className="bakery" style={greetingstyle} >LinkBee (MERN Stack)</div>
+                        <div className="bakery" style={greetingstyle} >PrepMate</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
                         <li style={whitetoblack} className='lik'>
-                        Customizable Profiles: Choose from different themes, fonts, and background images to make your profile stand out.</li>
+                            💼<strong style={greetingstyle} className="Mca">Connect with Peers</strong>: Users can schedule mock interviews with others or invite friends directly.
+                        </li>
 
-                        <li style={whitetoblack} className='lik'>Link Management: Add, edit, and delete links effortlessly.</li>
+                        <li style={whitetoblack} className='lik'>
+                            🎥 <strong style={greetingstyle} className="Mca">Real-time Colloboration</strong>: Offers video calls and a collaborative coding environment.
+                        </li>
 
-                        <li style={whitetoblack} className='lik'> Analytics: Track the number of clicks on each link and gain insights into your audience's behaviour.</li>
+                        <li style={whitetoblack} className='lik'>
+                            📅 <strong style={greetingstyle} className="Mca">Flexible Scheduling</strong>: Easy options to book or cancel bookings.
+                        </li>
 
-                        <li style={whitetoblack} className='lik'>Unique Profile Link: Share your unique URL across all your social media platforms.</li>
-
-
+                        <li style={whitetoblack} className='lik'>
+                            🔔 <strong style={greetingstyle} className="Mca">Notification System</strong>: Real-time notifications with WebSockets to keep users in the loop.
+                        </li>
                     </p>
+
+                    <p className="info_para" style={whitetoblack}>
+                        <div>
+                            <li><strong className='string' style={greetingstyle}>Web Sockets</strong></li>
+                            <li><strong className='string' style={greetingstyle}>Web RTC</strong></li>
+                            <li><strong className='string' style={greetingstyle}>MongoDB</strong></li>
+                            <li><strong className='string' style={greetingstyle}>Express JS</strong></li>
+                            <li><strong className='string' style={greetingstyle}>Node JS</strong></li>
+                            <li><strong className='string' style={greetingstyle}>React JS</strong></li>
+                            <li><strong className='string' style={greetingstyle}>Docker</strong></li>
+                        </div>
+                    </p>
+                    <div className="img-display">
+                        <video width="320" height="240" controls>
+                            <source src={video3} type="video/mp4" />
+                        </video>
+                    </div>
+                    <div className="links">
+                        <a className="github" href="https://github.com/ankitsingh2105/PrepMate" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
+                            PREMATE GITHUB
+                        </a>
+                    </div>
+                    <br />
+                </div>
+            </div>
+
+
+            <div className='first first1' style={blacktowhite}>
+
+                <div className="section" style={sectioncolor}>
+                    <div>
+                    </div>
+                    <div className="languages">
+                        <div className="number1" style={whitetoblack}>006.</div>
+                        <div className="bakery" style={greetingstyle} >LinkBee</div>
+                    </div>
+                    <p className="info_para" style={whitetoblack}>
+                        <li style={whitetoblack} className='lik'>
+                            🎨 <strong style={greetingstyle} className="Mca">Customizable Profiles</strong>: Choose from different themes, fonts, and background images to make your profile stand out.
+                        </li>
+
+                        <li style={whitetoblack} className='lik'>
+                            🔗 <strong style={greetingstyle} className="Mca">Link Management</strong>: Add, edit, and delete links effortlessly.
+                        </li>
+
+                        <li style={whitetoblack} className='lik'>
+                            📊 <strong style={greetingstyle} className="Mca">Analytics</strong>: Track the number of clicks on each link and gain insights into your audience's behaviour.
+                        </li>
+
+                        <li style={whitetoblack} className='lik'>
+                            🌐 <strong style={greetingstyle} className="Mca">Unique Profile Link</strong>: Share your unique URL across all your social media platforms.
+                        </li>
+                    </p>
+
                     <p className="info_para" style={whitetoblack}>
                         <div>
                             <li><strong className='string' style={greetingstyle}>Chart.JS</strong></li>
@@ -694,7 +765,7 @@ export default function Newhome() {
                     </div>
                     <div className="links">
                         <a className="github" href="https://linkbeemern.vercel.app/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
-                            LinkBee MERN Live Link
+                            LinkBee Live Link
                         </a>
                     </div>
                     <br />
@@ -705,7 +776,7 @@ export default function Newhome() {
 
 
 
-            <div className='first first1' style={blacktowhite}>
+            {/* <div className='first first1' style={blacktowhite}>
 
                 <div className="section" style={sectioncolor}>
                     <div>
@@ -746,7 +817,7 @@ export default function Newhome() {
                     </div>
                     <br />
                 </div>
-            </div>
+            </div> */}
 
 
 
