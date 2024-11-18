@@ -476,17 +476,17 @@ export default function Newhome() {
                         <ul className='lost'>
                             <li style={whitetoblack} className='like'><a href="http://hashtagbakery.in/">HashTag Bakery - Bakery and Flower shop</a></li>
                             <li style={whitetoblack} className='like'><a href="https://kkfoodshaldwani.netlify.app/">KK Food Haldwani - Family Restaurant</a></li>
-                            <li style={whitetoblack} className='like'><a href="https://ankitsinghchauhan.in/">AnkitSinghChauhan.in - Portfolio Website</a></li>
+                            <li style={whitetoblack} className='like'><a href="https://ankitsinghchauhan.in/">AnkitSinghChauhan.in - Portfolio Website</a>⭐</li>
                         </ul>
                         <div className="languages" style={greetingstyle}>
                             The Web Apps and other projects I have added here
                         </div>
                         <ul className='lost'>
-                            <li style={whitetoblack} className='like'><a href="https://github.com/ankitsingh2105/DoodleQuest">Doodle Quest</a></li>
+                            <li style={whitetoblack} className='like'><a href="https://github.com/ankitsingh2105/DoodleQuest">Doodle Quest </a>⭐</li>
 
-                            <li style={whitetoblack} className='like'><a href="https://github.com/ankitsingh2105/PrepMate">PrepMate</a></li>
+                            <li style={whitetoblack} className='like'><a href="https://github.com/ankitsingh2105/PrepMate">PrepMate </a>⭐</li>
 
-                            <li style={whitetoblack} className='like'><a href="https://linkbeemern.vercel.app/">LinkBEE</a></li>
+                            <li style={whitetoblack} className='like'><a href="https://linkbeemern.vercel.app/">LinkBEE </a>⭐</li>
 
                             {/* <li style={whitetoblack} className='like'><a href="https://linkbee.online/">Linkbee Web App</a></li> */}
 
