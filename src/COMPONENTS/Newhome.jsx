@@ -14,7 +14,7 @@ import certificates from './certificates.png'
 import resume from "./AnkitRESUME.pdf"
 // import Api from './Api.png'
 import messaging from './messaging.png'
-import linkBee from "./linkbeeIMG.png"
+// import linkBee from "./linkbeeIMG.png"
 import collab from "./COLLABB.png"
 import video from "./doodleVideo.mp4";
 import video2 from "./linkbee.mp4";
