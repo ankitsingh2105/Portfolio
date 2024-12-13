@@ -19,6 +19,8 @@ import collab from "./COLLABB.png"
 import video from "./doodleVideo.mp4";
 import video2 from "./linkbee.mp4";
 import video3 from "./prepMateVideo.mp4";
+import video4 from "./linkedinEditorClip.mp4";
+
 import { useState } from 'react';
 import { useRef } from 'react';
 
@@ -64,6 +66,7 @@ export default function Newhome() {
     const [borderblue, setborderblue] = useState({})
     let colorOfText = "#FF3B3F";  //orange one
     // let colorOfText = "#FFD700";  //orange one
+
     const ChangeTheme = () => {
         setcoloring({
             color: 'black',
@@ -134,6 +137,7 @@ export default function Newhome() {
         })
         setdaynight(false);
     }
+
     const DarkMode = () => {
         setborderblue({
             borderTop: "2px solid #fe6235",
@@ -199,6 +203,7 @@ export default function Newhome() {
         })
         setdaynight(true);
     }
+
     const DayNight = () => {
         if (daynight) {
             console.log("one")
@@ -209,6 +214,7 @@ export default function Newhome() {
             console.log("two")
         }
     }
+
     const [check, setcheck] = useState(true);
     if (check) {
         DarkMode();
@@ -479,26 +485,28 @@ export default function Newhome() {
                             <li style={whitetoblack} className='like'><a href="https://ankitsinghchauhan.in/">AnkitSinghChauhan.in - Portfolio Website</a>⭐</li>
                         </ul>
                         <div className="languages" style={greetingstyle}>
-                            The Web Apps and other projects I have added here
+                            My Web Apps
                         </div>
                         <ul className='lost'>
-                            <li style={whitetoblack} className='like'><a href="https://github.com/ankitsingh2105/DoodleQuest">Doodle Quest </a>⭐</li>
+                            <li style={whitetoblack} className='like'><a about='blank' href="https://chromewebstore.google.com/detail/linkedin-editor/dpbccjhabjmnohefgjoongadmjpanfmd">Linkedin Editor - chrome extension </a>⭐⭐</li>
 
-                            <li style={whitetoblack} className='like'><a href="https://github.com/ankitsingh2105/PrepMate">PrepMate </a>⭐</li>
+                            <li style={whitetoblack} className='like'><a about='blank' href="https://github.com/ankitsingh2105/DoodleQuest">Doodle Quest </a>⭐</li>
 
-                            <li style={whitetoblack} className='like'><a href="https://linkbeemern.vercel.app/">LinkBEE </a>⭐</li>
+                            <li style={whitetoblack} className='like'><a about='blank' href="https://github.com/ankitsingh2105/PrepMate">PrepMate </a>⭐</li>
+
+                            <li style={whitetoblack} className='like'><a about='blank' href="https://linkbeemern.vercel.app/">LinkBEE </a>⭐</li>
 
                             {/* <li style={whitetoblack} className='like'><a href="https://linkbee.online/">Linkbee Web App</a></li> */}
 
-                            <li style={whitetoblack} className='like'><a href="https://colllabwavenitb.netlify.app/">Collab Wave Web App</a></li>
+                            <li style={whitetoblack} className='like'><a about='blank' href="https://colllabwavenitb.netlify.app/">Collab Wave Web App</a></li>
 
-                            <li style={whitetoblack} className='like'><a href="https://weatherappfetchapi.netlify.app/">Real Time Weather Web App</a></li>
+                            <li style={whitetoblack} className='like'><a about='blank' href="https://weatherappfetchapi.netlify.app/">Real Time Weather Web App</a></li>
 
-                            <li style={whitetoblack} className='like'><a href="https://firecartredux.netlify.app/">Firebase + Redux E-commerce Web App</a></li>
+                            <li style={whitetoblack} className='like'><a about='blank' href="https://firecartredux.netlify.app/">Firebase + Redux E-commerce Web App</a></li>
 
-                            <li style={whitetoblack} className='like'><a href="https://firecartredux.netlify.app/">Spelling Quiz Web App</a></li>
+                            <li style={whitetoblack} className='like'><a about='blank' href="https://firecartredux.netlify.app/">Spelling Quiz Web App</a></li>
 
-                            <li style={whitetoblack} className='like'><a href="https://contestinformer.netlify.app/">Competitive Coding Informer</a></li>
+                            <li style={whitetoblack} className='like'><a about='blank' href="https://contestinformer.netlify.app/">Competitive Coding Informer</a></li>
                         </ul>
                     </div>
                     <div className="align2">
@@ -509,116 +517,72 @@ export default function Newhome() {
             </div>
 
 
-            {/*  first one */}
-            <div className="first" style={blacktowhite}>
+
+            {/* TODO :: PROJECTS */}
+
+            {/* Chrome extension */}
+            <div className='first first1' style={blacktowhite}>
+
                 <div className="section" style={sectioncolor}>
+                    <div>
+                    </div>
                     <div className="languages">
                         <div className="number1" style={whitetoblack}>001.</div>
-                        <div className="bakery" style={greetingstyle} >HASHTAG BAKERY</div>
+                        <div className="bakery" style={greetingstyle} >Linkedin Editor - chrome extension</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
-                        <li style={whitetoblack} className='lik'>Created a bakery website using React</li>
+                        <li style={whitetoblack} className="lik">
+                            🚀 <strong style={greetingstyle} className="Mca">Enhance LinkedIn Posts</strong>: Edit your LinkedIn posts directly with text styling options.
+                        </li>
 
-                        <li style={whitetoblack} className='lik'>Utilized  React-Router-Dom to switch between pages faster.</li>
+                        <li style={whitetoblack} className="lik">
+                            📝 <strong style={greetingstyle} className="Mca">Comment Editing</strong>: Apply text formatting to your comments and posts seamlessly.
+                        </li>
 
-                        <li style={whitetoblack} className='lik'>Utilized  Context API  as the state manager for global data</li>
+                        <li style={whitetoblack} className="lik">
+                            ✨ <strong style={greetingstyle} className="Mca">Hotkey Shortcuts</strong>:
+                            <ul>
+                                <li>Ctrl+B for <strong>bold</strong></li>
+                                <li>Ctrl+I for <em>italic</em></li>
+                                <li>Ctrl+Y for bullet lists</li>
+                                <li>Ctrl+M for numbered lists</li>
+                            </ul>
+                        </li>
 
-                        <li style={whitetoblack} className='lik'>Implemented  Lazy Loading  to enhance website performance.</li>
-
-                        <li style={whitetoblack} className='lik'>Saved cart data in  Local Storage to persist items across page refreshes.</li>
+                        <li style={whitetoblack} className="lik">
+                            🎉 <strong style={greetingstyle} className="Mca">User-Friendly</strong>: Intuitive interface designed to make your LinkedIn experience smooth and engaging.
+                        </li>
                     </p>
+
+
                     <p className="info_para" style={whitetoblack}>
                         <div>
-                            <li><strong className='string' style={greetingstyle}>React-Router-Dom</strong></li>
-                            <li><strong className='string' style={greetingstyle}>Context API</strong></li>
-                            <li><strong className='string' style={greetingstyle}>Lazy Loading </strong></li>
-                            <li><strong className='string' style={greetingstyle}>Local Storage</strong></li>
+                            <li><strong className='string' style={greetingstyle}>ReactJS</strong></li>
+                            <li><strong className='string' style={greetingstyle}>CSS</strong></li>
                         </div>
                     </p>
                     <div className="img-display">
-                        <img loading="lazy" style={borderGoldToOrange} src={hash} alt="nikaljao" className='hash_images' />
+                        <video width="320" height="240" controls>
+                            <source src={video4} type="video/mp4" />
+                        </video>
                     </div>
                     <div className="links">
-                        <a className="github" href="https://www.hashtagbakery.in/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
-                            HASHTAGBAKERY.IN
+                        <a className="github" href="https://chromewebstore.google.com/detail/linkedin-editor/dpbccjhabjmnohefgjoongadmjpanfmd" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
+                            Download Link
                         </a>
                     </div>
                     <br />
                 </div>
             </div>
 
+            {/*  Doodle quest */}
+            <div className='first first1' style={blacktowhite}>
 
-            {/*  second project */}
-            <div className="first" style={blacktowhite}  >
                 <div className="section" style={sectioncolor}>
                     <div>
                     </div>
                     <div className="languages">
                         <div className="number1" style={whitetoblack}>002.</div>
-                        <div className="bakery" style={greetingstyle} >KK FOOD</div>
-                    </div>
-                    <p className="info_para" style={whitetoblack}>
-
-                        <li style={whitetoblack} className='lik'>Created a family restaurant website using  React</li>
-
-                        <li style={whitetoblack} className='lik'>Implemented  Lazy Loading to improve performance and reduce memory usage</li>
-
-                    </p>
-                    <p className="info_para" style={whitetoblack}>
-                        <div>
-                            <li><strong className='string' style={greetingstyle}>ReactJS</strong></li>
-                            <li><strong className='string' style={greetingstyle}>Lazy Loading </strong></li>
-                        </div>
-                    </p>
-                    <div className="img-display">
-                        <img loading="lazy" style={borderGoldToOrange} src={kk} alt="nikaljao" className='hash_images' />
-                    </div>
-                    <div className="links">
-                        <a className="github" href="https://kkfoodshaldwani.netlify.app" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
-                            KKFOODSHALDWANI.IN
-                        </a>
-                    </div>
-                    <br />
-                </div>
-            </div>
-
-
-            {/* third project */}
-
-            <div className='first first1' style={blacktowhite}>
-
-                <div className="section" style={sectioncolor}>
-                    <div>
-                    </div>
-                    <div className="languages">
-                        <div className="number1" style={whitetoblack}>003.</div>
-                        <div className="bakery" style={greetingstyle} >Portfolio Website</div>
-                    </div>
-                    <p className="info_para" style={whitetoblack}>
-                        I created my <strong style={greetingstyle} className='string'>Portfolio Website </strong> using React JS to showcase the work I have completed so far.
-                        <br />
-                    </p>
-                    <div className="img-display">
-                        <img loading="lazy" style={borderGoldToOrange} src={ank} alt="nikaljao" className='hash_images' />
-                    </div>
-                    <div className="links">
-                        <a className="github" href="https://ankitsinghchauhan.in/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
-                            ANKITSINGHCHAUHNA.IN
-                        </a>
-                    </div>
-                    <br />
-                </div>
-            </div>
-
-
-            {/*  third  one demo */}
-            <div className='first first1' style={blacktowhite}>
-
-                <div className="section" style={sectioncolor}>
-                    <div>
-                    </div>
-                    <div className="languages">
-                        <div className="number1" style={whitetoblack}>004.</div>
                         <div className="bakery" style={greetingstyle} >Doodle Quest</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
@@ -666,15 +630,14 @@ export default function Newhome() {
                 </div>
             </div>
 
-            {/* todo :: second project prepmate */}
-
+            {/* PrepMate */}
             <div className='first first1' style={blacktowhite}>
 
                 <div className="section" style={sectioncolor}>
                     <div>
                     </div>
                     <div className="languages">
-                        <div className="number1" style={whitetoblack}>005.</div>
+                        <div className="number1" style={whitetoblack}>003.</div>
                         <div className="bakery" style={greetingstyle} >PrepMate</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
@@ -720,14 +683,14 @@ export default function Newhome() {
                 </div>
             </div>
 
-
+            {/* Linkbee */}
             <div className='first first1' style={blacktowhite}>
 
                 <div className="section" style={sectioncolor}>
                     <div>
                     </div>
                     <div className="languages">
-                        <div className="number1" style={whitetoblack}>006.</div>
+                        <div className="number1" style={whitetoblack}>004.</div>
                         <div className="bakery" style={greetingstyle} >LinkBee</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
@@ -766,6 +729,105 @@ export default function Newhome() {
                     <div className="links">
                         <a className="github" href="https://linkbeemern.vercel.app/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
                             LinkBee Live Link
+                        </a>
+                    </div>
+                    <br />
+                </div>
+            </div>
+
+            {/* Portfolio */}
+            <div className='first first1' style={blacktowhite}>
+
+                <div className="section" style={sectioncolor}>
+                    <div>
+                    </div>
+                    <div className="languages">
+                        <div className="number1" style={whitetoblack}>005.</div>
+                        <div className="bakery" style={greetingstyle} >Portfolio Website</div>
+                    </div>
+                    <p className="info_para" style={whitetoblack}>
+                        I created my <strong style={greetingstyle} className='string'>Portfolio Website </strong> using React JS to showcase the work I have completed so far.
+                        <br />
+                    </p>
+                    <div className="img-display">
+                        <img loading="lazy" style={borderGoldToOrange} src={ank} alt="nikaljao" className='hash_images' />
+                    </div>
+                    <div className="links">
+                        <a className="github" href="https://ankitsinghchauhan.in/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
+                            ANKITSINGHCHAUHNA.IN
+                        </a>
+                    </div>
+                    <br />
+                </div>
+            </div>
+
+            {/*  first one */}
+            <div className="first" style={blacktowhite}>
+                <div className="section" style={sectioncolor}>
+                    <div className="languages">
+                        <div className="number1" style={whitetoblack}>006.</div>
+                        <div className="bakery" style={greetingstyle} >HASHTAG BAKERY</div>
+                    </div>
+                    <p className="info_para" style={whitetoblack}>
+                        <li style={whitetoblack} className='lik'>Created a bakery website using React</li>
+
+                        <li style={whitetoblack} className='lik'>Utilized  React-Router-Dom to switch between pages faster.</li>
+
+                        <li style={whitetoblack} className='lik'>Utilized  Context API  as the state manager for global data</li>
+
+                        <li style={whitetoblack} className='lik'>Implemented  Lazy Loading  to enhance website performance.</li>
+
+                        <li style={whitetoblack} className='lik'>Saved cart data in  Local Storage to persist items across page refreshes.</li>
+                    </p>
+                    <p className="info_para" style={whitetoblack}>
+                        <div>
+                            <li><strong className='string' style={greetingstyle}>React-Router-Dom</strong></li>
+                            <li><strong className='string' style={greetingstyle}>Context API</strong></li>
+                            <li><strong className='string' style={greetingstyle}>Lazy Loading </strong></li>
+                            <li><strong className='string' style={greetingstyle}>Local Storage</strong></li>
+                        </div>
+                    </p>
+                    <div className="img-display">
+                        <img loading="lazy" style={borderGoldToOrange} src={hash} alt="nikaljao" className='hash_images' />
+                    </div>
+                    <div className="links">
+                        <a className="github" href="https://www.hashtagbakery.in/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
+                            HASHTAGBAKERY.IN
+                        </a>
+                    </div>
+                    <br />
+                </div>
+            </div>
+
+
+            {/*  second project */}
+            <div className="first" style={blacktowhite}  >
+                <div className="section" style={sectioncolor}>
+                    <div>
+                    </div>
+                    <div className="languages">
+                        <div className="number1" style={whitetoblack}>007.</div>
+                        <div className="bakery" style={greetingstyle} >KK FOOD</div>
+                    </div>
+                    <p className="info_para" style={whitetoblack}>
+
+                        <li style={whitetoblack} className='lik'>Created a family restaurant website using  React</li>
+
+                        <li style={whitetoblack} className='lik'>Implemented  Lazy Loading to improve performance and reduce memory usage</li>
+
+                    </p>
+                    <p className="info_para" style={whitetoblack}>
+                        <div>
+                            <li><strong className='string' style={greetingstyle}>ReactJS</strong></li>
+                            <li><strong className='string' style={greetingstyle}>Lazy Loading </strong></li>
+                        </div>
+                    </p>
+                    <div className="img-display">
+                        <img loading="lazy" style={borderGoldToOrange} src={kk} alt="nikaljao" className='hash_images' />
+                    </div>
+                    <div className="links">
+                        <a className="github" href="https://kkfoodshaldwani.netlify.app" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
+                            KKFOODSHALDWANI.IN
                         </a>
                     </div>
                     <br />
@@ -828,7 +890,7 @@ export default function Newhome() {
                     <div>
                     </div>
                     <div className="languages">
-                        <div className="number1" style={whitetoblack}>007.</div>
+                        <div className="number1" style={whitetoblack}>008.</div>
                         <div className="bakery" style={greetingstyle} >Collab Wave Web App </div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
@@ -868,7 +930,7 @@ export default function Newhome() {
                     <div>
                     </div>
                     <div className="languages">
-                        <div className="number1" style={whitetoblack}>008.</div>
+                        <div className="number1" style={whitetoblack}>009.</div>
                         <div className="bakery" style={greetingstyle} >Weather Web App </div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
@@ -912,7 +974,7 @@ export default function Newhome() {
 
                 <div className="section" style={sectioncolor}>
                     <div className="languages">
-                        <div className="number1" style={whitetoblack}>009.</div>
+                        <div className="number1" style={whitetoblack}>010.</div>
                         <div className="bakery" style={greetingstyle} >Spell Quiz</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
