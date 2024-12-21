@@ -622,8 +622,8 @@ export default function Newhome() {
                         </video>
                     </div>
                     <div className="links">
-                        <a className="github" href="https://github.com/ankitsingh2105/DoodleQuest" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
-                            DOODLE QUEST GITHUB
+                        <a className="github" href="https://doodlequest.vercel.app/" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
+                            DOODLE QUEST LIVE LINK
                         </a>
                     </div>
                     <br />
