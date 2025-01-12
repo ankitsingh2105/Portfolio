@@ -10,8 +10,8 @@ import actingthinking from './actingthinking.png'
 import bulb from './bulb.png'
 import about1 from './about.png'
 import contacts from './contacts.png'
-import certificates from './certificates.png'
-import resume from "./AnkitRESUME.pdf"
+// import certificates from './certificates.png'
+// import resume from "./AnkitRESUME.pdf"
 // import Api from './Api.png'
 import messaging from './messaging.png'
 // import linkBee from "./linkbeeIMG.png"
@@ -344,7 +344,7 @@ export default function Newhome() {
                             looking for internships
                         </div>
                         <div style={{ border: "none" }} className="resume align2">
-                            <a href={resume} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "white" }} >RESUME</a>
+                            <a href="https://drive.google.com/file/d/1eaurzNq8ajbESWRnd5R1UgJDlydhPpr0/view?usp=sharing" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "white" }} >RESUME</a>
                         </div>
                         <div className="margin">
                         </div>
@@ -439,7 +439,7 @@ export default function Newhome() {
                     <br></br> */}
 
 
-                    <div className="head-certify" style={whitetoblack}>
+                    {/* <div className="head-certify" style={whitetoblack}>
                         Here are my Hackerank Certificates (<i style={greetingstyle} class="fa-brands fa-hackerrank"></i>) you can click and see them
                     </div>
                     <div className="align2">
@@ -450,7 +450,7 @@ export default function Newhome() {
                         <li className='hack' style={greetingstyle}> <a href="https://www.hackerrank.com/certificates/d7f5c7a96e11" target="_blank" rel="noopener noreferrer" style={greetingstyle}>Rest Api -- Intermediate</a> </li>
                         <li className='hack' style={greetingstyle}> <a href="https://www.hackerrank.com/certificates/d361cc12a646" target="_blank" rel="noopener noreferrer" style={greetingstyle}>Javascript -- Intermediate</a></li>
                         <li className='hack' style={greetingstyle}> <a href="https://www.hackerrank.com/certificates/4c12a2eeb3aa" target="_blank" rel="noopener noreferrer" style={greetingstyle}>Problem Solving -- Intermediate</a></li>
-                    </ul>
+                    </ul> */}
                 </div>
             </div>
             {/* First page end */}
@@ -472,21 +472,26 @@ export default function Newhome() {
                         <img loading="lazy" style={{ "height": "70px" }} src={bulb} alt="" />
                     </div>
                     <div className='' style={{ "flexDirection": "column" }}>
-                        <p className="info_para" style={whitetoblack}>
+
+                        {/* <p className="info_para" style={whitetoblack}>
                             The following are the projects I have completed so far. Some of them are
                             websites for businesses and some are implemented projects after learning concepts.
-                        </p>
-                        <div className="languages" style={greetingstyle}>
+                        </p> */}
+
+                        {/* <div className="languages" style={greetingstyle}>
                             The Work Projects I have Completed so far
-                        </div>
-                        <ul className='lost'>
+                        </div> */}
+                        
+                        {/* <ul className='lost'>
                             <li style={whitetoblack} className='like'><a href="http://hashtagbakery.in/">HashTag Bakery - Bakery and Flower shop</a></li>
                             <li style={whitetoblack} className='like'><a href="https://kkfoodshaldwani.netlify.app/">KK Food Haldwani - Family Restaurant</a></li>
                             <li style={whitetoblack} className='like'><a href="https://ankitsinghchauhan.in/">AnkitSinghChauhan.in - Portfolio Website</a>⭐</li>
-                        </ul>
-                        <div className="languages" style={greetingstyle}>
+                        </ul> */}
+
+                        {/* <div className="languages" style={greetingstyle}>
                             My Web Apps
-                        </div>
+                        </div> */}
+
                         <ul className='lost'>
                             <li style={whitetoblack} className='like'><a about='blank' href="https://chromewebstore.google.com/detail/linkedin-editor/dpbccjhabjmnohefgjoongadmjpanfmd">Linkedin Editor - chrome extension </a>⭐⭐</li>
 
