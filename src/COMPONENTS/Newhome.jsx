@@ -1,11 +1,11 @@
 import React from 'react'
 import './home.css'
 import sound from './sound.mp3'
-import hash from './hashMockup.png';
-import kk from './kkMockup.png';
-import weather from './weatherMockup.png';
-import spelling from './spellMockup.png'
-import ank from './ankitMockup.png'
+// import hash from './hashMockup.png';
+// import kk from './kkMockup.png';
+// import weather from './weatherMockup.png';
+// import spelling from './spellMockup.png'
+// import ank from './ankitMockup.png'
 import actingthinking from './actingthinking.png'
 import bulb from './bulb.png'
 import about1 from './about.png'
@@ -15,11 +15,12 @@ import contacts from './contacts.png'
 // import Api from './Api.png'
 import messaging from './messaging.png'
 // import linkBee from "./linkbeeIMG.png"
-import collab from "./COLLABB.png"
+// import collab from "./COLLABB.png"
 import video from "./doodleVideo.mp4";
 import video2 from "./linkbee.mp4";
 import video3 from "./prepMateVideo.mp4";
 import video4 from "./linkedinEditorClip.mp4";
+import video5 from "./LaterTube.mp4"
 
 import { useState } from 'react';
 import { useRef } from 'react';
@@ -481,7 +482,7 @@ export default function Newhome() {
                         {/* <div className="languages" style={greetingstyle}>
                             The Work Projects I have Completed so far
                         </div> */}
-                        
+
                         {/* <ul className='lost'>
                             <li style={whitetoblack} className='like'><a href="http://hashtagbakery.in/">HashTag Bakery - Bakery and Flower shop</a></li>
                             <li style={whitetoblack} className='like'><a href="https://kkfoodshaldwani.netlify.app/">KK Food Haldwani - Family Restaurant</a></li>
@@ -493,7 +494,9 @@ export default function Newhome() {
                         </div> */}
 
                         <ul className='lost'>
-                            <li style={whitetoblack} className='like'><a about='blank' href="https://chromewebstore.google.com/detail/linkedin-editor/dpbccjhabjmnohefgjoongadmjpanfmd">Linkedin Editor - chrome extension </a>⭐⭐</li>
+                            <li style={whitetoblack} className='like'><a about='blank' href="https://chromewebstore.google.com/detail/linkedin-editor/dpbccjhabjmnohefgjoongadmjpanfmd">Linkedin Editor - Chrome Extension </a>⭐⭐</li>
+
+                            <li style={whitetoblack} className='like'><a about='blank' href="https://chromewebstore.google.com/detail/latertube/didekppekbpacecobggngndcmeaafinm?authuser=0&hl=en">LaterTube - Chrome Extension </a>⭐⭐</li>
 
                             <li style={whitetoblack} className='like'><a about='blank' href="https://github.com/ankitsingh2105/DoodleQuest">Doodle Quest </a>⭐</li>
 
@@ -503,15 +506,15 @@ export default function Newhome() {
 
                             {/* <li style={whitetoblack} className='like'><a href="https://linkbee.online/">Linkbee Web App</a></li> */}
 
-                            <li style={whitetoblack} className='like'><a about='blank' href="https://colllabwavenitb.netlify.app/">Collab Wave Web App</a></li>
+                            {/* <li style={whitetoblack} className='like'><a about='blank' href="https://colllabwavenitb.netlify.app/">Collab Wave Web App</a></li> */}
 
-                            <li style={whitetoblack} className='like'><a about='blank' href="https://weatherappfetchapi.netlify.app/">Real Time Weather Web App</a></li>
+                            {/* <li style={whitetoblack} className='like'><a about='blank' href="https://weatherappfetchapi.netlify.app/">Real Time Weather Web App</a></li>
 
-                            <li style={whitetoblack} className='like'><a about='blank' href="https://firecartredux.netlify.app/">Firebase + Redux E-commerce Web App</a></li>
+                            <li style={whitetoblack} className='like'><a about='blank' href="https://firecartredux.netlify.app/">Firebase + Redux E-commerce Web App</a></li> */}
 
-                            <li style={whitetoblack} className='like'><a about='blank' href="https://firecartredux.netlify.app/">Spelling Quiz Web App</a></li>
+                            {/* <li style={whitetoblack} className='like'><a about='blank' href="https://firecartredux.netlify.app/">Spelling Quiz Web App</a></li>
 
-                            <li style={whitetoblack} className='like'><a about='blank' href="https://contestinformer.netlify.app/">Competitive Coding Informer</a></li>
+                            <li style={whitetoblack} className='like'><a about='blank' href="https://contestinformer.netlify.app/">Competitive Coding Informer</a></li> */}
                         </ul>
                     </div>
                     <div className="align2">
@@ -536,6 +539,10 @@ export default function Newhome() {
                         <div className="bakery" style={greetingstyle} >Linkedin Editor - chrome extension</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
+                        <li style={whitetoblack} className="lik">
+                        ✅<strong style={greetingstyle} className="Mca">Analytics</strong>: Crossed 50 users with 700 impressions in 50 days.
+                        </li>
+
                         <li style={whitetoblack} className="lik">
                             🚀 <strong style={greetingstyle} className="Mca">Enhance LinkedIn Posts</strong>: Edit your LinkedIn posts directly with text styling options.
                         </li>
@@ -580,7 +587,7 @@ export default function Newhome() {
                 </div>
             </div>
 
-            {/*  Doodle quest */}
+            {/* Chrome extension */}
             <div className='first first1' style={blacktowhite}>
 
                 <div className="section" style={sectioncolor}>
@@ -588,6 +595,58 @@ export default function Newhome() {
                     </div>
                     <div className="languages">
                         <div className="number1" style={whitetoblack}>002.</div>
+                        <div className="bakery" style={greetingstyle} >LaterTube - Chrome Extension</div>
+                    </div>
+                    <p className="info_para" style={whitetoblack}>
+                        <li style={whitetoblack} className="lik">
+                            🎥 <strong style={greetingstyle} className="Mca">Save YouTube Videos</strong>: Store video URLs, thumbnails, and titles to watch later.
+                        </li>
+
+                        <li style={whitetoblack} className="lik">
+                            ✅ <strong style={greetingstyle} className="Mca">Watch Button</strong>: Quickly watch saved videos directly from the extension.
+                        </li>
+
+                        <li style={whitetoblack} className="lik">
+                            🔖 <strong style={greetingstyle} className="Mca">Filtering Through Tags</strong>: Organize and filter your saved videos using custom tags for easy navigation.
+                        </li>
+
+                        <li style={whitetoblack} className="lik">
+                            🔗 <strong style={greetingstyle} className="Mca">Related Links</strong>: Add and manage related links for each video to keep additional resources handy.
+                        </li>
+
+                    </p>
+
+
+
+                    <p className="info_para" style={whitetoblack}>
+                        <div>
+                            <li><strong className='string' style={greetingstyle}>Vanilla JS</strong></li>
+                            <li><strong className='string' style={greetingstyle}>CSS3</strong></li>
+                        </div>
+                    </p>
+                    <div className="img-display">
+                        <video width="320" height="240" controls>
+                            <source src={video5} type="video/mp4" />
+                        </video>
+                    </div>
+                    <div className="links">
+                        <a className="github" href="https://chromewebstore.google.com/detail/latertube/didekppekbpacecobggngndcmeaafinm?authuser=0&hl=en" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
+                            Download Link
+                        </a>
+                    </div>
+                    <br />
+                </div>
+            </div>
+
+
+            {/*  Doodle quest */}
+            <div className='first first1' style={blacktowhite}>
+
+                <div className="section" style={sectioncolor}>
+                    <div>
+                    </div>
+                    <div className="languages">
+                        <div className="number1" style={whitetoblack}>003.</div>
                         <div className="bakery" style={greetingstyle} >Doodle Quest</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
@@ -642,7 +701,7 @@ export default function Newhome() {
                     <div>
                     </div>
                     <div className="languages">
-                        <div className="number1" style={whitetoblack}>003.</div>
+                        <div className="number1" style={whitetoblack}>004.</div>
                         <div className="bakery" style={greetingstyle} >PrepMate</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
@@ -695,7 +754,7 @@ export default function Newhome() {
                     <div>
                     </div>
                     <div className="languages">
-                        <div className="number1" style={whitetoblack}>004.</div>
+                        <div className="number1" style={whitetoblack}>005.</div>
                         <div className="bakery" style={greetingstyle} >LinkBee</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
@@ -741,13 +800,13 @@ export default function Newhome() {
             </div>
 
             {/* Portfolio */}
-            <div className='first first1' style={blacktowhite}>
+            {/* <div className='first first1' style={blacktowhite}>
 
                 <div className="section" style={sectioncolor}>
                     <div>
                     </div>
                     <div className="languages">
-                        <div className="number1" style={whitetoblack}>005.</div>
+                        <div className="number1" style={whitetoblack}>006.</div>
                         <div className="bakery" style={greetingstyle} >Portfolio Website</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
@@ -764,13 +823,13 @@ export default function Newhome() {
                     </div>
                     <br />
                 </div>
-            </div>
+            </div> */}
 
-            {/*  first one */}
+             {/* first one
             <div className="first" style={blacktowhite}>
                 <div className="section" style={sectioncolor}>
                     <div className="languages">
-                        <div className="number1" style={whitetoblack}>006.</div>
+                        <div className="number1" style={whitetoblack}>007.</div>
                         <div className="bakery" style={greetingstyle} >HASHTAG BAKERY</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
@@ -806,7 +865,7 @@ export default function Newhome() {
 
 
             {/*  second project */}
-            <div className="first" style={blacktowhite}  >
+            {/* <div className="first" style={blacktowhite}  >
                 <div className="section" style={sectioncolor}>
                     <div>
                     </div>
@@ -837,7 +896,7 @@ export default function Newhome() {
                     </div>
                     <br />
                 </div>
-            </div>
+            </div> */} */}
 
 
 
@@ -888,7 +947,7 @@ export default function Newhome() {
 
 
 
-
+{/* 
             <div className='first first1' style={blacktowhite}>
 
                 <div className="section" style={sectioncolor}>
@@ -970,12 +1029,12 @@ export default function Newhome() {
                     </div>
                     <br />
                 </div>
-            </div>
+            </div> */}
 
 
 
             {/* 4th project */}
-            <div className='first first1' style={blacktowhite}>
+            {/* <div className='first first1' style={blacktowhite}>
 
                 <div className="section" style={sectioncolor}>
                     <div className="languages">
@@ -1009,7 +1068,7 @@ export default function Newhome() {
                     </div>
                     <br />
                 </div>
-            </div>
+            </div> */}
 
 
             {/* 5th project
