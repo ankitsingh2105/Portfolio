@@ -21,8 +21,9 @@ import video2 from "./linkbee.mp4";
 import video3 from "./prepMateVideo.mp4";
 import video4 from "./linkedinEditorClip.mp4";
 import video5 from "./LaterTube.mp4"
+import countapi from 'countapi-js';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useRef } from 'react';
 
 export default function Newhome() {
@@ -39,17 +40,23 @@ export default function Newhome() {
         document.getElementById('playing').play();
     };
 
+    useEffect(()=>{
+        countapi.visits().then((result) => {
+            console.log("the resule :: " , result.value);
+        });
+    },[])
+
     const SendtoWhatspp = () => {
         let naam = document.getElementById("newid1").value;
         let email = document.getElementById('newid2').value;
         let text = document.getElementById('newid3').value;
-        let Message = `https://wa.me/917248370156?text=" + "Name :: " + ${naam} + " %0a " + "Email :: " + ${email} + " %0a " + " Message :: " + ${text}`
+        let Message = `https://wa.me/91?text=" + "Name :: " + ${naam} + " %0a " + "Email :: " + ${email} + " %0a " + " Message :: " + ${text}`
         window.open(Message, '_blank').focus();
     }
     const [greetingstyle, setgreetings] = useState({ color: '#FF5757' });
     const [greetingstyle2, setgreetings2] = useState({})
     const [whitetoblack, setwhitetoblack] = useState({})
-    const [blacktowhite, setblacktowhite] = useState({})
+    const [blacktowhite, setblacktowhite] = useState({}) 
     const [backorange, setbackorange] = useState({})
     const [borderGoldToOrange, setborderGoldToOrange] = useState({})
     const [borderblack, setborderblack] = useState({})
@@ -345,7 +352,7 @@ export default function Newhome() {
                             looking for internships
                         </div>
                         <div style={{ border: "none" }} className="resume align2">
-                            <a href="https://drive.google.com/file/d/1eaurzNq8ajbESWRnd5R1UgJDlydhPpr0/view?usp=sharing" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "white" }} >RESUME</a>
+                            <a href="https://drive.google.com/file/d/1KowxKhbopPmxtZgjsi1mXqVtOB9ff9nk/view?usp=sharing" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "white" }} >RESUME</a>
                         </div>
                         <div className="margin">
                         </div>
