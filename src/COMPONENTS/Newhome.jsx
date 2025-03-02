@@ -22,6 +22,7 @@ import video3 from "./prepMateVideo.mp4";
 import video4 from "./linkedinEditorClip.mp4";
 import video5 from "./LaterTube.mp4"
 import countapi from 'countapi-js';
+import timeStamped from "./ytimestamped.png"
 
 import { useState, useEffect } from 'react';
 import { useRef } from 'react';
@@ -40,11 +41,11 @@ export default function Newhome() {
         document.getElementById('playing').play();
     };
 
-    useEffect(()=>{
+    useEffect(() => {
         countapi.visits().then((result) => {
-            console.log("the resule :: " , result.value);
+            console.log("the resule :: ", result.value);
         });
-    },[])
+    }, [])
 
     const SendtoWhatspp = () => {
         let naam = document.getElementById("newid1").value;
@@ -56,7 +57,7 @@ export default function Newhome() {
     const [greetingstyle, setgreetings] = useState({ color: '#FF5757' });
     const [greetingstyle2, setgreetings2] = useState({})
     const [whitetoblack, setwhitetoblack] = useState({})
-    const [blacktowhite, setblacktowhite] = useState({}) 
+    const [blacktowhite, setblacktowhite] = useState({})
     const [backorange, setbackorange] = useState({})
     const [borderGoldToOrange, setborderGoldToOrange] = useState({})
     const [borderblack, setborderblack] = useState({})
@@ -501,9 +502,11 @@ export default function Newhome() {
                         </div> */}
 
                         <ul className='lost'>
-                            <li style={whitetoblack} className='like'><a about='blank' href="https://chromewebstore.google.com/detail/linkedin-editor/dpbccjhabjmnohefgjoongadmjpanfmd">Linkedin Editor - Chrome Extension </a>⭐⭐</li>
+                            <li style={whitetoblack} className='like'><a about='blank' href="https://chromewebstore.google.com/detail/linkedin-editor/dpbccjhabjmnohefgjoongadmjpanfmd">Linkedin Editor - Chrome Extension (70 users)</a>⭐⭐</li>
 
                             <li style={whitetoblack} className='like'><a about='blank' href="https://chromewebstore.google.com/detail/latertube/didekppekbpacecobggngndcmeaafinm?authuser=0&hl=en">LaterTube - Chrome Extension </a>⭐⭐</li>
+
+                            <li style={whitetoblack} className='like'><a about='blank' href="https://chromewebstore.google.com/detail/ytimestamped/nfdcoabfdeamnfgpjbkndhfhobhacpha?authuser=0&hl=en">YTimeStamped - Chrome Extension </a>⭐⭐</li>
 
                             <li style={whitetoblack} className='like'><a about='blank' href="https://github.com/ankitsingh2105/DoodleQuest">Doodle Quest </a>⭐</li>
 
@@ -547,7 +550,7 @@ export default function Newhome() {
                     </div>
                     <p className="info_para" style={whitetoblack}>
                         <li style={whitetoblack} className="lik">
-                        ✅<strong style={greetingstyle} className="Mca">Analytics</strong>: Crossed 50 users with 700 impressions in 50 days.
+                            ✅<strong style={greetingstyle} className="Mca">Analytics</strong>: Crossed 70 users with 1000 impressions.
                         </li>
 
                         <li style={whitetoblack} className="lik">
@@ -646,7 +649,7 @@ export default function Newhome() {
             </div>
 
 
-            {/*  Doodle quest */}
+            {/* Chrome extension */}
             <div className='first first1' style={blacktowhite}>
 
                 <div className="section" style={sectioncolor}>
@@ -654,6 +657,56 @@ export default function Newhome() {
                     </div>
                     <div className="languages">
                         <div className="number1" style={whitetoblack}>003.</div>
+                        <div className="bakery" style={greetingstyle} >YTimeStamped - Chrome Extension</div>
+                    </div>
+                    <p className="info_para" style={whitetoblack}>
+                        <li style={whitetoblack} className="lik">
+                            ⏱️ <strong style={greetingstyle} className="Mca">Custom Timestamps</strong>: Add personalized timestamps to YouTube videos for quick navigation.
+                        </li>
+
+                        <li style={whitetoblack} className="lik">
+                            📝 <strong style={greetingstyle} className="Mca">AI-Generated Notes</strong>: Use AI to generate relevant notes for each timestamp effortlessly.
+                        </li>
+
+                        <li style={whitetoblack} className="lik">
+                            🎨 <strong style={greetingstyle} className="Mca">Color-Coded Markers</strong>: Visually distinguish timestamps on the progress bar with custom colors.
+                        </li>
+
+                        <li style={whitetoblack} className="lik">
+                            🔗 <strong style={greetingstyle} className="Mca">Attach Related Links</strong>: Save additional resources or references alongside each timestamp.
+                        </li>
+                    </p>
+
+                    <p className="info_para" style={whitetoblack}>
+                        <div>
+                            <li><strong className='string' style={greetingstyle}>Vanilla JS</strong></li>
+                            <li><strong className='string' style={greetingstyle}>CSS3</strong></li>
+                        </div>
+                    </p>
+                    <div className="img-display">
+                        {/* <video width="320" height="240" controls>
+                            <source src={video5} type="video/mp4" />
+                        </video> */}
+                        <img  width="370" height="220" src={timeStamped} alt="" srcset="" />
+                    </div>
+                    <div className="links">
+                        <a className="github" href="https://chromewebstore.google.com/detail/ytimestamped/nfdcoabfdeamnfgpjbkndhfhobhacpha?authuser=0&hl=en" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
+                            Download Link
+                        </a>
+                    </div>
+                    <br />
+                </div>
+            </div>
+
+
+            {/*  Doodle quest */}
+            <div className='first first1' style={blacktowhite}>
+
+                <div className="section" style={sectioncolor}>
+                    <div>
+                    </div>
+                    <div className="languages">
+                        <div className="number1" style={whitetoblack}>004.</div>
                         <div className="bakery" style={greetingstyle} >Doodle Quest</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
@@ -708,7 +761,7 @@ export default function Newhome() {
                     <div>
                     </div>
                     <div className="languages">
-                        <div className="number1" style={whitetoblack}>004.</div>
+                        <div className="number1" style={whitetoblack}>005.</div>
                         <div className="bakery" style={greetingstyle} >PrepMate</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
@@ -761,7 +814,7 @@ export default function Newhome() {
                     <div>
                     </div>
                     <div className="languages">
-                        <div className="number1" style={whitetoblack}>005.</div>
+                        <div className="number1" style={whitetoblack}>006.</div>
                         <div className="bakery" style={greetingstyle} >LinkBee</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
@@ -832,7 +885,7 @@ export default function Newhome() {
                 </div>
             </div> */}
 
-             {/* first one
+            {/* first one
             <div className="first" style={blacktowhite}>
                 <div className="section" style={sectioncolor}>
                     <div className="languages">
@@ -954,7 +1007,7 @@ export default function Newhome() {
 
 
 
-{/* 
+            {/* 
             <div className='first first1' style={blacktowhite}>
 
                 <div className="section" style={sectioncolor}>
