@@ -353,7 +353,7 @@ export default function Newhome() {
                             looking for internships
                         </div>
                         <div style={{ border: "none" }} className="resume align2">
-                            <a href="https://drive.google.com/file/d/1KowxKhbopPmxtZgjsi1mXqVtOB9ff9nk/view?usp=sharing" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "white" }} >RESUME</a>
+                            <a href="https://drive.google.com/file/d/1b3Ye7wKyBzitNkXqJeMPWeuxmccWaG4q/view" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "white" }} >RESUME</a>
                         </div>
                         <div className="margin">
                         </div>
