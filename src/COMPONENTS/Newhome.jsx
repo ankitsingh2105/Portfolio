@@ -800,7 +800,7 @@ export default function Newhome() {
                     </div>
                     <div className="links">
                         <a className="github" href="https://github.com/ankitsingh2105/PrepMate" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
-                            PREMATE GITHUB
+                            PREPMATE GITHUB
                         </a>
                     </div>
                     <br />
