@@ -23,6 +23,7 @@ import video4 from "./linkedinEditorClip.mp4";
 import video5 from "./LaterTube.mp4"
 import countapi from 'countapi-js';
 import timeStamped from "./ytimestamped.png"
+import nitTV from "./nittvImage.png"
 
 import { useState, useEffect } from 'react';
 import { useRef } from 'react';
@@ -420,6 +421,7 @@ export default function Newhome() {
 
                     <ul className='lost2'>
                         <li style={whitetoblack} className='like'>Web Sockets</li>
+                        <li style={whitetoblack} className='like'>Web RTC</li>
                         <li style={whitetoblack} className='like'>Chart JS</li>
                         <li style={whitetoblack} className='like'>Github&nbsp;&nbsp; <i style={greetingstyle} class="fa-brands fa-github"></i></li>
 
@@ -431,9 +433,7 @@ export default function Newhome() {
 
                         <li style={whitetoblack} className='like'>Responsive Web Designs&nbsp;&nbsp;    <i style={greetingstyle} class="fa-solid fa-pen-nib"></i></li>
 
-                        <li style={whitetoblack} className='like'>Netlify</li>
                         <li style={whitetoblack} className='like'>Chat GPT</li>
-                        <li style={whitetoblack} className='like'>Canva</li>
                         <br />
 
                     </ul>
@@ -502,14 +502,16 @@ export default function Newhome() {
                         </div> */}
 
                         <ul className='lost'>
-                            <li style={whitetoblack} className='like'><a about='blank' href="https://chromewebstore.google.com/detail/linkedin-editor/dpbccjhabjmnohefgjoongadmjpanfmd">Linkedin Editor - Chrome Extension (70 users)</a>⭐⭐</li>
+                            <li style={whitetoblack} className='like'><a about='blank' href="https://chromewebstore.google.com/detail/linkedin-editor/dpbccjhabjmnohefgjoongadmjpanfmd">Linkedin Editor - Chrome Extension (90+ users)</a>⭐⭐</li>
 
-                            <li style={whitetoblack} className='like'><a about='blank' href="https://chromewebstore.google.com/detail/latertube/didekppekbpacecobggngndcmeaafinm?authuser=0&hl=en">LaterTube - Chrome Extension </a>⭐⭐</li>
+                            <li style={whitetoblack} className='like'><a about='blank' href="https://chromewebstore.google.com/detail/latertube/didekppekbpacecobggngndcmeaafinm?authuser=0&hl=en">LaterTube - Chrome Extension (25+ users) </a>⭐⭐</li>
 
-                            <li style={whitetoblack} className='like'><a about='blank' href="https://chromewebstore.google.com/detail/ytimestamped/nfdcoabfdeamnfgpjbkndhfhobhacpha?authuser=0&hl=en">YTimeStamped - Chrome Extension </a>⭐⭐</li>
+                            <li style={whitetoblack} className='like'><a about='blank' href="https://nittv.live">NIT TV - Omegle-style platform for NITians</a>⭐⭐</li>
+
 
                             <li style={whitetoblack} className='like'><a about='blank' href="https://github.com/ankitsingh2105/DoodleQuest">Doodle Quest </a>⭐</li>
 
+                            <li style={whitetoblack} className='like'><a about='blank' href="https://chromewebstore.google.com/detail/ytimestamped/nfdcoabfdeamnfgpjbkndhfhobhacpha?authuser=0&hl=en">YTimeStamped - Chrome Extension </a>⭐⭐</li>
                             <li style={whitetoblack} className='like'><a about='blank' href="https://github.com/ankitsingh2105/PrepMate">PrepMate </a>⭐</li>
 
                             <li style={whitetoblack} className='like'><a about='blank' href="https://linkbeemern.vercel.app/">LinkBEE </a>⭐</li>
@@ -550,7 +552,7 @@ export default function Newhome() {
                     </div>
                     <p className="info_para" style={whitetoblack}>
                         <li style={whitetoblack} className="lik">
-                            ✅<strong style={greetingstyle} className="Mca">Analytics</strong>: Crossed 70 users with 1000 impressions.
+                            ✅<strong style={greetingstyle} className="Mca">Analytics</strong>: Crossed 90 users with 1400+ impressions.
                         </li>
 
                         <li style={whitetoblack} className="lik">
@@ -648,6 +650,62 @@ export default function Newhome() {
                 </div>
             </div>
 
+            {/* NIT TV */}
+            <div className='first first1' style={blacktowhite}>
+
+                <div className="section" style={sectioncolor}>
+                    <div>
+                    </div>
+                    <div className="languages">
+                        <div className="number1" style={whitetoblack}>003.</div>
+                        <div className="bakery" style={greetingstyle} >NIT-TV</div>
+                    </div>
+                    <p className="info_para" style={whitetoblack}>
+                        <li style={whitetoblack} className="lik">
+                            🔒 <strong style={greetingstyle} className="Mca">NIT-Exclusive Access</strong>: Only students with NIT's emails can log in.
+                        </li>
+
+                        <li style={whitetoblack} className="lik">
+                            📹 <strong style={greetingstyle} className="Mca">Random 1-on-1 Video Chat</strong>: Get paired with other NIT students for real-time conversations.
+                        </li>
+
+                        <li style={whitetoblack} className="lik">
+                            ⚡ <strong style={greetingstyle} className="Mca">Firebase Authentication</strong>: Secure login with Google authentication.
+                        </li>
+
+                        <li style={whitetoblack} className="lik">
+                            🎥 <strong style={greetingstyle} className="Mca">WebRTC for Video Streaming</strong>: Peer-to-peer video calls without servers storing any data.
+                        </li>
+
+                        <li style={whitetoblack} className="lik">
+                            📡 <strong style={greetingstyle} className="Mca">Real-time Matching System</strong>: Instantly connects users with available peers.
+                        </li>
+                    </p>
+
+
+
+
+                    <p className="info_para" style={whitetoblack}>
+                        <div>
+                            <li><strong className='string' style={greetingstyle}>MERN</strong></li>
+                            <li><strong className='string' style={greetingstyle}>Tailwind CSS</strong></li>
+                            <li><strong className='string' style={greetingstyle}>WebSockets</strong></li>
+                            <li><strong className='string' style={greetingstyle}>WebRTC</strong></li>
+                        </div>
+                    </p>
+                    <div className="img-display">
+                        <img width="320" height="240" controls src={nitTV} alt='nitTvImage'>
+                        </img>
+                    </div>
+                    <div className="links">
+                        <a className="github" href="https://nittv.live" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
+                            Live Link
+                        </a>
+                    </div>
+                    <br />
+                </div>
+            </div>
+
 
             {/* Chrome extension */}
             <div className='first first1' style={blacktowhite}>
@@ -656,7 +714,7 @@ export default function Newhome() {
                     <div>
                     </div>
                     <div className="languages">
-                        <div className="number1" style={whitetoblack}>003.</div>
+                        <div className="number1" style={whitetoblack}>004.</div>
                         <div className="bakery" style={greetingstyle} >YTimeStamped - Chrome Extension</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
@@ -687,7 +745,7 @@ export default function Newhome() {
                         {/* <video width="320" height="240" controls>
                             <source src={video5} type="video/mp4" />
                         </video> */}
-                        <img  width="370" height="220" src={timeStamped} alt="" srcset="" />
+                        <img width="370" height="220" src={timeStamped} alt="" srcset="" />
                     </div>
                     <div className="links">
                         <a className="github" href="https://chromewebstore.google.com/detail/ytimestamped/nfdcoabfdeamnfgpjbkndhfhobhacpha?authuser=0&hl=en" target="_blank" rel="noopener noreferrer" style={greetingstyle}>
@@ -706,7 +764,7 @@ export default function Newhome() {
                     <div>
                     </div>
                     <div className="languages">
-                        <div className="number1" style={whitetoblack}>004.</div>
+                        <div className="number1" style={whitetoblack}>005.</div>
                         <div className="bakery" style={greetingstyle} >Doodle Quest</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
@@ -761,7 +819,7 @@ export default function Newhome() {
                     <div>
                     </div>
                     <div className="languages">
-                        <div className="number1" style={whitetoblack}>005.</div>
+                        <div className="number1" style={whitetoblack}>006.</div>
                         <div className="bakery" style={greetingstyle} >PrepMate</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
@@ -814,7 +872,7 @@ export default function Newhome() {
                     <div>
                     </div>
                     <div className="languages">
-                        <div className="number1" style={whitetoblack}>006.</div>
+                        <div className="number1" style={whitetoblack}>007.</div>
                         <div className="bakery" style={greetingstyle} >LinkBee</div>
                     </div>
                     <p className="info_para" style={whitetoblack}>
@@ -956,7 +1014,7 @@ export default function Newhome() {
                     </div>
                     <br />
                 </div>
-            </div> */} */}
+            </div> */} 
 
 
 
