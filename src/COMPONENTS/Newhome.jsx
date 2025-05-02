@@ -379,14 +379,14 @@ export default function Newhome() {
                         <img loading="lazy" style={{ "height": "70px" }} src={about1} alt="" />
                         <p className="info_para" style={whitetoblack}>
 
-                            Hi, I am Ankit Singh Chauhan, a 23 years old self-taught Web developer in
+                            Hi, I am Ankit Singh Chauhan, a 23-year-old self-taught Web developer in
                             love with developing web apps and learning new ways to improve myself.
                             <br /><br />
 
                             {/* I have completed my schooling and college in Haldwani, a city in the Nainital district
                             in Uttrakhand, INDIA.<br /> */}
 
-                            <br></br>I have completed my Bachelor of Science, (B.Sc) from Kumaun University, Nainital. Currently, a student of <strong className='Mca' style={greetingstyle}> NIT Bhopal </strong> enrolled in MCA program.
+                            <br></br>I have completed my Bachelor of Science (B.Sc) from Kumaun University, Nainital. Currently, a student of <strong className='Mca' style={greetingstyle}> NIT Bhopal </strong> enrolled in MCA program.
                         </p>
                     </div>
 
@@ -502,9 +502,9 @@ export default function Newhome() {
                         </div> */}
 
                         <ul className='lost'>
-                            <li style={whitetoblack} className='like'><a about='blank' href="https://chromewebstore.google.com/detail/linkedin-editor/dpbccjhabjmnohefgjoongadmjpanfmd">Linkedin Editor - Chrome Extension (90+ users)</a>⭐⭐</li>
+                            <li style={whitetoblack} className='like'><a about='blank' href="https://chromewebstore.google.com/detail/linkedin-editor/dpbccjhabjmnohefgjoongadmjpanfmd">Linkedin Editor - Chrome Extension (110+ weekly users)</a>⭐⭐</li>
 
-                            <li style={whitetoblack} className='like'><a about='blank' href="https://chromewebstore.google.com/detail/latertube/didekppekbpacecobggngndcmeaafinm?authuser=0&hl=en">LaterTube - Chrome Extension (25+ users) </a>⭐⭐</li>
+                            <li style={whitetoblack} className='like'><a about='blank' href="https://chromewebstore.google.com/detail/latertube/didekppekbpacecobggngndcmeaafinm?authuser=0&hl=en">LaterTube - Chrome Extension (40+ weekly users) </a>⭐⭐</li>
 
                             <li style={whitetoblack} className='like'><a about='blank' href="https://nittv.live">NIT TV - Omegle-style platform for NITians</a>⭐⭐</li>
 
@@ -552,7 +552,7 @@ export default function Newhome() {
                     </div>
                     <p className="info_para" style={whitetoblack}>
                         <li style={whitetoblack} className="lik">
-                            ✅<strong style={greetingstyle} className="Mca">Analytics</strong>: Crossed 90 users with 1400+ impressions.
+                            ✅<strong style={greetingstyle} className="Mca">Analytics</strong>: Crossed 100+ users with 1700+ impressions.
                         </li>
 
                         <li style={whitetoblack} className="lik">
